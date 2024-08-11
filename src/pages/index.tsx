@@ -4,10 +4,12 @@ import Header from "@/components/Layout/Header";
 import Footer from "@/components/Layout/Footer";
 import Intro from '@/templates/Home/Intro';
 import WorkHighLights from "@/templates/Home/WorkHighLights";
+import ImageWithTitle from '@/templates/Home/ImageWithTitle';
+import NonDisclosureAgree from '@/templates/Home/NonDisclosureAgree';
 import ContactMe from '@/templates/Home/ContactMe';
 
 export default function Home({ data }: any) {
-  console.log('data from props:', data);
+  // console.log('data from props:', data);
 
   return (
     <main>
@@ -33,7 +35,30 @@ export default function Home({ data }: any) {
                 key={index}
                 layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[75px] pb-[50px]`}
                 title={section?.title}
+                svg_icon={section?.svg_icon}
                 work_high_lights={section?.work_high_lights}
+              />
+            );
+          }
+          if (section.layout === 'image_with_title') {
+            return (
+              <ImageWithTitle
+                key={index}
+                layoutStyle={`max-w-[1280px] w-[88%] mx-auto bg-[#FAFAFA] rounded-[25px] p-[60px] mt-[50px]`}
+                title={section?.title}
+                img={section?.img}
+                img_alt={section?.img_alt}
+              />
+            );
+          }
+          if (section.layout === 'non_disclosure_agreement') {
+            return (
+              <NonDisclosureAgree
+                key={index}
+                layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[75px] pb-[50px]`}
+                title={section?.title}
+                description={section?.description}
+                svg_icon={section?.svg_icon}
               />
             );
           }
