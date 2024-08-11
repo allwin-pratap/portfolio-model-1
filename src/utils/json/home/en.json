@@ -1,7 +1,9 @@
 {
     "seo": {
-        "title": "Karthik MR",
-        "description": "UI / UX Designer"
+        "meta_title": "Karthik MR",
+        "meta_description": "UI / UX Designer",
+        "meta_keyword": "",
+        "meta_canonical_url": "https://karthik-mr.netlify.app/"
     },
     "header": {
         "logo": "",
