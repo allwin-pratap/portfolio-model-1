@@ -10,7 +10,7 @@ const outfit = Outfit({
 });
 
 export default function App({ Component, pageProps }: AppProps) {
-  const { seo } = pageProps?.data;
+  const { seo } = pageProps?.data || {};
   return (
     <Layout className={outfit.className}>
       <MetaTag data={seo} />
