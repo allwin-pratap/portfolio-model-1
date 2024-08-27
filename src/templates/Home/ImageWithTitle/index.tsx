@@ -3,7 +3,7 @@ import { StaticPath } from "@/utils/baseUtils";
 
 export default function ImageWithTitle(props: any) {
     return (
-        <div className={props?.layoutStyle}>
+        <section className={props?.layoutStyle}>
             <p className={`text-[44px] font-[300] text-black text-center pb-[50px]`}>
                 {props?.title}
             </p>
@@ -15,6 +15,6 @@ export default function ImageWithTitle(props: any) {
                     height={250}
                 />
             </div>
-        </div>
+        </section>
     );
 }

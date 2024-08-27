@@ -3,7 +3,7 @@ import { StaticPath } from "@/utils/baseUtils";
 
 export default function WorkHighLights(props: any) {
     return (
-        <div className={props?.layoutStyle}>
+        <section className={props?.layoutStyle}>
             <p className={`text-[32px] font-[400] text-black`}>
                 {props?.title}
             </p>
@@ -40,6 +40,6 @@ export default function WorkHighLights(props: any) {
                     )
                 })}
             </div>
-        </div>
+        </section>
     );
 }

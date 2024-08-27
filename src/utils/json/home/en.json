@@ -23,7 +23,7 @@
             },
             {
                 "label": "About",
-                "link": "about",
+                "link": "about-me",
                 "target": "_self",
                 "status": ""
             },

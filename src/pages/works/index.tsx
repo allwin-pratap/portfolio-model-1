@@ -7,14 +7,12 @@ import AllWorks from "@/templates/Works/AllWorks";
 import ImageWithTitle from '@/templates/Home/ImageWithTitle';
 import ContactMe from '@/templates/Home/ContactMe';
 
-export default function Home({ data }: any) {
-  // console.log('data from props:', data);
+export default function Works({ data }: any) {
 
   return (
     <main>
 			<Header
 				data={data?.header}
-				// isActiveStyles={`text-grey`}
 				darkHeader={false}
 			/>
       {

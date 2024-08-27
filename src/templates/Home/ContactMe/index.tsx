@@ -1,6 +1,6 @@
 export default function ContactMe(props: any) {
     return (
-        <div className={`${props?.layoutStyle}`}>
+        <section className={`${props?.layoutStyle}`}>
             <div className={`flex`}>
                 <p className={`text-[26px] font-[400] text-black mr-[5px]`}>{props?.title}</p>
                 <div
@@ -20,6 +20,6 @@ export default function ContactMe(props: any) {
                     )
                 })}
             </div>
-        </div>
+        </section>
     );
 }
