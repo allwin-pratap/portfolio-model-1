@@ -8,25 +8,25 @@
     "header": {
         "logo": "",
         "logo_alt": "Karthik",
-        "links": [
+        "menu": [
             {
-                "name": "Home",
-                "url": "",
+                "label": "Home",
+                "link": "",
                 "target": "_self"
             },
             {
-                "name": "Works",
-                "url": "",
+                "label": "Works",
+                "link": "works",
                 "target": "_self"
             },
             {
-                "name": "Resume",
-                "url": "",
+                "label": "About",
+                "link": "about",
                 "target": "_self"
             },
             {
-                "name": "About",
-                "url": "",
+                "label": "Resume",
+                "link": "resume",
                 "target": "_self"
             }
         ]
@@ -86,6 +86,37 @@
             "img_alt": "Enduroom Design system"
         },
         {
+            "layout": "image_slider",
+            "title": "Designs That Made My Computer Crash",
+            "images": [
+                {
+                    "src": "/assets/img/home/enduroom.png",
+                    "alt": "",
+                    "link": ""
+                },
+                {
+                    "src": "/assets/img/home/uem-security-app.png",
+                    "alt": "",
+                    "link": ""
+                },
+                {
+                    "src": "/assets/img/home/enduroom.png",
+                    "alt": "",
+                    "link": ""
+                },
+                {
+                    "src": "/assets/img/home/uem-security-app.png",
+                    "alt": "",
+                    "link": ""
+                },
+                {
+                    "src": "/assets/img/home/enduroom.png",
+                    "alt": "",
+                    "link": ""
+                }
+            ]
+        },
+        {
             "layout": "non_disclosure_agreement",
             "title": "NDA Information",
             "description": "Keep the details under wraps—this is top-secret design stuff. No sharing, no spoilers!",
@@ -104,10 +135,10 @@
                     "icon":"<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'><path d='M5 15.002L15 5.00195M15 5.00195H7.5M15 5.00195V12.502' stroke='white' stroke-linecap='round' stroke-linejoin='round'/></svg>"
                 },
                 {
-                    "name": "karthikdrose86@gmail.com",
+                    "name": "Download Resume",
                     "url": "",
                     "bg_color": "white",
-                    "icon":"<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'><path d='M6.5 10.0314C6.5 8.36758 6.5 7.53569 7.01687 7.01882C7.53374 6.50195 8.36563 6.50195 10.0294 6.50195H11.7941C13.4579 6.50195 14.2898 6.50195 14.8067 7.01882C15.3235 7.53569 15.3235 8.36758 15.3235 10.0314V12.9725C15.3235 14.6363 15.3235 15.4682 14.8067 15.9851C14.2898 16.502 13.4579 16.502 11.7941 16.502H10.0294C8.36563 16.502 7.53374 16.502 7.01687 15.9851C6.5 15.4682 6.5 14.6363 6.5 12.9725V10.0314Z' stroke='#181818'/><path d='M5.76471 14.002C4.79009 14.002 4 13.2119 4 12.2372V8.70784C4 6.48946 4 5.38027 4.68916 4.69111C5.37832 4.00195 6.48751 4.00195 8.70588 4.00195H11.0588C12.0334 4.00195 12.8235 4.79204 12.8235 5.76666' stroke='#181818'/></svg>"
+                    "icon":"<svg xmlns='http://www.w3.org/2000/svg' width='20' height='21' viewBox='0 0 20 21' fill='none'><path d='M5 9.7375C5 7.47476 5 6.34339 5.70294 5.64044C6.40589 4.9375 7.53726 4.9375 9.8 4.9375H11C13.2627 4.9375 14.3941 4.9375 15.0971 5.64044C15.8 6.34339 15.8 7.47476 15.8 9.7375V12.1375C15.8 14.4002 15.8 15.5316 15.0971 16.2346C14.3941 16.9375 13.2627 16.9375 11 16.9375H9.8C7.53726 16.9375 6.40589 16.9375 5.70294 16.2346C5 15.5316 5 14.4002 5 12.1375V9.7375Z' stroke='#181818'/><path d='M8 10.9375H12.8' stroke='#181818' strokeLinecap='round'/><path d='M8 8.53711H12.8' stroke='#181818' strokeLinecap='round'/><path d='M8 13.3379H11' stroke='#181818' strokeLinecap='round'/></svg>"
                 }
             ]
         }
@@ -115,11 +146,6 @@
     "footer": {
         "copy_rights": "2024. All Rights Reserved",
         "links": [
-            {
-                "name": "Resume",
-                "url": "",
-                "target": "_blank"
-            },
             {
                 "name": "Linkedin",
                 "url": "",

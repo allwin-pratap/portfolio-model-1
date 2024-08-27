@@ -1,0 +1,26 @@
+:global(.fixed-header) {
+    .header__wrapper {
+        border-bottom: solid 1px #7b7b7b50;
+        @media screen and (min-width: 1280px) {
+            background-color: #ffffff;
+        }
+    }
+}
+
+:global(.fixed-header--dark) {
+    .header__wrapper {
+        @media screen and (min-width: 1280px) {
+            background-color: #030C22;
+        }
+    }
+    &:global(.fixed-header) {
+        .header__wrapper {
+            @media screen and (min-width: 1280px) {
+                background-color: rgba(9, 13, 25, .5);
+                -webkit-backdrop-filter: saturate(180%) blur(20px);
+                backdrop-filter: saturate(180%) blur(20px);
+                border-bottom: 1px solid #1f1f1f;
+            }
+        }
+    }
+}

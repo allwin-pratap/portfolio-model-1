@@ -5,6 +5,7 @@ import Footer from "@/components/Layout/Footer";
 import Intro from '@/templates/Home/Intro';
 import WorkHighLights from "@/templates/Home/WorkHighLights";
 import ImageWithTitle from '@/templates/Home/ImageWithTitle';
+import ProjectSlider from '@/templates/Home/ProjectSlider';
 import NonDisclosureAgree from '@/templates/Home/NonDisclosureAgree';
 import ContactMe from '@/templates/Home/ContactMe';
 
@@ -13,7 +14,13 @@ export default function Home({ data }: any) {
 
   return (
     <main>
-      <Header data={data?.header} />
+			<Header
+				// headerStyles={`!bg-[#030C22]`}
+				data={data?.header}
+				// menuCustomStyles={`text-black hover:text-black xl:text-white xl:hover:text-white xl:hover:text-blue`}
+				// isActiveStyles={`text-grey`}
+				darkHeader={false}
+			/>
       {
         data?.pageData.map((section: any, index: any) => {
           if (section.layout === 'self_intro') {
@@ -51,11 +58,22 @@ export default function Home({ data }: any) {
               />
             );
           }
+          if (section.layout === 'image_slider') {
+            return (
+              <ProjectSlider
+                key={index}
+                layoutStyle={`max-w-[1280px] w-[88%] mx-auto py-[50px]`}
+                title={section?.title}
+                description={section?.description}
+                images={section?.images}
+              />
+            );
+          }
           if (section.layout === 'non_disclosure_agreement') {
             return (
               <NonDisclosureAgree
                 key={index}
-                layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[75px] pb-[50px]`}
+                layoutStyle={`max-w-[1280px] w-[88%] mx-auto pb-[50px]`}
                 title={section?.title}
                 description={section?.description}
                 svg_icon={section?.svg_icon}

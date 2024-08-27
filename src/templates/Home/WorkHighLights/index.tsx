@@ -7,10 +7,10 @@ export default function WorkHighLights(props: any) {
             <p className={`text-[32px] font-[400] text-black`}>
                 {props?.title}
             </p>
-            <div className="flex flex-wrap gap-[50px] mt-[30px]">
+            <div className="grid grid-cols-2 gap-[50px] mt-[30px]">
                 {props?.work_high_lights?.map((works: any, index: any) => {
                     return (
-                        <a key={index} className={`flex flex-col rounded-[23px_23px_0px_0px] overflow-hidden ${index < 2 ? 'basis-full' : 'basis-[48%]'}`} href={works.url}>
+                        <a key={index} className={`flex flex-col rounded-[23px_23px_0px_0px] overflow-hidden max-md:col-span-2 ${index < 2 ? 'md:col-span-2' : 'md:row-start-3'}`} href={works.url}>
                             <div className={`${index < 2 ? 'max-w-[1280px]' : ''}`}>
                                 <ImageLoader
                                     src={StaticPath(works.img)}
