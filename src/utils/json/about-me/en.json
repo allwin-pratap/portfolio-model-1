@@ -3,7 +3,7 @@
         "meta_title": "Karthik MR",
         "meta_description": "UI / UX Designer",
         "meta_keyword": "",
-        "meta_canonical_url": "https://karthik-mr.netlify.app/"
+        "meta_canonical_url": "https://karthik-mr.netlify.app/about-me"
     },
     "header": {
         "logo": "",
@@ -13,23 +13,23 @@
                 "label": "Home",
                 "link": "/",
                 "target": "_self",
-                "status": "active"
+                "status": ""
             },
             {
                 "label": "Works",
-                "link": "works",
+                "link": "/works",
                 "target": "_self",
                 "status": ""
             },
             {
                 "label": "About",
-                "link": "about",
+                "link": "/about-me",
                 "target": "_self",
-                "status": ""
+                "status": "active"
             },
             {
                 "label": "Resume",
-                "link": "resume",
+                "link": "/resume",
                 "target": "_self",
                 "status": ""
             }

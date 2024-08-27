@@ -13,10 +13,6 @@ const Header = (props: any) => {
     const isMobile = useMediaQuery('(max-width: 1280px)');
     const [navactive, setNavActive] = useState(false);
     const isDarkHeader = props?.darkHeader || false;
-    if (props?.isSlug) {
-        const segments = pathname.split('/').filter(segment => segment);
-        pathname = `/${segments[0]}/`;
-    }
 
     function noScrollBody() {
         let getBody: any = document.getElementsByTagName('body');
@@ -160,21 +156,19 @@ const Header = (props: any) => {
                         return (
                             <li
                                 key={key}
-                                className={`${pathname === `${item?.link}` ? 'active' : ''} relative flex flex-col items-center transition-[all_.3s_ease-in-out] max-sm:transition-[opacity_0s_ease-in-out] pr-[40px] last:pr-0 max-xl:w-full max-xl:!p-[12px_40px]`}
+                                className={`relative flex flex-col items-center transition-[all_.3s_ease-in-out] max-sm:transition-[opacity_0s_ease-in-out] pr-[40px] last:pr-0 max-xl:w-full max-xl:!p-[12px_40px]`}
                             >
                                 <Link
                                     target={item.open_new_tab ? "_blank" : "_self"}
-                                    href={item?.link}
-                                    className={`${props?.menuCustomStyles ? props?.menuCustomStyles : ''} ${(pathname === `${item?.link}` && props?.isActiveStyles) ? props?.isActiveStyles : ''} cursor-pointer text-[28px] font-[400] xl:text-[16px] xl:font-[300] uppercase xl:capitalize text-grey no-underline transition-[all_.2s_ease-in-out] p-[0px] max-xl:whitespace-nowrap relative`}
+                                    href={item?.link ?? ''}
+                                    className={`${props?.menuCustomStyles ? props?.menuCustomStyles : ''} ${(item?.status === 'active' && props?.isActiveStyles) ? props?.isActiveStyles : ''} ${item?.status === 'active' ? 'text-black' : 'text-grey'} cursor-pointer text-[28px] font-[400] xl:text-[16px] xl:font-[300] uppercase xl:capitalize no-underline transition-[all_.2s_ease-in-out] p-[0px] max-xl:whitespace-nowrap relative`}
                                     onClick={(e) => {
                                         e.stopPropagation()
                                         setNavActive(false)
                                     }}
                                     aria-label={item?.label}
                                 >
-                                    <span className={``}>
-                                        {item?.label}
-                                    </span>
+                                    {item?.label}
                                 </Link>
                             </li>
                         );

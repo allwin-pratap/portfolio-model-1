@@ -1,0 +1,248 @@
+{
+    "seo": {
+        "meta_title": "Karthik MR",
+        "meta_description": "UI / UX Designer",
+        "meta_keyword": "",
+        "meta_canonical_url": "https://karthik-mr.netlify.app/works"
+    },
+    "header": {
+        "logo": "",
+        "logo_alt": "Karthik",
+        "menu": [
+            {
+                "label": "Home",
+                "link": "",
+                "target": "_self",
+                "status": ""
+            },
+            {
+                "label": "Works",
+                "link": "works",
+                "target": "_self",
+                "status": "active"
+            },
+            {
+                "label": "About",
+                "link": "about",
+                "target": "_self",
+                "status": ""
+            },
+            {
+                "label": "Resume",
+                "link": "resume",
+                "target": "_self",
+                "status": ""
+            }
+        ]
+    },
+    "pageData": [
+        {
+            "layout": "image_with_title",
+            "title": "Designs That Made the Cut (And Some That Didn't)",
+            "img": "/assets/img/common/enduroom.jpg",
+            "img_alt": "Enduroom Design system"
+        },
+        {
+            "layout": "beautiful_design",
+            "title": "The Good, The Bad, and The Beautifully Designed",
+            "images": [
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "UEM Security app"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "Enduroom"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "Remoto"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "Enduroom Design system"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "Remoto"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "Enduroom Design system"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "Enduroom Design system"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "Remoto"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "Enduroom Design system"
+                }
+            ]
+        },
+        {
+            "layout": "graphics",
+            "title": "Graphics",
+            "images": [
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "UEM Security app"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "Enduroom"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "Remoto"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "Enduroom Design system"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "Remoto"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "Enduroom Design system"
+                }
+            ]
+        },
+        {
+            "layout": "component_library",
+            "title": "Components Library",
+            "images": [
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "UEM Security app"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "Enduroom"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "Remoto"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "Enduroom Design system"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "Remoto"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/works1.png",
+                    "img_alt": "Enduroom Design system"
+                }
+            ]
+        },
+        {
+            "layout": "full_works",
+            "title": "Creative Chaos: My Design Diary",
+            "svg_icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M4 12H20M20 12L14 6M20 12L14 18' stroke='#181818' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+            "all_works": [
+                {
+                    "title":"UEM Security app",
+                    "description": "An intuitive UEM Security app for seamless device management and robust, real-time threat protection across all platforms.",
+                    "tags": ["UX/UI", "Product Design"],
+                    "url": "",
+                    "img": "/assets/img/home/uem-security-app.png",
+                    "img_alt": "UEM Security app"
+                },
+                {
+                    "title":"Enduroom",
+                    "description": "An interactive support forum for the UEM Security app, offering real-time assistance, troubleshooting tips, and expert advice.",
+                    "tags": ["UX/UI", "Web Design"],
+                    "url": "",
+                    "img": "/assets/img/home/enduroom.png",
+                    "img_alt": "Enduroom"
+                },
+                {
+                    "title":"Remoto",
+                    "description": "An efficient Remote Assist app enabling real-time troubleshooting and support, allowing technicians to resolve issues quickly and remotely.",
+                    "tags": ["Product Design"],
+                    "url": "",
+                    "img": "/assets/img/home/uem-security-app.png",
+                    "img_alt": "Remoto"
+                },
+                {
+                    "title":"Enduroom Design system",
+                    "description": "A design system for the UEM app, providing a cohesive and scalable framework for consistent and efficient UI/UX development.",
+                    "tags": ["Design system", "Product Design"],
+                    "url": "",
+                    "img": "/assets/img/home/enduroom.png",
+                    "img_alt": "Enduroom Design system"
+                }
+            ]
+        },
+        {
+            "layout": "contact_me",
+            "title": "Hope y’all enjoyed the ride",
+            "description": "Feel free to drop your Feedbacks or Suggestions!",
+            "svg_icon":"<svg xmlns='http://www.w3.org/2000/svg' width='24' height='25' viewBox='0 0 24 25' fill='none'><path d='M8.9126 16.4355C10.1709 16.7509 11.5985 16.7511 13.0351 16.3662C14.4717 15.9813 15.7079 15.2673 16.64 14.365' stroke='#181818' stroke-width='1.5' stroke-linecap='round'/><ellipse cx='14.5094' cy='10.276' rx='1' ry='1.5' transform='rotate(-15 14.5094 10.276)' fill='#181818'/><ellipse cx='8.71402' cy='11.8307' rx='1' ry='1.5' transform='rotate(-15 8.71402 11.8307)' fill='#181818'/><path d='M3.20356 14.859C2.09246 10.7123 1.53691 8.63893 2.47995 7.00555C3.42298 5.37217 5.49632 4.81662 9.643 3.70552C13.7897 2.59442 15.863 2.03887 17.4964 2.9819C19.1298 3.92493 19.6853 5.99827 20.7964 10.145C21.9075 14.2916 22.4631 16.365 21.5201 17.9984C20.577 19.6317 18.5037 20.1873 14.357 21.2984C10.2103 22.4095 8.13698 22.965 6.50359 22.022C4.87021 21.079 4.31466 19.0056 3.20356 14.859Z' stroke='#181818' stroke-width='1.5'/><path d='M13 16.5024L13.478 17.4762C13.8393 18.2123 14.7249 18.5218 15.4661 18.1709C16.2223 17.8129 16.5394 16.9054 16.1708 16.1544L15.7115 15.2188' stroke='#181818' stroke-width='1.5'/></svg>",
+            "contact_list": [
+                {
+                    "name": "Contact Me",
+                    "url": "",
+                    "bg_color": "black",
+                    "icon":"<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'><path d='M5 15.002L15 5.00195M15 5.00195H7.5M15 5.00195V12.502' stroke='white' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+                },
+                {
+                    "name": "Download Resume",
+                    "url": "",
+                    "bg_color": "white",
+                    "icon":"<svg xmlns='http://www.w3.org/2000/svg' width='20' height='21' viewBox='0 0 20 21' fill='none'><path d='M5 9.7375C5 7.47476 5 6.34339 5.70294 5.64044C6.40589 4.9375 7.53726 4.9375 9.8 4.9375H11C13.2627 4.9375 14.3941 4.9375 15.0971 5.64044C15.8 6.34339 15.8 7.47476 15.8 9.7375V12.1375C15.8 14.4002 15.8 15.5316 15.0971 16.2346C14.3941 16.9375 13.2627 16.9375 11 16.9375H9.8C7.53726 16.9375 6.40589 16.9375 5.70294 16.2346C5 15.5316 5 14.4002 5 12.1375V9.7375Z' stroke='#181818'/><path d='M8 10.9375H12.8' stroke='#181818' strokeLinecap='round'/><path d='M8 8.53711H12.8' stroke='#181818' strokeLinecap='round'/><path d='M8 13.3379H11' stroke='#181818' strokeLinecap='round'/></svg>"
+                }
+            ]
+        }
+    ],
+    "footer": {
+        "copy_rights": "2024. All Rights Reserved",
+        "links": [
+            {
+                "name": "Linkedin",
+                "url": "",
+                "target": "_blank"
+            },
+            {
+                "name": "Behance",
+                "url": "",
+                "target": "_blank"
+            },
+            {
+                "name": "Drible",
+                "url": "",
+                "target": "_blank"
+            }
+        ]
+    }
+}

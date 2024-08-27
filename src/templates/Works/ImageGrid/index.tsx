@@ -1,0 +1,28 @@
+import ImageLoader from "@/utils/ImageLoader";
+import { StaticPath } from "@/utils/baseUtils";
+
+export default function AllWorks(props: any) {
+    return (
+        <div className={props?.layoutStyle}>
+            <p className={`text-[32px] font-[400] text-black`}>
+                {props?.title}
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[30px] mt-[50px]">
+                {props?.images?.map((works: any, index: any) => {
+                    return (
+                        <a key={index} className={``} href={works.url}>
+                            <div className={`mx-auto max-w-[405px] rounded-[25px] overflow-hidden`}>
+                                <ImageLoader
+                                    src={StaticPath(works.img)}
+                                    alt={works.img_alt}
+                                    width={405}
+                                    height={300}
+                                />
+                            </div>
+                        </a>
+                    )
+                })}
+            </div>
+        </div>
+    );
+}
