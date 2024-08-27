@@ -11,7 +11,7 @@
         "menu": [
             {
                 "label": "Home",
-                "link": "",
+                "link": null,
                 "target": "_self",
                 "status": ""
             },

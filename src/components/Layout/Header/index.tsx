@@ -160,7 +160,7 @@ const Header = (props: any) => {
                             >
                                 <Link
                                     target={item.open_new_tab ? "_blank" : "_self"}
-                                    href={item?.link ?? ''}
+                                    href={item?.link ?? `${hostUrl}`}
                                     className={`${props?.menuCustomStyles ? props?.menuCustomStyles : ''} ${(item?.status === 'active' && props?.isActiveStyles) ? props?.isActiveStyles : ''} ${item?.status === 'active' ? 'text-black' : 'text-grey'} cursor-pointer text-[28px] font-[400] xl:text-[16px] xl:font-[300] uppercase xl:capitalize no-underline transition-[all_.2s_ease-in-out] p-[0px] max-xl:whitespace-nowrap relative`}
                                     onClick={(e) => {
                                         e.stopPropagation()
