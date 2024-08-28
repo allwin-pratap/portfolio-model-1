@@ -25,6 +25,7 @@ const config: Config = {
 			keyframes: {
 				widthExpand: {
 					'0%': { width: '0px' },
+					'30%': { width: '0px' },
 					'100%': { width: '65px' },
 				},
 			},

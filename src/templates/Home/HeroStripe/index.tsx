@@ -10,7 +10,7 @@ export default function HeroStripe(props: any) {
                         src={StaticPath(props?.runner_img)}
                         alt={props?.runner_img_alt}
                         width={700}
-                        height={250}
+                        height={259}
                     />
                     <div className="w-[65px] h-[60px] animate-width-expand absolute left-[50%] top-[50%] transform translate-x-[300%] translate-y-[-180%]">
                         <ImageLoader
