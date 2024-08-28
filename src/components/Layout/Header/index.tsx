@@ -170,7 +170,7 @@ const Header = (props: any) => {
                                 >
                                     {item?.label}
                                 </Link>
-                                {(item?.status === 'active') && (<span className='w-[5px] h-[1px] bg-black mt-[4px]'></span>)}
+                                {(item?.status === 'active') && (<span className='w-[5px] h-[1px] bg-black'></span>)}
                             </li>
                         );
                     }
