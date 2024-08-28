@@ -22,6 +22,15 @@ const config: Config = {
 				black: "#181818",
 				white: "#ffffff"
 			},
+			keyframes: {
+				widthExpand: {
+					'0%': { width: '0px' },
+					'100%': { width: '65px' },
+				},
+			},
+			animation: {
+				'width-expand': 'widthExpand 1s ease-in-out forwards',
+			},
 		},
 	},
 	plugins: [],

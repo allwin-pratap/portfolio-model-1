@@ -41,6 +41,7 @@
             "title": "I’m Karthik",
             "run_image": "/assets/img/common/runner-ill.jpg",
             "run_image_alt": "Running Image",
+            "hi_icon": "/assets/img/home/hi-msg.svg",
             "description": [
                 "I'm a UI/UX Designer based in Chennai, currently working as a Product Designer at Mitsogo. I enjoy crafting minimal, aesthetically pleasing designs that function seamlessly to deliver exceptional user experiences. As a Product Designer, I thrive on collaboration and solving complex problems.",
                 "I also enjoy creating illustrations, animations, and 3D projects whenever I need a break or feel burned out.",
@@ -96,6 +97,83 @@
             ]
         },
         {
+            "layout": "other_details",
+            "things_do": {
+                "title": "Things I can do",
+                "lists": [
+                    "Designs for All Screens",
+                    "Design Systems",
+                    "Illustrations",
+                    "Motion & Animation Works",
+                    "Graphics"
+                ]
+            },
+            "my_stack": {
+                "title": "My Stack",
+                "lists": [
+                    {
+                        "label": "Figma",
+                        "icon": "/assets/img/about-me/stack/figma.svg",
+                        "icon_alt": "Figma",
+                        "width": "56"
+                    },
+                    {
+                        "label": "Adobe tools",
+                        "icon": "/assets/img/about-me/stack/adobe.svg",
+                        "icon_alt": "Adobe tools",
+                        "width": "96"
+                    },
+                    {
+                        "label": "Notion",
+                        "icon": "/assets/img/about-me/stack/notion.svg",
+                        "icon_alt": "Notion",
+                        "width": "84"
+                    },
+                    {
+                        "label": "Framer",
+                        "icon": "/assets/img/about-me/stack/framer.svg",
+                        "icon_alt": "Framer",
+                        "width": "56"
+                    }
+                ]
+            },
+            "personal_doing": {
+                "title": "A Few Personal Things I Enjoy",
+                "lists": [
+                    {
+                        "label": "Animes",
+                        "icon": "/assets/img/about-me/personal-do/anime.svg",
+                        "icon_alt": "Animes",
+                        "width": "80"
+                    },
+                    {
+                        "label": "Gaming",
+                        "icon": "/assets/img/about-me/personal-do/gaming.svg",
+                        "icon_alt": "Gaming",
+                        "width": "125"
+                    },
+                    {
+                        "label": "Movies",
+                        "icon": "/assets/img/about-me/personal-do/movies.svg",
+                        "icon_alt": "Movies",
+                        "width": "110"
+                    },
+                    {
+                        "label": "Music",
+                        "icon": "/assets/img/about-me/personal-do/music.svg",
+                        "icon_alt": "Music",
+                        "width": "60"
+                    },
+                    {
+                        "label": "Travel",
+                        "icon": "/assets/img/about-me/personal-do/travel.svg",
+                        "icon_alt": "Travel",
+                        "width": "133"
+                    }
+                ]
+            }
+        },
+        {
             "layout": "contact_me",
             "title": "Hope y’all enjoyed the ride",
             "description": "Feel free to drop your Feedbacks or Suggestions!",
@@ -130,7 +208,7 @@
                 "target": "_blank"
             },
             {
-                "name": "Drible",
+                "name": "Dribble",
                 "url": "",
                 "target": "_blank"
             }

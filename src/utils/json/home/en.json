@@ -37,6 +37,12 @@
     },
     "pageData": [
         {
+            "layout": "hero_stripe",
+            "runner_img": "/assets/img/home/runner.jpg",
+            "runner_img_alt": "Karthik MR",
+            "hi_icon":"/assets/img/home/hi-msg.svg"
+        },
+        {
             "layout": "self_intro",
             "title": "Howdy, I’m Karthik",
             "job_role": "Product Designer",
@@ -161,7 +167,7 @@
                 "target": "_blank"
             },
             {
-                "name": "Drible",
+                "name": "Dribble",
                 "url": "",
                 "target": "_blank"
             }

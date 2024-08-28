@@ -4,6 +4,7 @@ import Header from "@/components/Layout/Header";
 import Footer from "@/components/Layout/Footer";
 import AboutIntro from "@/templates/AboutMe/AboutIntro";
 import AppoarchMethod from '@/templates/AboutMe/AppoarchMethod';
+import OtherDetails from '@/templates/AboutMe/OtherDetails'
 import ContactMe from '@/templates/Home/ContactMe';
 
 export default function AboutMe({ data }: any) {
@@ -19,11 +20,12 @@ export default function AboutMe({ data }: any) {
             return (
               <AboutIntro
                 key={index}
-                layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[150px] pb-[75px]`}
+                layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[150px] mb-[50px]`}
                 title={section?.title}
                 description={section?.description}
                 run_image={section?.run_image}
                 run_image_alt={section?.run_image_alt}
+                hi_icon={section?.hi_icon}
                 social_connect={section?.social_connect}
               />
             );
@@ -32,9 +34,20 @@ export default function AboutMe({ data }: any) {
             return (
               <AppoarchMethod
                 key={index}
-                layoutStyle={`max-w-[1280px] w-[88%] mx-auto my-[75px]`}
+                layoutStyle={`max-w-[1280px] w-[88%] mx-auto my-[50px]`}
                 title={section?.title}
                 appoarch_methods={section?.appoarch_methods}
+              />
+            );
+          }
+          if (section.layout === 'other_details') {
+            return (
+              <OtherDetails
+                key={index}
+                layoutStyle={`max-w-[1280px] w-[88%] mx-auto my-[50px]`}
+                things_do={section?.things_do}
+                my_stack={section?.my_stack}
+                personal_doing={section?.personal_doing}
               />
             );
           }

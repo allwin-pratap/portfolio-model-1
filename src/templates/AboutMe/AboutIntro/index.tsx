@@ -6,13 +6,23 @@ export default function AboutIntro(props: any) {
         <section className={`${props?.layoutStyle}`}>
             <div className="flex justify-between">
                 <div className="flex flex-col justify-between">
-                    <ImageLoader
-                        className="border border-[#F1F7FF] bg-[#FAFAFA] rounded-[25px]"
-                        src={StaticPath(props?.run_image)}
-                        alt={props?.run_image_alt}
-                        width={575}
-                        height={400}
-                    />
+                    <div className="relative">
+                        <ImageLoader
+                            className="border border-[#F1F7FF] bg-[#FAFAFA] rounded-[25px]"
+                            src={StaticPath(props?.run_image)}
+                            alt={props?.run_image_alt}
+                            width={575}
+                            height={400}
+                        />
+                        <div className="w-[65px] h-[60px] animate-width-expand absolute left-[50%] top-[50%] transform translate-x-[300%] translate-y-[-300%]">
+                            <ImageLoader
+                                src={StaticPath(props?.hi_icon)}
+                                alt={`Hi Karthik`}
+                                width={65}
+                                height={55}
+                            />
+                        </div>
+                    </div>
                     <div className="flex justify-center items-center py-[40px] mt-[40px] border border-[#F1F7FF] rounded-[25px]">
                         {props?.social_connect?.map((social: any, index: any) => {
                             return (

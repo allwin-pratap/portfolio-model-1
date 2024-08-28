@@ -2,6 +2,7 @@ import { GetStaticProps } from 'next';
 import { promises as fs } from 'fs';
 import Header from "@/components/Layout/Header";
 import Footer from "@/components/Layout/Footer";
+import HeroStripe from "@/templates/Home/HeroStripe"
 import Intro from '@/templates/Home/Intro';
 import WorkHighLights from "@/templates/Home/WorkHighLights";
 import ImageWithTitle from '@/templates/Home/ImageWithTitle';
@@ -23,11 +24,22 @@ export default function Home({ data }: any) {
 			/>
       {
         data?.pageData.map((section: any, index: any) => {
+          if (section.layout === 'hero_stripe') {
+            return (
+              <HeroStripe
+                key={index}
+                layoutStyle={`pt-[150px]`}
+                runner_img={section?.runner_img}
+                runner_img_alt={section?.runner_img_alt}
+                hi_icon={section?.hi_icon}
+              />
+            );
+          }
           if (section.layout === 'self_intro') {
             return (
               <Intro
                 key={index}
-                layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[150px] pb-[75px] `}
+                layoutStyle={`max-w-[1280px] w-[88%] mx-auto py-[75px] `}
                 title={section?.title}
                 job_role={section?.job_role}
                 description={section?.description}
