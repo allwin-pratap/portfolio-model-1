@@ -2,12 +2,14 @@ import { GetStaticProps } from 'next';
 import { promises as fs } from 'fs';
 import Header from "@/components/Layout/Header";
 import Footer from "@/components/Layout/Footer";
-import ImageGrid from "@/templates/Works/ImageGrid";
-import AllWorks from "@/templates/Works/AllWorks";
-import ImageWithTitle from '@/templates/Home/ImageWithTitle';
+import WorkDetailIntro from "@/templates/WorkDetail/common/WorkDetailIntro";
+import KeyImprovements from '@/templates/WorkDetail/enduroom-uem/KeyImprovements';
+import RefreshedDesign from "@/templates/WorkDetail/common/RefreshedDesign";
+import NextCaseStudy from "@/templates/WorkDetail/common/NextCaseStudy";
+import NonDisclosureAgree from '@/templates/Home/NonDisclosureAgree';
 import ContactMe from '@/templates/Home/ContactMe';
 
-export default function Works({ data }: any) {
+export default function EnduroomUEM({ data }: any) {
 
   return (
     <main>
@@ -17,56 +19,51 @@ export default function Works({ data }: any) {
 			/>
       {
         data?.pageData.map((section: any, index: any) => {
-          if (section.layout === 'image_with_title') {
+          if (section.layout === 'project_intro') {
             return (
-              <ImageWithTitle
+              <WorkDetailIntro
                 key={index}
-                layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[150px] pb-[75px]`}
-                title={section?.title}
-                img={section?.img}
-                img_alt={section?.img_alt}
+                layoutStyle={`max-w-[990px] w-[88%] mx-auto pt-[150px] pb-[75px]`}
+                data={section?.project_intro}
               />
             );
           }
-          if (section.layout === 'full_works') {
+          if (section.layout === 'key_improve') {
             return (
-              <AllWorks
+              <KeyImprovements
                 key={index}
-                layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[75px] pb-[50px]`}
+                layoutStyle={`max-w-[990px] w-[88%] mx-auto py-[75px]`}
                 title={section?.title}
+                key_improve={section?.key_improve}
+              />
+            );
+          }
+          if (section.layout === 'refreshed_designs') {
+            return (
+              <RefreshedDesign
+                key={index}
+                layoutStyle={`max-w-[990px] w-[88%] mx-auto py-[75px]`}
+                data={section?.refreshed_designs}
+              />
+            );
+          }
+          if (section.layout === 'next_case_study') {
+            return (
+              <NextCaseStudy
+                key={index}
+                layoutStyle={`max-w-[990px] w-[88%] mx-auto py-[75px]`}
+                data={section?.next_case_study}
+              />
+            );
+          }
+          if (section.layout === 'non_disclosure_agreement') {
+            return (
+              <NonDisclosureAgree
+                key={index}
+                layoutStyle={`max-w-[990px] w-[88%] mx-auto pb-[50px]`}
+                title={section?.title}
+                description={section?.description}
                 svg_icon={section?.svg_icon}
-                all_works={section?.all_works}
-              />
-            );
-          }
-          if (section.layout === 'beautiful_design') {
-            return (
-              <ImageGrid
-                key={index}
-                layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[75px] pb-[50px]`}
-                title={section?.title}
-                images={section?.images}
-              />
-            );
-          }
-          if (section.layout === 'graphics') {
-            return (
-              <ImageGrid
-                key={index}
-                layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[75px] pb-[50px]`}
-                title={section?.title}
-                images={section?.images}
-              />
-            );
-          }
-          
-          if (section.layout === 'component_library') {
-            return (
-              <ImageGrid
-                key={index}
-                layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[75px] pb-[50px]`}
-                title={section?.title}
-                images={section?.images}
               />
             );
           }
@@ -90,7 +87,7 @@ export default function Works({ data }: any) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const filePath = process.cwd() + '/src/utils/json/works/en.json';
+  const filePath = process.cwd() + '/src/utils/json/work/enduroom-uem/en.json';
   const file = await fs.readFile(filePath, 'utf8');
   const data = JSON.parse(file);
 

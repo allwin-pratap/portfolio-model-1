@@ -4,8 +4,8 @@ import { StaticPath } from "@/utils/baseUtils";
 export default function AppoarchMethod(props: any) {
     return (
         <section className={`${props?.layoutStyle}`}>
-            <div className="grid md:grid-cols-6 gap-[40px] mb-[50px]">
-                <div className="col-span-2 border border-[#F1F7FF] rounded-[25px] p-[30px]">
+            <div className="grid grid-cols-1 lg:grid-cols-6 gap-[40px] mb-[50px]">
+                <div className="lg:col-span-2 border border-[#F1F7FF] rounded-[25px] p-[30px]">
                     <p className={`text-[28px] leading-[30px] font-[400] text-black pb-[30px]`}>{props?.things_do?.title}</p>
                     <div>
                         {props?.things_do?.lists.map((item: any, index: any) => {
@@ -15,12 +15,12 @@ export default function AppoarchMethod(props: any) {
                         })}
                     </div>
                 </div>
-                <div className="col-span-4 border border-[#F1F7FF] rounded-[25px] p-[30px]">
+                <div className="lg:col-span-4 border border-[#F1F7FF] rounded-[25px] p-[30px]">
                     <p className={`text-[28px] leading-[30px] font-[400] text-black pb-[30px]`}>{props?.my_stack?.title}</p>
-                    <div className="flex gap-[30px]">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4 gap-[30px]">
                         {props?.my_stack?.lists.map((item: any, index: any) => {
                             return (
-                                <div className="flex flex-col items-center justify-center border border-[#F1F7FF] rounded-[25px] p-[30px] max-w-[178px] w-full" key={index}>
+                                <div className="flex flex-col items-center justify-center border border-[#F1F7FF] rounded-[25px] p-[30px] max-w-[178px] w-full mx-auto" key={index}>
                                     <ImageLoader
                                         className=""
                                         src={StaticPath(item?.icon)}
@@ -37,10 +37,10 @@ export default function AppoarchMethod(props: any) {
             </div>
             <div className="border border-[#F1F7FF] rounded-[25px] p-[30px]">
                 <p className={`text-[28px] leading-[30px] font-[400] text-black pb-[30px]`}>{props?.personal_doing?.title}</p>
-                <div className="flex gap-[30px]">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-[30px]">
                     {props?.personal_doing?.lists.map((item: any, index: any) => {
                         return (
-                            <div className="flex flex-col items-center justify-center border border-[#F1F7FF] rounded-[25px] p-[30px] max-w-[215px] w-full" key={index}>
+                            <div className="flex flex-col items-center justify-center border border-[#F1F7FF] rounded-[25px] p-[30px] max-w-[215px] w-full mx-auto" key={index}>
                                 <ImageLoader
                                     className=""
                                     src={StaticPath(item?.icon)}
