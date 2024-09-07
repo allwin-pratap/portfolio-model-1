@@ -3,7 +3,7 @@ import useMediaQuery from '@/utils/hooks/useMediaQuery';
 import useOnResize from '@/utils/hooks/useOnResize';
 import Link from 'next/link';
 import Styles from './header.module.scss'
-import { usePathname } from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
 
 const Header = (props: any) => {
     let pathname = usePathname();
@@ -13,6 +13,7 @@ const Header = (props: any) => {
     const isMobile = useMediaQuery('(max-width: 1280px)');
     const [navactive, setNavActive] = useState(false);
     const isDarkHeader = props?.darkHeader || false;
+    const router = useRouter();
 
     function noScrollBody() {
         let getBody: any = document.getElementsByTagName('body');
@@ -49,6 +50,9 @@ const Header = (props: any) => {
             setHostUrl(url);
         }
     }, []);
+
+    // Check if the current path is /works or /work/*
+    const basePath = pathname.startsWith('/works') ? '/works/' : '/';
 
     useEffect(() => {
         memoizedHandleWindowScroll();
@@ -160,7 +164,7 @@ const Header = (props: any) => {
                             >
                                 <Link
                                     target={item.open_new_tab ? "_blank" : "_self"}
-                                    href={item?.link ?? `${hostUrl}`}
+                                    href={basePath ? `${hostUrl}/${item?.link}` : item?.link }
                                     className={`${props?.menuCustomStyles ? props?.menuCustomStyles : ''} ${(item?.status === 'active' && props?.isActiveStyles) ? props?.isActiveStyles : ''} ${item?.status === 'active' ? 'text-black' : 'text-grey'} cursor-pointer text-[28px] font-[400] xl:text-[16px] xl:font-[300] uppercase xl:capitalize no-underline transition-[all_.2s_ease-in-out] p-[0px] max-xl:whitespace-nowrap relative`}
                                     onClick={(e) => {
                                         e.stopPropagation()
