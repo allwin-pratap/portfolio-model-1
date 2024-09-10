@@ -142,7 +142,7 @@
                 "lists": [
                     {
                         "label": "Animes",
-                        "icon": "https://mr-portfolio.s3.eu-north-1.amazonaws.com/assets/img/about-me/personal-do/anime.svg",
+                        "icon": "/assets/img/about-me/personal-do/anime.svg",
                         "icon_alt": "Animes",
                         "width": "80"
                     },
