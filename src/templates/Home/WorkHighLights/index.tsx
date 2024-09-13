@@ -14,10 +14,11 @@ export default function WorkHighLights(props: any) {
                             <div className={`${index < 2 ? 'max-w-[1280px]' : ''}`}>
                                 <ImageLoader
                                     src={StaticPath(works.img)}
+                                    className={`min-h-[265px] object-cover`}
                                     // src={StaticPath('/assets/img/home/uem-security-app.png')}
                                     alt={works.img_alt}
                                     width={1280}
-                                    height={250}
+                                    height={264}
                                 />
                             </div>
                             <div className={`flex gap-[30px] border-[1px] border-[#F0F0F0] rounded-[0px_0px_23px_23px] p-[30px]${index < 2 ? ' flex-row justify-between items-center' : ' flex-col'}`}>

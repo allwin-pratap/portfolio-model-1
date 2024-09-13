@@ -70,6 +70,21 @@
             }
         },
         {
+            "layout": "issue_faced",
+            "content": {
+                "title": "Issues faced in the current forums",
+                "issue_faced": [
+                    "Bland and Uninspiring",
+                    "Absence of Motivational elements",
+                    " Underutilized and Lack of Engagement",
+                    "Limited interaction, Poor content Discoverability",
+                    "Absence of structured Discussions and Community Participation"
+                ],
+                "waiting_img": "/assets/img/work/enduroom-uem-forum/waiting.svg",
+                "exclamation_bubble_img": "/assets/img/work/enduroom-uem-forum/exclamation-bubble.svg"
+            }
+        },
+        {
             "layout": "key_improve",
             "title": "Key Improvements",
             "key_improve": [

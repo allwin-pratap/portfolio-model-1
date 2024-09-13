@@ -2,7 +2,7 @@
 
 export default function AppoarchMethod(props: any) {
     return (
-        <section className={`${props?.layoutStyle} border border-[#F1F7FF] rounded-[25px] p-[40px]`}>
+        <section className={`${props?.layoutStyle} border border-[#F1F7FF] rounded-[25px] px-[20px] py-[30px] sm:p-[40px]`}>
             <p className={`text-[32px] font-[400] text-black`}>{props?.title}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[40px] mt-[30px]">
             {props?.appoarch_methods?.map((method: any, index: any) => {

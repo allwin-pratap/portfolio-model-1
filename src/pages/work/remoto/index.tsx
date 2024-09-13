@@ -3,6 +3,8 @@ import { promises as fs } from 'fs';
 import Header from "@/components/Layout/Header";
 import Footer from "@/components/Layout/Footer";
 import WorkDetailIntro from "@/templates/WorkDetail/common/WorkDetailIntro";
+import IssueFaced from '@/templates/WorkDetail/remoto/IssueFaced';
+import HowItWorks from '@/templates/WorkDetail/remoto/HowItWorks';
 import KeyImprovements from '@/templates/WorkDetail/enduroom-uem/KeyImprovements';
 import RefreshedDesign from "@/templates/WorkDetail/common/RefreshedDesign";
 import NextCaseStudy from "@/templates/WorkDetail/common/NextCaseStudy";
@@ -25,6 +27,24 @@ export default function Remoto({ data }: any) {
                 key={index}
                 layoutStyle={`max-w-[990px] w-[88%] mx-auto pt-[150px] pb-[75px]`}
                 data={section?.project_intro}
+              />
+            );
+          }
+          if (section.layout === 'issue_faced') {
+            return (
+              <IssueFaced
+                key={index}
+                layoutStyle={`max-w-[990px] w-[88%] mx-auto my-[75px] p-[40px] bg-[#FAFAFA] border border-[#FAFAFA] rounded-[25px]`}
+                data={section?.content}
+              />
+            );
+          }
+          if (section.layout === 'how_works') {
+            return (
+              <HowItWorks
+                key={index}
+                layoutStyle={`max-w-[990px] w-[88%] mx-auto my-[75px] p-[40px]`}
+                data={section?.content}
               />
             );
           }

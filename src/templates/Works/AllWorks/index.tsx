@@ -13,6 +13,7 @@ export default function AllWorks(props: any) {
                         <a key={index} className={`flex flex-col rounded-[23px_23px_0px_0px] overflow-hidden`} href={works.url}>
                             <div className={`max-w-[615px]`}>
                                 <ImageLoader
+                                    className={`min-h-[265px] object-cover`}
                                     src={StaticPath(works.img)}
                                     alt={works.img_alt}
                                     width={1280}

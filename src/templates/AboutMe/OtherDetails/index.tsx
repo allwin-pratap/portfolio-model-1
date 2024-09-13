@@ -1,12 +1,15 @@
 import ImageLoader from "@/utils/ImageLoader";
 import { StaticPath } from "@/utils/baseUtils";
+import FadeUp from "@/components/FadeUp";
 
 export default function AppoarchMethod(props: any) {
     return (
         <section className={`${props?.layoutStyle}`}>
             <div className="grid grid-cols-1 lg:grid-cols-6 gap-[40px] mb-[50px]">
-                <div className="lg:col-span-2 border border-[#F1F7FF] rounded-[25px] p-[30px]">
-                    <p className={`text-[28px] leading-[30px] font-[400] text-black pb-[30px]`}>{props?.things_do?.title}</p>
+                <div className="lg:col-span-2 border border-[#F1F7FF] rounded-[25px] px-[20px] py-[30px] sm:p-[40px]">
+                    {/* <FadeUp delay={0.5}> */}
+                        <p className={`text-[28px] leading-[30px] font-[400] text-black pb-[30px]`}>{props?.things_do?.title}</p>
+                    {/* </FadeUp> */}
                     <div>
                         {props?.things_do?.lists.map((item: any, index: any) => {
                             return (
@@ -15,7 +18,7 @@ export default function AppoarchMethod(props: any) {
                         })}
                     </div>
                 </div>
-                <div className="lg:col-span-4 border border-[#F1F7FF] rounded-[25px] p-[30px]">
+                <div className="lg:col-span-4 border border-[#F1F7FF] rounded-[25px] px-[20px] py-[30px] sm:p-[40px]">
                     <p className={`text-[28px] leading-[30px] font-[400] text-black pb-[30px]`}>{props?.my_stack?.title}</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4 gap-[30px]">
                         {props?.my_stack?.lists.map((item: any, index: any) => {
@@ -35,7 +38,7 @@ export default function AppoarchMethod(props: any) {
                     </div>
                 </div>
             </div>
-            <div className="border border-[#F1F7FF] rounded-[25px] p-[30px]">
+            <div className="border border-[#F1F7FF] rounded-[25px] px-[20px] py-[30px] sm:p-[40px]">
                 <p className={`text-[28px] leading-[30px] font-[400] text-black pb-[30px]`}>{props?.personal_doing?.title}</p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-[30px]">
                     {props?.personal_doing?.lists.map((item: any, index: any) => {

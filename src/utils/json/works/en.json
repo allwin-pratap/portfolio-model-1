@@ -43,45 +43,6 @@
             "img_alt": "Enduroom Design system"
         },
         {
-            "layout": "full_works",
-            "title": "Creative Chaos: My Design Diary",
-            "svg_icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M4 12H20M20 12L14 6M20 12L14 18' stroke='#181818' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>",
-            "all_works": [
-                {
-                    "title":"UEM Security app",
-                    "description": "An intuitive UEM Security app for seamless device management and robust, real-time threat protection across all platforms.",
-                    "tags": ["UX/UI", "Product Design"],
-                    "url": "work/enduroom-uem-forum",
-                    "img": "/assets/img/home/uem-security-app.png",
-                    "img_alt": "UEM Security app"
-                },
-                {
-                    "title":"Enduroom",
-                    "description": "An interactive support forum for the UEM Security app, offering real-time assistance, troubleshooting tips, and expert advice.",
-                    "tags": ["UX/UI", "Web Design"],
-                    "url": "work/enduroom-uem",
-                    "img": "/assets/img/home/enduroom.png",
-                    "img_alt": "Enduroom"
-                },
-                {
-                    "title":"Remoto",
-                    "description": "An efficient Remote Assist app enabling real-time troubleshooting and support, allowing technicians to resolve issues quickly and remotely.",
-                    "tags": ["Product Design"],
-                    "url": "work/remoto",
-                    "img": "/assets/img/home/uem-security-app.png",
-                    "img_alt": "Remoto"
-                },
-                {
-                    "title":"Enduroom Design system",
-                    "description": "A design system for the UEM app, providing a cohesive and scalable framework for consistent and efficient UI/UX development.",
-                    "tags": ["Design system", "Product Design"],
-                    "url": "work/reiki",
-                    "img": "/assets/img/home/enduroom.png",
-                    "img_alt": "Enduroom Design system"
-                }
-            ]
-        },
-        {
             "layout": "beautiful_design",
             "title": "The Good, The Bad, and The Beautifully Designed",
             "images": [
@@ -133,7 +94,7 @@
             ]
         },
         {
-            "layout": "graphics",
+            "layout": "graphics-not-use",
             "title": "Graphics",
             "images": [
                 {
@@ -169,7 +130,7 @@
             ]
         },
         {
-            "layout": "component_library",
+            "layout": "component_library-not-use",
             "title": "Components Library",
             "images": [
                 {
@@ -200,6 +161,45 @@
                 {
                     "url": "",
                     "img": "/assets/img/works/works1.png",
+                    "img_alt": "Enduroom Design system"
+                }
+            ]
+        },
+        {
+            "layout": "full_works",
+            "title": "Creative Chaos: My Design Diary",
+            "svg_icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M4 12H20M20 12L14 6M20 12L14 18' stroke='#181818' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+            "all_works": [
+                {
+                    "title":"UEM Security app",
+                    "description": "An intuitive UEM Security app for seamless device management and robust, real-time threat protection across all platforms.",
+                    "tags": ["UX/UI", "Product Design"],
+                    "url": "work/enduroom-uem-forum",
+                    "img": "/assets/img/home/uem-security-app.png",
+                    "img_alt": "UEM Security app"
+                },
+                {
+                    "title":"Enduroom",
+                    "description": "An interactive support forum for the UEM Security app, offering real-time assistance, troubleshooting tips, and expert advice.",
+                    "tags": ["UX/UI", "Web Design"],
+                    "url": "work/enduroom-uem",
+                    "img": "/assets/img/home/enduroom.png",
+                    "img_alt": "Enduroom"
+                },
+                {
+                    "title":"Remoto",
+                    "description": "An efficient Remote Assist app enabling real-time troubleshooting and support, allowing technicians to resolve issues quickly and remotely.",
+                    "tags": ["Product Design"],
+                    "url": "work/remoto",
+                    "img": "/assets/img/home/uem-security-app.png",
+                    "img_alt": "Remoto"
+                },
+                {
+                    "title":"Enduroom Design system",
+                    "description": "A design system for the UEM app, providing a cohesive and scalable framework for consistent and efficient UI/UX development.",
+                    "tags": ["Design system", "Product Design"],
+                    "url": "work/reiki",
+                    "img": "/assets/img/home/enduroom.png",
                     "img_alt": "Enduroom Design system"
                 }
             ]
