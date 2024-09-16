@@ -11,12 +11,12 @@ export default function AllWorks(props: any) {
                 {props?.images?.map((works: any, index: any) => {
                     return (
                         <a key={index} className={``} href={works.url}>
-                            <div className={`mx-auto max-w-[405px] rounded-[25px] overflow-hidden`}>
+                            <div className={`mx-auto max-w-[405px] max-h-[285px] rounded-[25px] overflow-hidden`}>
                                 <ImageLoader
                                     src={StaticPath(works.img)}
                                     alt={works.img_alt}
                                     width={405}
-                                    height={300}
+                                    height={285}
                                 />
                             </div>
                         </a>

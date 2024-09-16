@@ -39,7 +39,7 @@
         {
             "layout": "image_with_title",
             "title": "Designs That Made the Cut (And Some That Didn't)",
-            "img": "/assets/img/common/enduroom.jpg",
+            "img": "/assets/img/works/kevinryan.jpg",
             "img_alt": "Enduroom Design system"
         },
         {
@@ -48,47 +48,62 @@
             "images": [
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/01.jpg",
                     "img_alt": "UEM Security app"
                 },
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/02.jpg",
                     "img_alt": "Enduroom"
                 },
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/03.jpg",
                     "img_alt": "Remoto"
                 },
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/04.jpg",
                     "img_alt": "Enduroom Design system"
                 },
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/05.jpg",
                     "img_alt": "Remoto"
                 },
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/06.jpg",
                     "img_alt": "Enduroom Design system"
                 },
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/07.jpg",
                     "img_alt": "Enduroom Design system"
                 },
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/08.jpg",
                     "img_alt": "Remoto"
                 },
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/09.jpg",
+                    "img_alt": "Enduroom Design system"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/designed/10.jpg",
+                    "img_alt": "Enduroom Design system"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/designed/11.jpg",
+                    "img_alt": "Enduroom Design system"
+                },
+                {
+                    "url": "",
+                    "img": "/assets/img/works/designed/12.jpg",
                     "img_alt": "Enduroom Design system"
                 }
             ]
@@ -99,32 +114,32 @@
             "images": [
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/02.jpg",
                     "img_alt": "UEM Security app"
                 },
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/02.jpg",
                     "img_alt": "Enduroom"
                 },
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/02.jpg",
                     "img_alt": "Remoto"
                 },
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/02.jpg",
                     "img_alt": "Enduroom Design system"
                 },
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/02.jpg",
                     "img_alt": "Remoto"
                 },
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/02.jpg",
                     "img_alt": "Enduroom Design system"
                 }
             ]
@@ -135,32 +150,32 @@
             "images": [
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/02.jpg",
                     "img_alt": "UEM Security app"
                 },
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/02.jpg",
                     "img_alt": "Enduroom"
                 },
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/02.jpg",
                     "img_alt": "Remoto"
                 },
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/02.jpg",
                     "img_alt": "Enduroom Design system"
                 },
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/02.jpg",
                     "img_alt": "Remoto"
                 },
                 {
                     "url": "",
-                    "img": "/assets/img/works/works1.png",
+                    "img": "/assets/img/works/designed/02.jpg",
                     "img_alt": "Enduroom Design system"
                 }
             ]
@@ -171,36 +186,36 @@
             "svg_icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M4 12H20M20 12L14 6M20 12L14 18' stroke='#181818' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>",
             "all_works": [
                 {
-                    "title":"UEM Security app",
-                    "description": "An intuitive UEM Security app for seamless device management and robust, real-time threat protection across all platforms.",
-                    "tags": ["UX/UI", "Product Design"],
+                    "title":"Enduroom UEM",
+                    "description": "An efficient Remote Assist app enabling real-time troubleshooting and support, allowing technicians to resolve issues quickly and remotely.",
+                    "tags": ["Product Design"],
                     "url": "work/enduroom-uem-forum",
-                    "img": "/assets/img/home/uem-security-app.png",
-                    "img_alt": "UEM Security app"
+                    "img": "/assets/img/works/all-works/uem-security-app.jpg",
+                    "img_alt": "Enduroom UEM"
                 },
                 {
-                    "title":"Enduroom",
-                    "description": "An interactive support forum for the UEM Security app, offering real-time assistance, troubleshooting tips, and expert advice.",
-                    "tags": ["UX/UI", "Web Design"],
+                    "title":"Enduroom Forum",
+                    "description": "A design system for the UEM app, providing a cohesive and scalable framework for consistent and efficient UI/UX development.",
+                    "tags": ["UX/UI", "Web Designs"],
                     "url": "work/enduroom-uem",
-                    "img": "/assets/img/home/enduroom.png",
-                    "img_alt": "Enduroom"
+                    "img": "/assets/img/works/all-works/enduroom.jpg",
+                    "img_alt": "Enduroom Forum"
                 },
                 {
                     "title":"Remoto",
                     "description": "An efficient Remote Assist app enabling real-time troubleshooting and support, allowing technicians to resolve issues quickly and remotely.",
                     "tags": ["Product Design"],
                     "url": "work/remoto",
-                    "img": "/assets/img/home/uem-security-app.png",
+                    "img": "/assets/img/works/all-works/remoto.jpg",
                     "img_alt": "Remoto"
                 },
                 {
-                    "title":"Enduroom Design system",
-                    "description": "A design system for the UEM app, providing a cohesive and scalable framework for consistent and efficient UI/UX development.",
-                    "tags": ["Design system", "Product Design"],
+                    "title":"Reiki",
+                    "description": "Reiki is a mobile app designed to support the well-being of cancer patients, with an AI assistant as a personal companion.",
+                    "tags": ["UI/UX", "Product Design"],
                     "url": "work/reiki",
-                    "img": "/assets/img/home/enduroom.png",
-                    "img_alt": "Enduroom Design system"
+                    "img": "/assets/img/works/all-works/reiki.jpg",
+                    "img_alt": "Reiki"
                 }
             ]
         },

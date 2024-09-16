@@ -11,13 +11,13 @@ export default function AllWorks(props: any) {
                 {props?.all_works?.map((works: any, index: any) => {
                     return (
                         <a key={index} className={`flex flex-col rounded-[23px_23px_0px_0px] overflow-hidden`} href={works.url}>
-                            <div className={`max-w-[615px]`}>
+                            <div className={`max-w-[615px] max-h-[400px] lg:h-[400px]`}>
                                 <ImageLoader
-                                    className={`min-h-[265px] object-cover`}
+                                    className={`min-h-[265px] max-h-[400px] lg:h-[400px] object-cover`}
                                     src={StaticPath(works.img)}
                                     alt={works.img_alt}
                                     width={1280}
-                                    height={250}
+                                    height={400}
                                 />
                             </div>
                             <div className={`flex flex-col gap-[30px] border-[1px] border-[#F0F0F0] rounded-[0px_0px_23px_23px] p-[30px]`}>
