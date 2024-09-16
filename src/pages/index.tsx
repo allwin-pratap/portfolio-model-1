@@ -39,7 +39,7 @@ export default function Home({ data }: any) {
             return (
               <Intro
                 key={index}
-                layoutStyle={`max-w-[1280px] w-[88%] mx-auto py-[75px] `}
+                layoutStyle={`max-w-[1280px] w-[88%] mx-auto py-[30px] md:py-[60px]`}
                 title={section?.title}
                 job_role={section?.job_role}
                 description={section?.description}
@@ -52,7 +52,7 @@ export default function Home({ data }: any) {
             return (
               <WorkHighLights
                 key={index}
-                layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[75px] pb-[50px]`}
+                layoutStyle={`max-w-[1280px] w-[88%] mx-auto py-[30px] md:pt-[60px] md:pb-[45px]`}
                 title={section?.title}
                 svg_icon={section?.svg_icon}
                 work_high_lights={section?.work_high_lights}
@@ -63,7 +63,7 @@ export default function Home({ data }: any) {
             return (
               <ImageWithTitle
                 key={index}
-                layoutStyle={`max-w-[1280px] w-[88%] mx-auto bg-[#FAFAFA] rounded-[25px] p-[60px] mt-[50px]`}
+                layoutStyle={`max-w-[1280px] w-[88%] mx-auto bg-[#FAFAFA] rounded-[25px] p-[30px] md:p-[60px] mt-[30px] md:mt-[50px]`}
                 title={section?.title}
                 img={section?.img}
                 img_alt={section?.img_alt}
@@ -74,7 +74,7 @@ export default function Home({ data }: any) {
             return (
               <ProjectSlider
                 key={index}
-                layoutStyle={`max-w-[1280px] w-[88%] mx-auto py-[50px]`}
+                layoutStyle={`max-w-[1280px] w-[88%] mx-auto py-[30px] md:py-[60px]`}
                 title={section?.title}
                 description={section?.description}
                 images={section?.images}
@@ -85,7 +85,7 @@ export default function Home({ data }: any) {
             return (
               <NonDisclosureAgree
                 key={index}
-                layoutStyle={`max-w-[1280px] w-[88%] mx-auto pb-[50px]`}
+                layoutStyle={`max-w-[1280px] w-[88%] mx-auto pb-[30px] md:pb-[50px]`}
                 title={section?.title}
                 description={section?.description}
                 svg_icon={section?.svg_icon}

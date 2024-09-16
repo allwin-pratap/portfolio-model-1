@@ -12,9 +12,10 @@ export default function HeroStripe(props: any) {
                         width={700}
                         height={259}
                     />
-                    <div className="hidden lg:block w-[65px] h-[60px] animate-width-expand absolute left-[50%] top-[50%] transform translate-x-[300%] translate-y-[-180%]">
+                    <div className="block w-[65px] h-[60px] animate-width-expand absolute left-[50%] top-[50%] transform translate-x-[165%] translate-y-[-175%] sm:translate-x-[300%] sm:translate-y-[-180%]">
                         <ImageLoader
                             src={StaticPath(props?.hi_icon)}
+                            className="max-w-[40px] sm:max-w-[65px]"
                             alt={`Hi Karthik`}
                             width={65}
                             height={55}

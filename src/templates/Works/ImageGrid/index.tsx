@@ -1,7 +1,7 @@
 import ImageLoader from "@/utils/ImageLoader";
 import { StaticPath } from "@/utils/baseUtils";
 
-export default function AllWorks(props: any) {
+export default function ImageGrid(props: any) {
     return (
         <section className={props?.layoutStyle}>
             <p className={`text-[32px] font-[400] text-black`}>

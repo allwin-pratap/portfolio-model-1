@@ -1,5 +1,6 @@
 import ImageLoader from "@/utils/ImageLoader";
 import { StaticPath } from "@/utils/baseUtils";
+import Link from 'next/link';
 
 export default function WorkHighLights(props: any) {
     return (
@@ -14,7 +15,7 @@ export default function WorkHighLights(props: any) {
                             <div className={`${index < 2 ? 'max-w-[1280px]' : ''}`}>
                                 <ImageLoader
                                     src={StaticPath(works.img)}
-                                    className={`min-h-[265px] object-cover transition-[all_.3s_ease-in-out] scale-[1] group-hover:scale-[1.02]`}
+                                    className={`min-h-[265px] object-cover transition-all duration-[300ms] ease-in-out scale-[1] group-hover:scale-[1.04]`}
                                     // src={StaticPath('/assets/img/home/uem-security-app.png')}
                                     alt={works.img_alt}
                                     width={1280}
@@ -41,7 +42,14 @@ export default function WorkHighLights(props: any) {
                     )
                 })}
             </div>
-            <div></div>
+            <div className="flex justify-center mt-[50px]">
+                <Link
+                    href="/works/"
+                    className={`inline-block text-[#fff] text-[24px] font-[400] bg-black rounded-[55px] px-[20px] py-[15px]`}
+                    target={`_blank`}>
+                    View Works
+                </Link>
+            </div>
         </section>
     );
 }
