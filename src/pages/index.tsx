@@ -28,7 +28,7 @@ export default function Home({ data }: any) {
             return (
               <HeroStripe
                 key={index}
-                layoutStyle={`pt-[150px]`}
+                layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[150px]`}
                 runner_img={section?.runner_img}
                 runner_img_alt={section?.runner_img_alt}
                 hi_icon={section?.hi_icon}

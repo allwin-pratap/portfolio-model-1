@@ -10,10 +10,10 @@ export default function AllWorks(props: any) {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[50px] mt-[80px]">
                 {props?.all_works?.map((works: any, index: any) => {
                     return (
-                        <a key={index} className={`flex flex-col border-[1px] border-[#F0F0F0] rounded-[23px] overflow-hidden`} href={works.url} target={works?.target ?? '_self'}>
+                        <a key={index} className={`group flex flex-col border-[1px] border-[#F0F0F0] rounded-[23px] overflow-hidden`} href={works.url} target={works?.target ?? '_self'}>
                             <div className={`max-w-[615px] max-h-[400px] lg:h-[400px]`}>
                                 <ImageLoader
-                                    className={`min-h-[265px] max-h-[400px] lg:h-[400px] object-cover`}
+                                    className={`min-h-[265px] max-h-[400px] lg:h-[400px] object-cover transition-all duration-[300ms] ease-in-out scale-[1] group-hover:scale-[1.04]`}
                                     src={StaticPath(works.img)}
                                     alt={works.img_alt}
                                     width={1280}

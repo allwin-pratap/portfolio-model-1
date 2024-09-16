@@ -7,21 +7,21 @@ export default function WorkHighLights(props: any) {
             <p className={`text-[32px] font-[400] text-black`}>
                 {props?.title}
             </p>
-            <div className="grid grid-cols-2 gap-[50px] mt-[30px]">
+            <div className="grid grid-cols-2 gap-[30px] lg:gap-[50px] mt-[30px]">
                 {props?.work_high_lights?.map((works: any, index: any) => {
                     return (
-                        <a key={index} className={`flex flex-col rounded-[23px_23px_0px_0px] overflow-hidden max-md:col-span-2 ${index < 2 ? 'md:col-span-2' : 'md:row-start-3'}`} href={works.url}>
+                        <a key={index} className={`group flex flex-col border-[1px] border-[#F0F0F0] rounded-[23px] overflow-hidden max-md:col-span-2 ${index < 2 ? 'md:col-span-2' : 'md:row-start-3'}`} href={works.url}>
                             <div className={`${index < 2 ? 'max-w-[1280px]' : ''}`}>
                                 <ImageLoader
                                     src={StaticPath(works.img)}
-                                    className={`min-h-[265px] object-cover`}
+                                    className={`min-h-[265px] object-cover transition-[all_.3s_ease-in-out] scale-[1] group-hover:scale-[1.02]`}
                                     // src={StaticPath('/assets/img/home/uem-security-app.png')}
                                     alt={works.img_alt}
                                     width={1280}
                                     height={264}
                                 />
                             </div>
-                            <div className={`flex gap-[30px] border-[1px] border-[#F0F0F0] rounded-[0px_0px_23px_23px] p-[30px]${index < 2 ? ' flex-row justify-between items-center' : ' flex-col'}`}>
+                            <div className={`flex gap-[20px] lg:gap-[30px] border-t-[1px] border-[#F0F0F0] p-[30px]${index < 2 ? ' flex-col md:flex-row md:justify-between md:items-center' : ' flex-col'}`}>
                                 <div>
                                     <div className="flex gap-[10px]">
                                         {works?.tags?.map((tag: any, index: any) => {
@@ -31,7 +31,7 @@ export default function WorkHighLights(props: any) {
                                         })}
                                     </div>
                                     <p className="text-[24px] font-[400] text-black pt-[10px] pb-[5px]">{works.title}</p>
-                                    <p className={`text-[18px] font-[300] leading-[24px] text-black${index < 2 ? '' : ' min-h-[72px]'}`}>{works.description}</p>
+                                    <p className={`text-[18px] font-[300] leading-[24px] text-black${index < 2 ? '' : ' md:min-h-[72px]'}`}>{works.description}</p>
                                 </div>
                                 <div
                                     dangerouslySetInnerHTML={{ __html: props?.svg_icon }}
@@ -41,6 +41,7 @@ export default function WorkHighLights(props: any) {
                     )
                 })}
             </div>
+            <div></div>
         </section>
     );
 }
