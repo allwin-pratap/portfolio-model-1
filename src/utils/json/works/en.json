@@ -216,6 +216,38 @@
                     "url": "work/reiki",
                     "img": "/assets/img/works/all-works/reiki.jpg",
                     "img_alt": "Reiki"
+                },
+                {
+                    "title":"Parkhub",
+                    "description": "Parkhub is an innovative concept which includes the usage of latest technologies to obtain real time information about parking avaialibility ,payment process and many more.",
+                    "tags": ["UI/UX", "Product Design"],
+                    "url": "",
+                    "img": "/assets/img/works/all-works/park-hub.jpg",
+                    "img_alt": "Parkhub"
+                },
+                {
+                    "title":"MAAT",
+                    "description": "Maat is a fun stress buster game create with an intent to be fun as well as productive while gaming. It’s principles are based upon the balance, concentration & Unity.",
+                    "tags": ["UI/UX", "Product Design"],
+                    "url": "",
+                    "img": "/assets/img/works/all-works/maat.jpg",
+                    "img_alt": "MAAT"
+                },
+                {
+                    "title":"Express News",
+                    "description": "This Application UI is designed in a way to be more interactive with the user and to keep them engaged and interested while reading it.",
+                    "tags": ["UI Design", "Product Design"],
+                    "url": "",
+                    "img": "/assets/img/works/all-works/express-news.jpg",
+                    "img_alt": "Express News"
+                },
+                {
+                    "title":"Enduroom Design System",
+                    "description": "Carefully curated design system to maintain the consistency across all platforms and devices.",
+                    "tags": ["Design System"],
+                    "url": "",
+                    "img": "/assets/img/works/all-works/enduroom-design-system.jpg",
+                    "img_alt": "Enduroom Design System"
                 }
             ]
         },
