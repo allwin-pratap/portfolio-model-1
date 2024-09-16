@@ -7,9 +7,9 @@ export default function AboutIntro(props: any) {
         <section className={`${props?.layoutStyle}`}>
             <div className="flex flex-col lg:flex-row justify-between sm:gap-[40px]">
                 <div className="flex flex-col justify-between">
-                    <div className="relative shrink-0">
+                    <div className="relative shrink-0 border border-[#F1F7FF] rounded-[25px]">
                         <ImageLoader
-                            className="border border-[#F1F7FF] bg-[#FAFAFA] rounded-[25px] "
+                            className=""
                             src={StaticPath(props?.run_image)}
                             alt={props?.run_image_alt}
                             width={575}
@@ -27,7 +27,7 @@ export default function AboutIntro(props: any) {
                     <div className="grid grid-cols-4 sm:gap-[40px] py-[20px] sm:py-[40px] mt-[40px] border border-[#F1F7FF] rounded-[25px]">
                         {props?.social_connect?.map((social: any, index: any) => {
                             return (
-                                <a key={index} className={`flex justify-center px-[20px] sm:px-[50px]`} href={social.link}>
+                                <a key={index} className={`flex justify-center px-[20px] sm:px-[50px]`} href={social.link} target={social?.target ?? '_self'}>
                                     <div className={`h-[44px] w-[44px] flex justify-center items-center ${styles['svg_wrapper']}`}
                                         dangerouslySetInnerHTML={{ __html: social?.svg_icon }}
                                     />

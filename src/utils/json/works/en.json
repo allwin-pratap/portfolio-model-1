@@ -214,6 +214,7 @@
                     "description": "Reiki is a mobile app designed to support the well-being of cancer patients, with an AI assistant as a personal companion.",
                     "tags": ["UI/UX", "Product Design"],
                     "url": "work/reiki",
+                    "sample_url": "https://www.behance.net/gallery/141220245/Reiki-UX-Case-Study-on-Cancer-Patients",
                     "img": "/assets/img/works/all-works/reiki.jpg",
                     "img_alt": "Reiki"
                 },
@@ -221,7 +222,9 @@
                     "title":"Parkhub",
                     "description": "Parkhub is an innovative concept which includes the usage of latest technologies to obtain real time information about parking avaialibility ,payment process and many more.",
                     "tags": ["UI/UX", "Product Design"],
-                    "url": "",
+                    "behance_redirect": true,
+                    "url": "https://www.behance.net/gallery/141254793/Parkhub-UX-Case-Study-on-Parking-Issues",
+                    "target": "_blank",
                     "img": "/assets/img/works/all-works/park-hub.jpg",
                     "img_alt": "Parkhub"
                 },
@@ -229,7 +232,9 @@
                     "title":"MAAT",
                     "description": "Maat is a fun stress buster game create with an intent to be fun as well as productive while gaming. It’s principles are based upon the balance, concentration & Unity.",
                     "tags": ["UI/UX", "Product Design"],
-                    "url": "",
+                    "behance_redirect": true,
+                    "url": "https://www.behance.net/gallery/141242795/MAAT-Gamification",
+                    "target": "_blank",
                     "img": "/assets/img/works/all-works/maat.jpg",
                     "img_alt": "MAAT"
                 },
@@ -237,7 +242,9 @@
                     "title":"Express News",
                     "description": "This Application UI is designed in a way to be more interactive with the user and to keep them engaged and interested while reading it.",
                     "tags": ["UI Design", "Product Design"],
-                    "url": "",
+                    "behance_redirect": true,
+                    "url": "https://www.behance.net/gallery/141250959/Express-News-UI-Case-Study",
+                    "target": "_blank",
                     "img": "/assets/img/works/all-works/express-news.jpg",
                     "img_alt": "Express News"
                 },

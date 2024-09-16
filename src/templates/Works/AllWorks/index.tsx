@@ -10,7 +10,7 @@ export default function AllWorks(props: any) {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[50px] mt-[80px]">
                 {props?.all_works?.map((works: any, index: any) => {
                     return (
-                        <a key={index} className={`flex flex-col rounded-[23px_23px_0px_0px] overflow-hidden`} href={works.url}>
+                        <a key={index} className={`flex flex-col border-[1px] border-[#F0F0F0] rounded-[23px] overflow-hidden`} href={works.url} target={works?.target ?? '_self'}>
                             <div className={`max-w-[615px] max-h-[400px] lg:h-[400px]`}>
                                 <ImageLoader
                                     className={`min-h-[265px] max-h-[400px] lg:h-[400px] object-cover`}
@@ -20,7 +20,7 @@ export default function AllWorks(props: any) {
                                     height={400}
                                 />
                             </div>
-                            <div className={`flex flex-col gap-[30px] border-[1px] border-[#F0F0F0] rounded-[0px_0px_23px_23px] p-[30px]`}>
+                            <div className={`flex flex-col gap-[30px] p-[30px] border-t-[1px] border-[#F0F0F0]`}>
                                 <div>
                                     <div className="flex gap-[10px]">
                                         {works?.tags?.map((tag: any, index: any) => {
@@ -29,12 +29,17 @@ export default function AllWorks(props: any) {
                                             )
                                         })}
                                     </div>
-                                    <p className="text-[24px] font-[400] text-black pt-[10px] pb-[5px]">{works.title}</p>
-                                    <p className={`text-[18px] font-[300] leading-[24px] text-black${index < 2 ? '' : ' min-h-[72px]'}`}>{works.description}</p>
+                                    <p className="text-[24px] font-[400] text-black pt-[10px] pb-[5px]">{works?.title}</p>
+                                    <p className={`text-[18px] font-[300] leading-[24px] text-black${index < 2 ? '' : ' min-h-[72px]'}`}>{works?.description}</p>
                                 </div>
-                                <div
-                                    dangerouslySetInnerHTML={{ __html: props?.svg_icon }}
-                                />
+                                <div className="flex items-center">
+                                    {(works?.behance_redirect) && (
+                                        <p className="text-[20px] font-[400] leading-[24px] text-black pr-[5px]"> Visit Behance</p>
+                                    )}
+                                    <div
+                                        dangerouslySetInnerHTML={{ __html: props?.svg_icon }}
+                                    />
+                                </div>
                             </div>
                         </a>
                     )

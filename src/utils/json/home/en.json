@@ -158,17 +158,17 @@
         "links": [
             {
                 "name": "Linkedin",
-                "url": "",
+                "url": "https://www.linkedin.com/in/karthik-mr-0718ba1b1/",
                 "target": "_blank"
             },
             {
                 "name": "Behance",
-                "url": "",
+                "url": "https://www.behance.net/karthikmr",
                 "target": "_blank"
             },
             {
                 "name": "Dribble",
-                "url": "",
+                "url": "https://dribbble.com/karthik_luffy_17",
                 "target": "_blank"
             }
         ]
