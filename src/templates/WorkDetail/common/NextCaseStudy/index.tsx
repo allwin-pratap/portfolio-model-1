@@ -26,6 +26,7 @@ export default function NextCaseStudy(props: any) {
             <div className="flex justify-between pt-[50px]">
                 <div className="flex">
                     <div
+                        className="transform rotate-[180deg]"
                         dangerouslySetInnerHTML={{ __html: data?.svg_icon }}
                     />
                     <p className="text-[16px] leading-[20px] font-[400] text-black">Back</p>

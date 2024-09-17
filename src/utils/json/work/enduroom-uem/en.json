@@ -81,37 +81,37 @@
                     "bg_color": "color1",
                     "title": "Simplified User Flows",
                     "description": "Complex user flows have been restructured to reduce the number of steps required to perform key tasks. This includes optimizing device enrollment processes, policy management, and compliance monitoring, allowing administrators to complete tasks more efficiently.",
-                    "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M4 12H20M20 12L14 6M20 12L14 18' stroke='#181818' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+                    "icon": "<svg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M3.33331 29.1667C3.33331 27.609 3.33331 26.8301 3.66825 26.25C3.88767 25.87 4.20327 25.5544 4.58331 25.3349C5.16344 25 5.94229 25 7.49998 25C9.05767 25 9.83652 25 10.4166 25.3349C10.7967 25.5544 11.1123 25.87 11.3317 26.25C11.6666 26.8301 11.6666 27.609 11.6666 29.1667C11.6666 30.7244 11.6666 31.5032 11.3317 32.0833C11.1123 32.4634 10.7967 32.779 10.4166 32.9984C9.83652 33.3333 9.05767 33.3333 7.49998 33.3333C5.94229 33.3333 5.16344 33.3333 4.58331 32.9984C4.20327 32.779 3.88767 32.4634 3.66825 32.0833C3.33331 31.5032 3.33331 30.7244 3.33331 29.1667Z' stroke='#474A1C' stroke-width='2'/><path d='M15.8333 29.1667C15.8333 27.609 15.8333 26.8301 16.1682 26.25C16.3877 25.87 16.7033 25.5544 17.0833 25.3349C17.6634 25 18.4423 25 20 25C21.5577 25 22.3365 25 22.9166 25.3349C23.2967 25.5544 23.6123 25.87 23.8317 26.25C24.1666 26.8301 24.1666 27.609 24.1666 29.1667C24.1666 30.7244 24.1666 31.5032 23.8317 32.0833C23.6123 32.4634 23.2967 32.779 22.9166 32.9984C22.3365 33.3333 21.5577 33.3333 20 33.3333C18.4423 33.3333 17.6634 33.3333 17.0833 32.9984C16.7033 32.779 16.3877 32.4634 16.1682 32.0833C15.8333 31.5032 15.8333 30.7244 15.8333 29.1667Z' stroke='#474A1C' stroke-width='2'/><path d='M28.3333 29.1667C28.3333 27.609 28.3333 26.8301 28.6682 26.25C28.8877 25.87 29.2033 25.5544 29.5833 25.3349C30.1634 25 30.9423 25 32.5 25C34.0577 25 34.8365 25 35.4166 25.3349C35.7967 25.5544 36.1123 25.87 36.3317 26.25C36.6666 26.8301 36.6666 27.609 36.6666 29.1667C36.6666 30.7244 36.6666 31.5032 36.3317 32.0833C36.1123 32.4634 35.7967 32.779 35.4166 32.9984C34.8365 33.3333 34.0577 33.3333 32.5 33.3333C30.9423 33.3333 30.1634 33.3333 29.5833 32.9984C29.2033 32.779 28.8877 32.4634 28.6682 32.0833C28.3333 31.5032 28.3333 30.7244 28.3333 29.1667Z' stroke='#474A1C' stroke-width='2'/><path d='M7.5 25.0003V15.0003C7.5 11.072 7.5 9.10777 8.72039 7.88738C9.94078 6.66699 11.905 6.66699 15.8333 6.66699H24.1667C28.095 6.66699 30.0592 6.66699 31.2796 7.88738C32.5 9.10777 32.5 11.072 32.5 15.0003V20.0003M32.5 20.0003L35.8333 16.667M32.5 20.0003L29.1667 16.667' stroke='#474A1C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>"
                 },
                 {
                     "bg_color": "color2",
                     "title": "Dashboard Customization",
                     "description": "The main dashboard now offers enhanced customization options, enabling users to tailor their workspace to their specific needs. This includes drag-and-drop widgets, personalized alerts, and quick access to essential tools.",
-                    "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M4 12H20M20 12L14 6M20 12L14 18' stroke='#181818' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+                    "icon": "<svg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M21.9124 32.5503C21.5219 32.1598 20.8887 32.1598 20.4982 32.5503C20.1077 32.9408 20.1077 33.574 20.4982 33.9645L21.9124 32.5503ZM30.8473 33.2574L31.5544 33.9645L30.8473 33.2574ZM6.74233 9.15245L7.44943 9.85956H7.44944L6.74233 9.15245ZM6.03522 19.5015C6.42575 19.8921 7.05891 19.8921 7.44944 19.5015C7.83996 19.111 7.83996 18.4778 7.44944 18.0873L6.03522 19.5015ZM18.7948 6.74196L19.5019 7.44907C19.6894 7.26153 19.7948 7.00718 19.7948 6.74196C19.7948 6.47674 19.6894 6.22239 19.5019 6.03485L18.7948 6.74196ZM9.15282 6.74196L8.44571 6.03485L8.44571 6.03485L9.15282 6.74196ZM33.2578 21.2049L33.9649 20.4978C33.7773 20.3103 33.523 20.2049 33.2578 20.2049C32.9925 20.2049 32.7382 20.3103 32.5506 20.4978L33.2578 21.2049ZM33.2578 30.8469L32.5506 30.1398L33.2578 30.8469ZM14.0702 10.0523C13.6797 10.4429 13.6797 11.076 14.0702 11.4666C14.4607 11.8571 15.0939 11.8571 15.4844 11.4666L14.0702 10.0523ZM28.5332 24.5153C28.1426 24.9058 28.1426 25.539 28.5332 25.9295C28.9237 26.32 29.5569 26.32 29.9474 25.9295L28.5332 24.5153ZM8.44571 6.03485L6.03522 8.44535L7.44944 9.85956L9.85993 7.44907L8.44571 6.03485ZM31.5544 33.9645L33.9649 31.554L32.5506 30.1398L30.1402 32.5503L31.5544 33.9645ZM20.4982 33.9645C21.6145 35.0808 22.5214 35.9907 23.3319 36.6091C24.1655 37.2451 25.0137 37.6663 26.0263 37.6663V35.6663C25.6268 35.6663 25.2008 35.5194 24.5451 35.0191C23.8663 34.5012 23.0687 33.7066 21.9124 32.5503L20.4982 33.9645ZM30.1402 32.5503C28.9839 33.7066 28.1863 34.5012 27.5075 35.0191C26.8518 35.5194 26.4257 35.6663 26.0263 35.6663V37.6663C27.0388 37.6663 27.887 37.2452 28.7206 36.6091C29.5312 35.9907 30.438 35.0808 31.5544 33.9645L30.1402 32.5503ZM6.03522 8.44535C4.91889 9.56168 4.00901 10.4686 3.39059 11.2791C2.75456 12.1127 2.33337 12.9609 2.33337 13.9734H4.33337C4.33337 13.574 4.48034 13.148 4.98063 12.4923C5.49853 11.8135 6.29313 11.0159 7.44943 9.85956L6.03522 8.44535ZM7.44944 18.0873C6.29313 16.931 5.49853 16.1334 4.98063 15.4546C4.48034 14.7989 4.33337 14.3729 4.33337 13.9734H2.33337C2.33337 14.986 2.75456 15.8342 3.39059 16.6678C4.00901 17.4783 4.91889 18.3852 6.03522 19.5015L7.44944 18.0873ZM19.5019 6.03485C18.3856 4.91853 17.4787 4.00864 16.6682 3.39022C15.8345 2.7542 14.9864 2.33301 13.9738 2.33301V4.33301C14.3733 4.33301 14.7993 4.47998 15.455 4.98027C16.1338 5.49816 16.9314 6.29276 18.0877 7.44907L19.5019 6.03485ZM9.85993 7.44907C11.0162 6.29276 11.8138 5.49816 12.4926 4.98027C13.1483 4.47998 13.5743 4.33301 13.9738 4.33301V2.33301C12.9612 2.33301 12.1131 2.7542 11.2795 3.39022C10.4689 4.00864 9.56204 4.91853 8.44571 6.03485L9.85993 7.44907ZM32.5506 21.912C33.707 23.0683 34.5016 23.8659 35.0194 24.5447C35.5197 25.2004 35.6667 25.6264 35.6667 26.0259H37.6667C37.6667 25.0133 37.2455 24.1652 36.6095 23.3316C35.9911 22.521 35.0812 21.6141 33.9649 20.4978L32.5506 21.912ZM33.9649 31.554C35.0812 30.4377 35.9911 29.5308 36.6095 28.7203C37.2455 27.8866 37.6667 27.0385 37.6667 26.0259H35.6667C35.6667 26.4254 35.5197 26.8514 35.0194 27.5071C34.5016 28.1859 33.707 28.9835 32.5506 30.1398L33.9649 31.554ZM18.0877 6.03485L14.0702 10.0523L15.4844 11.4666L19.5019 7.44907L18.0877 6.03485ZM32.5506 20.4978L28.5332 24.5153L29.9474 25.9295L33.9649 21.912L32.5506 20.4978Z' fill='#451A03'/><path d='M23.9335 6.79744L25.4783 5.25264C28.0378 2.69313 32.1876 2.69313 34.7471 5.25264C37.3066 7.81214 37.3066 11.9619 34.7471 14.5214L33.2023 16.0662M23.9335 6.79744C23.9335 6.79744 24.1266 10.0801 27.0231 12.9766C29.9196 15.8731 33.2023 16.0662 33.2023 16.0662M23.9335 6.79744L9.73141 20.9995C8.76948 21.9614 8.28851 22.4424 7.87487 22.9727C7.38693 23.5983 6.9686 24.2752 6.62728 24.9914C6.33793 25.5985 6.12283 26.2438 5.69264 27.5344L4.31532 31.6663L3.86972 33.0031M33.2023 16.0662L19.0002 30.2683C18.0383 31.2302 17.5573 31.7112 17.027 32.1248C16.4014 32.6128 15.7245 33.0311 15.0083 33.3724C14.4012 33.6618 13.7559 33.8769 12.4653 34.3071L8.33337 35.6844L6.99657 36.13M6.99657 36.13L5.65978 36.5756C5.02467 36.7873 4.32447 36.622 3.85109 36.1486C3.37772 35.6752 3.21242 34.975 3.42412 34.3399L3.86972 33.0031M6.99657 36.13L3.86972 33.0031' stroke='#451A03' stroke-width='2'/></svg>"
                 },
                 {
                     "bg_color": "color3",
                     "title": "Enhanced Visual Feedback",
                     "description": "The new design provides more immediate and clear visual feedback for actions taken, such as device enrollment status, policy enforcement, and compliance alerts, helping users stay informed and in control.",
-                    "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M4 12H20M20 12L14 6M20 12L14 18' stroke='#181818' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+                    "icon": "<svg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M6.40754 13.2038C4.53082 11.327 4.53082 8.28427 6.40754 6.40754C8.28427 4.53082 11.327 4.53082 13.2038 6.40754L33.5925 26.7962C35.4692 28.673 35.4692 31.7157 33.5925 33.5925C31.7157 35.4692 28.673 35.4692 26.7962 33.5925L6.40754 13.2038Z' stroke='#082F49' stroke-width='2'/><path d='M10 16.667L16.6667 10.0003' stroke='#082F49' stroke-width='2' stroke-linecap='round'/><path d='M26.8334 3.84499C27.1016 3.16235 28.0642 3.16235 28.3324 3.84499L29.0497 5.67046C29.1316 5.87888 29.296 6.04386 29.5036 6.12605L31.3224 6.84601C32.0025 7.11524 32.0025 8.08135 31.3224 8.35058L29.5036 9.07054C29.296 9.15273 29.1316 9.31771 29.0497 9.52612L28.3324 11.3516C28.0642 12.0342 27.1016 12.0342 26.8334 11.3516L26.1161 9.52612C26.0342 9.31771 25.8698 9.15273 25.6622 9.07054L23.8434 8.35058C23.1633 8.08135 23.1633 7.11524 23.8434 6.84601L25.6622 6.12605C25.8698 6.04386 26.0342 5.87888 26.1161 5.67046L26.8334 3.84499Z' stroke='#082F49' stroke-width='1.5'/><path d='M33.2786 15.2161C33.5469 14.5334 34.5094 14.5334 34.7776 15.2161L35.0392 15.8817C35.1211 16.0901 35.2854 16.2551 35.4931 16.3372L36.1562 16.5997C36.8363 16.869 36.8363 17.8351 36.1562 18.1043L35.4931 18.3668C35.2854 18.449 35.1211 18.614 35.0392 18.8224L34.7776 19.488C34.5094 20.1706 33.5469 20.1706 33.2786 19.488L33.0171 18.8224C32.9352 18.614 32.7708 18.449 32.5632 18.3668L31.9 18.1043C31.2199 17.8351 31.2199 16.869 31.9 16.5997L32.5632 16.3372C32.7708 16.2551 32.9352 16.0901 33.0171 15.8817L33.2786 15.2161Z' stroke='#082F49' stroke-width='1.5'/><path d='M8.55535 25.512C8.82359 24.8293 9.78614 24.8293 10.0544 25.512L10.3159 26.1776C10.3978 26.386 10.5622 26.5509 10.7698 26.6331L11.4329 26.8956C12.1131 27.1649 12.1131 28.131 11.4329 28.4002L10.7698 28.6627C10.5622 28.7449 10.3978 28.9099 10.3159 29.1183L10.0544 29.7839C9.78614 30.4665 8.82359 30.4665 8.55535 29.7839L8.29382 29.1183C8.21192 28.9099 8.04755 28.7449 7.83991 28.6627L7.17678 28.4002C6.49666 28.131 6.49666 27.1649 7.17678 26.8956L7.83991 26.6331C8.04755 26.5509 8.21192 26.386 8.29382 26.1776L8.55535 25.512Z' stroke='#082F49' stroke-width='1.5'/></svg>"
                 },
                 {
                     "bg_color": "color4",
                     "title": "Streamlined Reporting",
                     "description": "The reporting feature has been improved with more accessible and customizable reporting options, allowing IT administrators to generate and share reports with ease, and gain insights faster.",
-                    "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M4 12H20M20 12L14 6M20 12L14 18' stroke='#181818' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+                    "icon": "<svg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M30.3001 13.3992L31.0725 12.6268C32.3522 11.3471 34.4271 11.3471 35.7069 12.6268C36.9866 13.9066 36.9866 15.9815 35.7069 17.2612L34.9345 18.0336M30.3001 13.3992C30.3001 13.3992 30.3966 15.0406 31.8449 16.4888C33.2931 17.9371 34.9345 18.0336 34.9345 18.0336M30.3001 13.3992L23.199 20.5002C22.7181 20.9812 22.4776 21.2217 22.2707 21.4869C22.0268 21.7996 21.8176 22.1381 21.647 22.4962C21.5023 22.7997 21.3947 23.1224 21.1796 23.7677L20.491 25.8337L20.2682 26.5021M34.9345 18.0336L27.8334 25.1346C27.3524 25.6156 27.112 25.8561 26.8468 26.0629C26.534 26.3069 26.1956 26.516 25.8375 26.6867C25.5339 26.8314 25.2113 26.9389 24.566 27.154L22.5 27.8427L21.8316 28.0655M21.8316 28.0655L21.1632 28.2883C20.8456 28.3941 20.4955 28.3115 20.2589 28.0748C20.0222 27.8381 19.9395 27.488 20.0454 27.1705L20.2682 26.5021M21.8316 28.0655L20.2682 26.5021' stroke='#4A044E' stroke-width='2'/><path d='M13.3334 21.667H17.5' stroke='#4A044E' stroke-width='2' stroke-linecap='round'/><path d='M13.3334 15H24.1667' stroke='#4A044E' stroke-width='2' stroke-linecap='round'/><path d='M13.3334 28.333H15.8334' stroke='#4A044E' stroke-width='2' stroke-linecap='round'/><path d='M33.0474 5.28563C31.0948 3.33301 27.9521 3.33301 21.6667 3.33301H18.3333C12.0479 3.33301 8.90524 3.33301 6.95262 5.28563C5 7.23825 5 10.3809 5 16.6663V23.333C5 29.6184 5 32.7611 6.95262 34.7137C8.90524 36.6663 12.0479 36.6663 18.3333 36.6663H21.6667C27.9521 36.6663 31.0948 36.6663 33.0474 34.7137C34.6192 33.1419 34.9257 30.799 34.9855 26.6663' stroke='#4A044E' stroke-width='2' stroke-linecap='round'/></svg>"
                 },
                 {
                     "bg_color": "color5",
                     "title": "Data-Driven Design Optimization",
                     "description": "The data-driven design section has been significantly improved to present key insights and metrics in a more digestible and actionable format. This includes the use of simplified data visualizations, intuitive dashboards, and contextual information that helps administrators make informed decisions quickly.",
-                    "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M4 12H20M20 12L14 6M20 12L14 18' stroke='#181818' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+                    "icon": "<svg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M10.3701 7.6676C11.1111 7.17251 11.889 6.74312 12.6951 6.38212C14.9816 5.35816 16.1248 4.84618 17.6457 5.83152C19.1667 6.81687 19.1667 8.4332 19.1667 11.6659V14.1659C19.1667 17.3086 19.1667 18.8799 20.143 19.8562C21.1193 20.8325 22.6906 20.8325 25.8333 20.8325H28.3333C31.566 20.8325 33.1823 20.8325 34.1677 22.3534C35.153 23.8743 34.641 25.0176 33.6171 27.304C33.2561 28.1101 32.8267 28.8881 32.3316 29.6291C30.5918 32.2328 28.119 34.2622 25.2258 35.4606C22.3326 36.659 19.1491 36.9726 16.0777 36.3616C13.0064 35.7507 10.1851 34.2427 7.9708 32.0284C5.75646 29.8141 4.24849 26.9928 3.63755 23.9215C3.02662 20.8501 3.34017 17.6665 4.53856 14.7734C5.73695 11.8802 7.76635 9.40738 10.3701 7.6676Z' stroke='#533232' stroke-width='2'/><path d='M35.7434 11.782C34.3904 8.34751 31.6528 5.60997 28.2183 4.25696C25.6491 3.24481 23.3333 5.57226 23.3333 8.33369V15.0004C23.3333 15.9208 24.0795 16.667 25 16.667H31.6666C34.4281 16.667 36.7555 14.3512 35.7434 11.782Z' stroke='#533232' stroke-width='2'/></svg>"
                 },
                 {
                     "bg_color": "color6",
                     "title": "Cross-Platform Consistency",
                     "description": "The application now offers a seamless and consistent user experience across all supported platforms and operating systems, including Windows, macOS, iOS, Android, and Linux. The design has been kept minimalistic to reduce visual clutter and ensure that the core functionality is easily accessible regardless of the platform.",
-                    "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M4 12H20M20 12L14 6M20 12L14 18' stroke='#181818' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+                    "icon": "<svg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M11.6667 20H10C6.85734 20 5.286 20 4.30968 20.9763C3.33337 21.9526 3.33337 23.524 3.33337 26.6667V30C3.33337 33.1427 3.33337 34.714 4.30968 35.6904C5.286 36.6667 6.85734 36.6667 10 36.6667H13.3334C16.4761 36.6667 18.0474 36.6667 19.0237 35.6904C20 34.714 20 33.1427 20 30V28.3333' stroke='#621616' stroke-width='2'/><path d='M20 11.668H18.3333C15.1906 11.668 13.6192 11.668 12.6429 12.6443C11.6666 13.6206 11.6666 15.1919 11.6666 18.3346V21.668C11.6666 24.8107 11.6666 26.382 12.6429 27.3583C13.6192 28.3346 15.1906 28.3346 18.3333 28.3346H21.6666C24.8093 28.3346 26.3807 28.3346 27.357 27.3583C28.3333 26.382 28.3333 24.8107 28.3333 21.668V20.0013' stroke='#621616' stroke-width='2'/><path d='M20 9.9987C20 6.856 20 5.28465 20.9763 4.30834C21.9526 3.33203 23.524 3.33203 26.6667 3.33203H30C33.1427 3.33203 34.714 3.33203 35.6904 4.30834C36.6667 5.28465 36.6667 6.856 36.6667 9.9987V13.332C36.6667 16.4747 36.6667 18.0461 35.6904 19.0224C34.714 19.9987 33.1427 19.9987 30 19.9987H26.6667C23.524 19.9987 21.9526 19.9987 20.9763 19.0224C20 18.0461 20 16.4747 20 13.332V9.9987Z' stroke='#621616' stroke-width='2'/></svg>"
                 }
             ]
         },
@@ -125,50 +125,59 @@
                         "tag": "DASHBOARD",
                         "title": "Enhanced Feel & Functions",
                         "description": "The UEM app facelift introduces a revamped dashboard with enhanced customization options, all while maintaining a minimalistic design. This ensures users can easily access and personalize essential information without clutter.",
-                        "img": "/assets/img/common/enduroom.jpg",
-                        "img_alt": "Enduroom Design system"
+                        "bg_color": "bg_grey",
+                        "img": "/assets/img/work/enduroom-uem/enhanced-nested-flexible.jpg",
+                        "img_alt": "Enhanced Feel and Functions"
                     },
                     {
                         "tag": "FILTERS",
                         "title": "Segmented Filters",
                         "description": "The filter section has been significantly enhanced, offering a more compact design that improves grouping and categorization throughout the app. This makes it easier for users to efficiently navigate and refine their search criteria.",
-                        "img": "/assets/img/common/enduroom.jpg",
-                        "img_alt": "Enduroom Design system"
+                        "bg_color": "bg_grey",
+                        "img": "/assets/img/work/enduroom-uem/segment-filter.jpg",
+                        "img_alt": "Segmented Filters"
                     },
                     {
                         "tag": "REPORTS",
                         "title": "Custom Reports",
                         "description": "The custom reports section now offers enhanced flexibility, allowing users to generate and tailor reports to meet specific needs, all within a streamlined and user-friendly interface.",
-                        "img": "/assets/img/common/enduroom.jpg",
-                        "img_alt": "Enduroom Design system"
+                        "bg_color": "bg_grey",
+                        "img": "/assets/img/work/enduroom-uem/custom-report.jpg",
+                        "img_alt": "Custom Reports"
                     },
                     {
                         "tag": "CONDITIONAL FILTERS",
                         "title": "Nested Conditional filters",
                         "description": "Conditional filters and logical operations have been enhanced, offering better nesting functionalities for more precise and flexible filtering within the UEM application.",
-                        "img": "/assets/img/common/enduroom.jpg",
-                        "img_alt": "Enduroom Design system"
+                        "bg_color": "bg_pink",
+                        "img": "/assets/img/work/enduroom-uem/enhanced-nested-flexible.jpg",
+                        "img_alt": "Nested Conditional filters"
                     },
                     {
                         "tag": "TABLES",
                         "title": "Tables",
                         "description": "The tables have been redesigned to handle more data efficiently, with a better format and responsive design for an improved user experience across all devices.",
-                        "img": "/assets/img/common/enduroom.jpg",
-                        "img_alt": "Enduroom Design system"
+                        "bg_color": "bg_grey",
+                        "img": "/assets/img/work/enduroom-uem/tables.jpg",
+                        "img_alt": "Tables"
                     },
                     {
                         "tag": "PLATFORM BASED FLOWS",
                         "title": "Deployments",
                         "description": "The design has been optimized like deployments to effectively manage multi-platform scenarios, ensuring seamless functionality across various operating systems.",
-                        "img": "/assets/img/common/enduroom.jpg",
-                        "img_alt": "Enduroom Design system"
+                        "bg_color": "bg_grey",
+                        "img": "/assets/img/work/enduroom-uem/deployment.jpg",
+                        "img_alt": "Deployments",
+                        "width": 580,
+                        "height": null
                     },
                     {
                         "tag": "MULTI DEVICE CONSISTENCY",
                         "title": "Flexible Designs",
                         "description": "The design has been made responsive and consistent across all devices, ensuring a seamless and uniform user experience regardless of screen size.",
-                        "img": "/assets/img/common/enduroom.jpg",
-                        "img_alt": "Enduroom Design system"
+                        "bg_color": "bg_pink",
+                        "img": "/assets/img/work/enduroom-uem/enhanced-nested-flexible.jpg",
+                        "img_alt": "Flexible Designs"
                     }
                 ]
             }

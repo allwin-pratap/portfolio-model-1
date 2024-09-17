@@ -17,7 +17,7 @@ export default function IssueFaced(props: any) {
                         )
                     })}
                 </div>
-                <div className="">
+                <div className="pt-[40px]">
                     <ImageLoader
                         src={StaticPath(props?.data?.img)}
                         alt={`waiting`}

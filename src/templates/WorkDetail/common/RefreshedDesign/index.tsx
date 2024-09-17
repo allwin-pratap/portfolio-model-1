@@ -1,5 +1,6 @@
 import ImageLoader from "@/utils/ImageLoader";
 import { StaticPath } from "@/utils/baseUtils";
+import styles from "./refreshedDesign.module.scss";
 
 export default function RefreshedDesign(props: any) {
     const { data } = props;
@@ -15,13 +16,13 @@ export default function RefreshedDesign(props: any) {
                             <p className={`text-[36px] leading-[42px] font-[400] text-black text-center pt-[20px] pb-[10px]`}>{design?.title}</p>
                             <p className={`text-[20px] leading-[30px] font-[300] text-[#595959] text-center`}>{design?.description}</p>
                             </div>
-                            <div className="pt-[60px]">
+                            <div className={`mt-[60px] border border-[#F1F7FF] rounded-[25px]  ${styles[`${design.bg_color}`]}`}>
                                 <ImageLoader
-                                    className="border border-[#F1F7FF] bg-[#FAFAFA] rounded-[25px] "
+                                    className="max-w-[815px] mx-auto py-[70px]"
                                     src={StaticPath(design?.img)}
                                     alt={design?.img_alt}
-                                    width={1280}
-                                    height={250}
+                                    width={design?.width ?? 815}
+                                    height={design?.height ?? 580}
                                 />
                             </div>
                         </div>

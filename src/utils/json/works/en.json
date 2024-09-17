@@ -189,7 +189,7 @@
                     "title":"Enduroom UEM",
                     "description": "An efficient Remote Assist app enabling real-time troubleshooting and support, allowing technicians to resolve issues quickly and remotely.",
                     "tags": ["Product Design"],
-                    "url": "work/enduroom-uem-forum",
+                    "url": "work/enduroom-uem",
                     "img": "/assets/img/works/all-works/uem-security-app.jpg",
                     "img_alt": "Enduroom UEM"
                 },
@@ -197,7 +197,7 @@
                     "title":"Enduroom Forum",
                     "description": "A design system for the UEM app, providing a cohesive and scalable framework for consistent and efficient UI/UX development.",
                     "tags": ["UX/UI", "Web Designs"],
-                    "url": "work/enduroom-uem",
+                    "url": "work/enduroom-uem-forum",
                     "img": "/assets/img/works/all-works/enduroom.jpg",
                     "img_alt": "Enduroom Forum"
                 },
