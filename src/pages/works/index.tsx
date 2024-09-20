@@ -1,5 +1,7 @@
 import { GetStaticProps } from 'next';
 import { promises as fs } from 'fs';
+import React from 'react';
+import AnimatedWrapper from '@/components/AnimatedWrapper';
 import Header from "@/components/Layout/Header";
 import Footer from "@/components/Layout/Footer";
 import ImageGrid from "@/templates/Works/ImageGrid";
@@ -11,77 +13,69 @@ export default function Works({ data }: any) {
 
   return (
     <main>
-			<Header
-				data={data?.header}
-				darkHeader={false}
-			/>
+      <Header
+        data={data?.header}
+        darkHeader={false}
+      />
       {
         data?.pageData.map((section: any, index: any) => {
-          if (section.layout === 'image_with_title') {
-            return (
-              <ImageWithTitle
-                key={index}
-                layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[150px] pb-[75px]`}
-                title={section?.title}
-                img={section?.img}
-                img_alt={section?.img_alt}
-              />
-            );
-          }
-          if (section.layout === 'full_works') {
-            return (
-              <AllWorks
-                key={index}
-                layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[75px] pb-[50px]`}
-                title={section?.title}
-                svg_icon={section?.svg_icon}
-                all_works={section?.all_works}
-              />
-            );
-          }
-          if (section.layout === 'beautiful_design') {
-            return (
-              <ImageGrid
-                key={index}
-                layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[75px] pb-[50px]`}
-                title={section?.title}
-                images={section?.images}
-              />
-            );
-          }
-          if (section.layout === 'graphics') {
-            return (
-              <ImageGrid
-                key={index}
-                layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[75px] pb-[50px]`}
-                title={section?.title}
-                images={section?.images}
-              />
-            );
-          }
-          
-          if (section.layout === 'component_library') {
-            return (
-              <ImageGrid
-                key={index}
-                layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[75px] pb-[50px]`}
-                title={section?.title}
-                images={section?.images}
-              />
-            );
-          }
-          if (section.layout === 'contact_me') {
-            return (
-              <ContactMe
-                key={index}
-                layoutStyle={`max-w-[1280px] w-[88%] mx-auto bg-[#F4F3F4] rounded-[25px] p-[40px] mt-[50px]`}
-                title={section?.title}
-                description={section?.description}
-                svg_icon={section?.svg_icon}
-                contact_list={section?.contact_list}
-              />
-            );
-          }
+          return (
+            <React.Fragment key={index}>
+              <AnimatedWrapper>
+                {section.layout === 'image_with_title' && (
+                  <ImageWithTitle
+                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[150px] pb-[75px]`}
+                    title={section?.title}
+                    img={section?.img}
+                    img_alt={section?.img_alt}
+                  />
+                )}
+
+                {section.layout === 'full_works' && (
+                  <AllWorks
+                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[75px] pb-[50px]`}
+                    title={section?.title}
+                    svg_icon={section?.svg_icon}
+                    all_works={section?.all_works}
+                  />
+                )}
+
+                {section.layout === 'beautiful_design' && (
+                  <ImageGrid
+                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[75px] pb-[50px]`}
+                    title={section?.title}
+                    images={section?.images}
+                  />
+                )}
+
+                {section.layout === 'graphics' && (
+                  <ImageGrid
+                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[75px] pb-[50px]`}
+                    title={section?.title}
+                    images={section?.images}
+                  />
+                )}
+
+                {section.layout === 'component_library' && (
+                  <ImageGrid
+                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[75px] pb-[50px]`}
+                    title={section?.title}
+                    images={section?.images}
+                  />
+                )}
+
+                {section.layout === 'contact_me' && (
+                  <ContactMe
+                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto bg-[#F4F3F4] rounded-[25px] p-[40px] mt-[50px]`}
+                    title={section?.title}
+                    description={section?.description}
+                    svg_icon={section?.svg_icon}
+                    contact_list={section?.contact_list}
+                  />
+                )}
+              </AnimatedWrapper>
+            </React.Fragment>
+          );
         })
       }
       <Footer data={data?.footer} />
