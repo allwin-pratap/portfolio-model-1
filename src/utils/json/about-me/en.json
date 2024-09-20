@@ -83,20 +83,20 @@
                     "desc": "Gather insights through research to understand user needs and goals."
                 },
                 {
-                    "title": "Discover",
-                    "desc": "Gather insights through research to understand user needs and goals."
+                    "title": "Define",
+                    "desc": "Identify key problems and set clear objectives for the project"
                 },
                 {
-                    "title": "Discover",
-                    "desc": "Gather insights through research to understand user needs and goals."
+                    "title": "Strategize",
+                    "desc": "Plan the approach, outlining design principles and user flows."
                 },
                 {
-                    "title": "Discover",
-                    "desc": "Gather insights through research to understand user needs and goals."
+                    "title": "Design",
+                    "desc": "Create wireframes, prototypes, and visual designs focused on usability and aesthetics."
                 },
                 {
-                    "title": "Discover",
-                    "desc": "Gather insights through research to understand user needs and goals."
+                    "title": "Test",
+                    "desc": "Validate the design through user testing and feedback, refining as needed."
                 }
             ]
         },

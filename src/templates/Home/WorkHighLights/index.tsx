@@ -51,8 +51,7 @@ export default function WorkHighLights(props: any) {
             <div className="flex justify-center mt-[50px]">
                 <Link
                     href="/works/"
-                    className={`inline-block text-[#fff] text-[24px] font-[400] bg-black rounded-[55px] px-[20px] py-[15px]`}
-                    target={`_blank`}>
+                    className={`inline-block text-[#fff] text-[24px] font-[400] bg-black rounded-[55px] px-[20px] py-[15px]`}>
                     View Works
                 </Link>
             </div>
