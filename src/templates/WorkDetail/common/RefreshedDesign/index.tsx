@@ -20,8 +20,8 @@ export default function RefreshedDesign(props: any) {
                                         <p className={`text-[36px] leading-[42px] font-[400] text-black text-center pt-[20px] pb-[10px]`}>{design?.title}</p>
                                         <p className={`text-[20px] leading-[30px] font-[300] text-[#595959] text-center`}>{design?.description}</p>
                                     </div>
-                                    <div className={`mt-[60px] border border-[#F1F7FF] rounded-[25px] ${styles[`${design.bg_color}`]}`}>
-                                        <div className="max-w-[815px] mx-auto">
+                                    <div className={`mt-[60px] border border-[#F1F7FF] rounded-[25px] p-[35px] md:p-[55px] lg:p-[70px] ${styles[`${design.bg_color}`]}`}>
+                                        <div className="max-w-[815px] mx-auto flex justify-center items-center">
                                             <ImageLoader
                                                 className="rounded-[25px]"
                                                 src={StaticPath(design?.img)}

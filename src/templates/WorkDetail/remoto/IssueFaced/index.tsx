@@ -4,7 +4,7 @@ import { StaticPath } from "@/utils/baseUtils";
 export default function IssueFaced(props: any) {
     return (
         <section className={props?.layoutStyle}>
-            <p className={`text-[32px] font-[400] text-black`}>
+            <p className={`text-[40px] font-[400] text-black`}>
                 {props?.data?.title}
             </p>
             <div className="mt-[40px]">

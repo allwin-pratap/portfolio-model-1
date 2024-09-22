@@ -116,6 +116,84 @@
             ]
         },
         {
+            "layout": "design_consider",
+            "content": {
+                "title": "Design Considerations",
+                "design_consider": [
+                    "Simplicity and Clarity",
+                    "User-Centered and Data-Driven Design",
+                    "Accessibility",
+                    "Performance and Efficiency"
+                ],
+                "img": "/assets/img/work/enduroom-uem/design-considerations.svg",
+                "img_alt": "Design Considerations"
+            }
+        },
+        {
+            "layout": "short_details",
+            "content": {
+                "title": "A short picture of what is this about",
+                "short_details": [
+                    {
+                        "bg_color": "color1",
+                        "title": "New employer reaches out to IT admin to get hands on his assets",
+                        "img": "/assets/img/work/enduroom-uem/short-detail/new-employeer.svg",
+                        "img_alt": "New employer",
+                        "width": "330",
+                        "height": "200"
+                    },
+                    {
+                        "bg_color": "color2",
+                        "title": "Admin choose the device to assign for the new employee",
+                        "img": "/assets/img/work/enduroom-uem/short-detail/new-employee.svg",
+                        "img_alt": "New employee",
+                        "width": "290",
+                        "height": "200"
+                    },
+                    {
+                        "bg_color": "color3",
+                        "title": "The device is enrolled in the UEM Portal to get managed by the IT admins",
+                        "img": "/assets/img/work/enduroom-uem/short-detail/uem-portal.svg",
+                        "img_alt": "UEM Portal",
+                        "width": "300",
+                        "height": "360"
+                    },
+                    {
+                        "bg_color": "color4",
+                        "title": "Device successfully enrolled in the portal",
+                        "img": "/assets/img/work/enduroom-uem/short-detail/success-enroll.svg",
+                        "img_alt": "successfully enrolled",
+                        "width": "200",
+                        "height": "200"
+                    },
+                    {
+                        "bg_color": "color5",
+                        "title": "Admin assigns the required policy from the portal to the newly enrolled device",
+                        "img": "/assets/img/work/enduroom-uem/short-detail/enrolled-list.svg",
+                        "img_alt": "newly enrolled device",
+                        "width": "200",
+                        "height": "200"
+                    },
+                    {
+                        "bg_color": "color6",
+                        "title": "IT admin completes the enrollment process quickly without any blocks",
+                        "img": "/assets/img/work/enduroom-uem/short-detail/quick-enroll.svg",
+                        "img_alt": "enrollment process quickly",
+                        "width": "220",
+                        "height": "225"
+                    },
+                    {
+                        "bg_color": "color7",
+                        "title": "Happy & Effortless managing",
+                        "img": "/assets/img/work/enduroom-uem/short-detail/effortless-manage.svg",
+                        "img_alt": "Happy and Effortless managing",
+                        "width": "270",
+                        "height": "266"
+                    }
+                ]
+            }
+        },
+        {
             "layout": "refreshed_designs",
             "refreshed_designs": {
                 "title": "Refreshed Designs",
@@ -184,11 +262,15 @@
         },
         {
             "layout": "next_case_study",
-            "next_case_study": {
+            "design_system": {
                 "title": "Enduroom Design system",
                 "description": "Carefully curated design system to maintain the consistency across all platforms and devices.",
                 "img": "/assets/img/common/enduroom.jpg",
                 "img_alt": "Enduroom Design system",
+                "svg_icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M4 12H20M20 12L14 6M20 12L14 18' stroke='#181818' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+            },
+            "next_case_study": {
+                "title": "Enduroom Design system",
                 "svg_icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M4 12H20M20 12L14 6M20 12L14 18' stroke='#181818' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>"
             }
         },

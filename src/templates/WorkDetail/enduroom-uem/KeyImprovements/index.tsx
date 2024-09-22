@@ -5,7 +5,7 @@ import styles from "./keyImprovement.module.scss";
 export default function KeyImprovements(props: any) {
     return (
         <section className={props?.layoutStyle}>
-            <p className={`text-[32px] font-[400] text-black`}>
+            <p className={`text-[40px] font-[400] text-black`}>
                 {props?.title}
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[30px] mt-[80px]">
@@ -13,7 +13,7 @@ export default function KeyImprovements(props: any) {
                     return (
                         <React.Fragment key={index}>
                             <AnimatedWrapper customStyle={`flex`}>
-                                <div className={`flex flex-col p-[30px] rounded-[23px] overflow-hidden ${styles[`${keys.bg_color}`]}`}>
+                                <div className={`max-md:max-w-[420px] max-md:mx-auto flex flex-col p-[30px] rounded-[23px] overflow-hidden ${styles[`${keys.bg_color}`]}`}>
                                     <div
                                         dangerouslySetInnerHTML={{ __html: keys?.icon }}
                                     />

@@ -57,7 +57,7 @@ export default function EnduroomUEMForum({ data }: any) {
                 {section.layout === 'next_case_study' && (
                   <NextCaseStudy
                     layoutStyle={`max-w-[990px] w-[88%] mx-auto py-[75px]`}
-                    data={section?.next_case_study}
+                    next_case_study={section?.next_case_study}
                   />
                 )}
 

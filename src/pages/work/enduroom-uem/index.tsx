@@ -6,6 +6,8 @@ import Header from "@/components/Layout/Header";
 import Footer from "@/components/Layout/Footer";
 import WorkDetailIntro from "@/templates/WorkDetail/common/WorkDetailIntro";
 import KeyImprovements from '@/templates/WorkDetail/enduroom-uem/KeyImprovements';
+import DesignConsideration from '@/templates/WorkDetail/enduroom-uem/DesignConsideration';
+import ShortDetail from '@/templates/WorkDetail/enduroom-uem/ShortDetail';
 import RefreshedDesign from "@/templates/WorkDetail/common/RefreshedDesign";
 import NextCaseStudy from "@/templates/WorkDetail/common/NextCaseStudy";
 import NonDisclosureAgree from '@/templates/Home/NonDisclosureAgree';
@@ -39,6 +41,20 @@ export default function EnduroomUEM({ data }: any) {
                   />
                 )}
 
+                {section.layout === 'design_consider' && (
+                  <DesignConsideration
+                    layoutStyle={`max-w-[990px] w-[88%] mx-auto py-[75px]`}
+                    data={section?.content}
+                  />
+                )}
+
+                {section.layout === 'short_details' && (
+                  <ShortDetail
+                    layoutStyle={`max-w-[990px] w-[88%] mx-auto py-[75px]`}
+                    data={section?.content}
+                  />
+                )}
+
                 {section.layout === 'refreshed_designs' && (
                   <RefreshedDesign
                     layoutStyle={`max-w-[990px] w-[88%] mx-auto py-[75px]`}
@@ -49,7 +65,8 @@ export default function EnduroomUEM({ data }: any) {
                 {section.layout === 'next_case_study' && (
                   <NextCaseStudy
                     layoutStyle={`max-w-[990px] w-[88%] mx-auto py-[75px]`}
-                    data={section?.next_case_study}
+                    next_case_study={section?.next_case_study}
+                    design_system={section?.design_system}
                   />
                 )}
 
