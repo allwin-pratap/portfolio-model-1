@@ -41,7 +41,7 @@
             "project_intro": {
                 "title": "Reiki",
                 "description": "Reiki is a conceptual mobile app focused on maintaining the sanity of cancer patients & Increase their well being. With the help of an AI assistant has a personal companion this apps comes in handy when delivering different needs of the patients.",
-                "img": "/assets/img/common/enduroom.jpg",
+                "img": "/assets/img/work/reiki/reiki.jpg",
                 "img_alt": "Enduroom Design system",
                 "history": [
                     {
@@ -70,6 +70,21 @@
             }
         },
         {
+            "layout": "japanese_meaning",
+            "japanese_meaning": {
+                "title": "霊気",
+                "desc": "Means the word healing in japnese logographic writing system-Kanji.Reiki is an energy healing technique  that promotes relaxation,redcues stress and anxiety through delivering energy to your body by improving the flow of balance and energy to support healing."
+            }
+        },
+        {
+            "layout": "scope_of_reiki",
+            "scope_of_reiki": {
+                "title": "Scope of work",
+                "img": "/assets/img/work/reiki/scope-of-reiki.jpg",
+                "img_alt": "Scope of work"
+            }
+        },
+        {
             "layout": "key_improve",
             "title": "Key Improvements",
             "key_improve": [
@@ -77,48 +92,175 @@
                     "bg_color": "transparent",
                     "title": "Lack of Memory",
                     "description": "The chemotherapy process messes up with the patients memory efficiency known as the Chemo brain effect which makes it hard for them to keep track of their pill and treatment schedule.",
-                    "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M4 12H20M20 12L14 6M20 12L14 18' stroke='#181818' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+                    "is_image": true,
+                    "img": "/assets/img/work/reiki/key-improve/mellow-brain.png",
+                    "img_alt": "Lack of Memory",
+                    "width": 72
                 },
                 {
                     "bg_color": "transparent",
                     "title": "Mental Health",
                     "description": "Cancer patients are subjected to develop more mental health related issues like anxiety,stress and trauma due to the ill effects of the treatment which affects the quality of their life.",
-                    "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M4 12H20M20 12L14 6M20 12L14 18' stroke='#181818' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+                    "is_image": true,
+                    "img": "/assets/img/work/reiki/key-improve/sad.png",
+                    "img_alt": "Mental Health",
+                    "width": 74
                 },
                 {
                     "bg_color": "transparent",
                     "title": "Lack of credible Information",
                     "description": "Too much influences and misconceptions about cancer and it’s diagnosis panics the users which makes the disease more frightening and mysterious to them.",
-                    "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M4 12H20M20 12L14 6M20 12L14 18' stroke='#181818' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+                    "is_image": true,
+                    "img": "/assets/img/work/reiki/key-improve/question.png",
+                    "img_alt": "Lack of credible Information",
+                    "width": 42
                 }
             ]
+        },
+        {
+            "layout": "reiki_statictics",
+            "reiki_statictics": [
+                {
+                    "bg_color": "transparent",
+                    "title": "48%",
+                    "description": "Percentage of cancer patients experience anxiety during the course of their treatment."
+                },
+                {
+                    "bg_color": "transparent",
+                    "title": "25%",
+                    "description": "Percentage of cancer patients experience depression during the course of their treatment."
+                },
+                {
+                    "bg_color": "light-pink",
+                    "title": "1.3 Million",
+                    "description": "The amount of cancer patients being diagnosed in india anually."
+                }
+            ]
+        },
+        {
+            "layout": "user_research",
+            "user_research": {
+                "title": "User Research",
+                "research": [
+                    {
+                        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='33' viewBox='0 0 32 33' fill='none'><path d='M18 3.26953C18 3.26953 21.1113 3.55237 25.0711 7.51217C29.0309 11.472 29.3137 14.5832 29.3137 14.5832' stroke='#181818' stroke-width='2' stroke-linecap='round'/><path d='M18.9429 7.98438C18.9429 7.98438 20.2628 8.3615 22.2427 10.3414C24.2226 12.3213 24.5997 13.6412 24.5997 13.6412' stroke='#181818' stroke-width='2' stroke-linecap='round'/><path d='M20.1343 20.6398L19.4092 19.9511L20.1343 20.6398ZM20.7415 20.0005L21.4666 20.6891L20.7415 20.0005ZM23.9638 19.5533L23.4649 20.42L23.9638 19.5533ZM26.5111 21.0195L26.0122 21.8862L26.5111 21.0195ZM27.2289 25.6148L27.954 26.3034L27.2289 25.6148ZM25.3348 27.6089L24.6098 26.9202L25.3348 27.6089ZM23.5684 28.5543L23.6666 29.5495L23.5684 28.5543ZM10.4205 22.5704L11.1455 21.8817L10.4205 22.5704ZM4.00385 9.89143L3.00529 9.94503L3.00529 9.94503L4.00385 9.89143ZM12.6367 11.941L13.3617 12.6297L12.6367 11.941ZM12.8457 8.19432L13.6622 7.617L12.8457 8.19432ZM11.1643 5.81634L10.3478 6.39365L10.3478 6.39365L11.1643 5.81634ZM7.01527 5.41504L7.74033 6.10373V6.10373L7.01527 5.41504ZM4.92247 7.61836L4.19741 6.92968H4.19741L4.92247 7.61836ZM14.7508 18.0114L15.4759 17.3227L14.7508 18.0114ZM20.8593 21.3285L21.4666 20.6891L20.0165 19.3118L19.4092 19.9511L20.8593 21.3285ZM23.4649 20.42L26.0122 21.8862L27.01 20.1528L24.4626 18.6866L23.4649 20.42ZM26.5038 24.9261L24.6098 26.9202L26.0599 28.2975L27.954 26.3034L26.5038 24.9261ZM23.4701 27.5591C21.5568 27.748 16.5644 27.5868 11.1455 21.8817L9.69542 23.2591C15.6013 29.4769 21.2348 29.7895 23.6666 29.5495L23.4701 27.5591ZM11.1455 21.8817C5.97737 16.4406 5.11046 11.8509 5.00241 9.83783L3.00529 9.94503C3.13763 12.4107 4.18453 17.4572 9.69542 23.2591L11.1455 21.8817ZM12.9793 13.0323L13.3617 12.6297L11.9116 11.2523L11.5292 11.6549L12.9793 13.0323ZM13.6622 7.617L11.9809 5.23902L10.3478 6.39365L12.0291 8.77163L13.6622 7.617ZM6.29021 4.72635L4.19741 6.92968L5.64752 8.30705L7.74033 6.10373L6.29021 4.72635ZM12.2543 12.3436C11.5292 11.6549 11.5283 11.6559 11.5274 11.6569C11.527 11.6572 11.5261 11.6582 11.5255 11.6589C11.5242 11.6602 11.5229 11.6616 11.5216 11.663C11.519 11.6658 11.5163 11.6688 11.5135 11.6719C11.5079 11.678 11.5019 11.6847 11.4957 11.6919C11.4832 11.7062 11.4695 11.7226 11.4549 11.7411C11.4256 11.7782 11.3924 11.8237 11.3576 11.878C11.2879 11.987 11.2122 12.1306 11.1482 12.3106C11.0179 12.6767 10.9469 13.1615 11.0356 13.7669C11.2099 14.9564 11.9893 16.5561 14.0258 18.7001L15.4759 17.3227C13.5723 15.3186 13.1035 14.0844 13.0145 13.477C12.9716 13.184 13.0152 13.0296 13.0324 12.9811C13.0421 12.9539 13.0485 12.9463 13.0423 12.956C13.0392 12.9607 13.0333 12.9695 13.0232 12.9823C13.0181 12.9886 13.012 12.996 13.0048 13.0044C13.0012 13.0085 12.9972 13.0129 12.993 13.0176C12.9909 13.0199 12.9887 13.0223 12.9864 13.0248C12.9853 13.026 12.9841 13.0272 12.9829 13.0285C12.9823 13.0291 12.9814 13.0301 12.9811 13.0304C12.9802 13.0313 12.9793 13.0323 12.2543 12.3436ZM14.0258 18.7001C16.0562 20.8378 17.5897 21.6782 18.7598 21.8682C19.3601 21.9657 19.8461 21.8878 20.2141 21.7427C20.394 21.6717 20.5363 21.5884 20.6431 21.5127C20.6964 21.4749 20.7407 21.439 20.7766 21.4076C20.7945 21.3919 20.8103 21.3772 20.8241 21.364C20.8309 21.3573 20.8373 21.351 20.8432 21.3451C20.8461 21.3421 20.849 21.3393 20.8516 21.3365C20.853 21.3351 20.8543 21.3337 20.8556 21.3324C20.8562 21.3317 20.8572 21.3308 20.8575 21.3304C20.8584 21.3294 20.8593 21.3285 20.1343 20.6398C19.4092 19.9511 19.4101 19.9501 19.4111 19.9492C19.4113 19.9489 19.4123 19.9479 19.4129 19.9473C19.4141 19.9461 19.4152 19.9448 19.4164 19.9436C19.4187 19.9412 19.421 19.9389 19.4233 19.9366C19.4277 19.9322 19.432 19.928 19.436 19.9241C19.4441 19.9163 19.4513 19.9097 19.4577 19.9041C19.4704 19.8929 19.4799 19.8857 19.486 19.8813C19.4985 19.8725 19.4973 19.8755 19.4803 19.8822C19.4545 19.8923 19.3334 19.9351 19.0804 19.894C18.5436 19.8069 17.3854 19.3331 15.4759 17.3227L14.0258 18.7001ZM11.9809 5.23903C10.6294 3.32758 7.92512 3.0051 6.29021 4.72635L7.74033 6.10373C8.43744 5.3698 9.66468 5.42745 10.3478 6.39365L11.9809 5.23903ZM5.00241 9.83783C4.97384 9.30543 5.20567 8.77224 5.64752 8.30705L4.19741 6.92968C3.48294 7.68188 2.9399 8.7268 3.00529 9.94503L5.00241 9.83783ZM24.6098 26.9202C24.2377 27.3119 23.8485 27.5218 23.4701 27.5591L23.6666 29.5495C24.6627 29.4512 25.4687 28.9199 26.0599 28.2975L24.6098 26.9202ZM13.3617 12.6297C14.6518 11.2715 14.7432 9.14589 13.6622 7.617L12.0291 8.77163C12.592 9.56771 12.5057 10.6269 11.9116 11.2523L13.3617 12.6297ZM26.0122 21.8862C27.1067 22.5161 27.3209 24.0659 26.5038 24.9261L27.954 26.3034C29.6939 24.4716 29.1872 21.406 27.01 20.1528L26.0122 21.8862ZM21.4666 20.6891C21.9805 20.1481 22.7813 20.0265 23.4649 20.42L24.4626 18.6866C22.998 17.8436 21.1815 18.0852 20.0165 19.3118L21.4666 20.6891Z' fill='#181818'/></svg>",
+                        "description": "Telephonic Interview"
+                    },
+                    {
+                        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='33' viewBox='0 0 32 33' fill='none'><circle cx='15.9998' cy='16.6029' r='13.3333' stroke='#181818' stroke-width='2'/><path d='M12 21.9375C13.1338 22.7779 14.5128 23.2708 16 23.2708C17.4872 23.2708 18.8662 22.7779 20 21.9375' stroke='#181818' stroke-width='2' stroke-linecap='round'/><path d='M20.3332 14.6035C20.3332 14.9859 20.228 15.2869 20.1106 15.463C20.0625 15.5351 20.0243 15.5722 19.9998 15.5907C19.9754 15.5722 19.9371 15.5351 19.8891 15.463C19.7716 15.2869 19.6665 14.9859 19.6665 14.6035C19.6665 14.2211 19.7716 13.9202 19.8891 13.744C19.9371 13.6719 19.9754 13.6348 19.9998 13.6163C20.0243 13.6348 20.0625 13.6719 20.1106 13.744C20.228 13.9202 20.3332 14.2211 20.3332 14.6035ZM19.9697 15.6078C19.9697 15.6075 19.9717 15.6066 19.9761 15.6056C19.972 15.6075 19.9698 15.608 19.9697 15.6078ZM20.0236 15.6056C20.0279 15.6066 20.03 15.6075 20.03 15.6078C20.0299 15.608 20.0277 15.6075 20.0236 15.6056ZM20.03 13.5993C20.03 13.5995 20.0279 13.6005 20.0236 13.6014C20.0277 13.5995 20.0299 13.599 20.03 13.5993ZM19.9761 13.6014C19.9717 13.6005 19.9697 13.5995 19.9697 13.5993C19.9698 13.599 19.972 13.5995 19.9761 13.6014Z' fill='#1C274C' stroke='#181818' stroke-width='2'/><mask id='path-4-inside-1_503_763' fill='white'><ellipse cx='11.9998' cy='14.6035' rx='1.33333' ry='2'/></mask><ellipse cx='11.9998' cy='14.6035' rx='1.33333' ry='2' fill='#1C274C'/><path d='M11.3332 14.6035C11.3332 14.816 11.2721 14.9179 11.2785 14.9083C11.2845 14.8994 11.3315 14.8311 11.4474 14.7576C11.5719 14.6786 11.7636 14.6035 11.9998 14.6035V18.6035C13.2448 18.6035 14.1271 17.8466 14.6067 17.1271C15.0957 16.3937 15.3332 15.4956 15.3332 14.6035H11.3332ZM11.9998 14.6035C12.2361 14.6035 12.4278 14.6786 12.5523 14.7576C12.6682 14.8311 12.7152 14.8994 12.7211 14.9083C12.7275 14.9179 12.6665 14.816 12.6665 14.6035H8.6665C8.6665 15.4956 8.90394 16.3937 9.39293 17.1271C9.87259 17.8466 10.7549 18.6035 11.9998 18.6035V14.6035ZM12.6665 14.6035C12.6665 14.391 12.7275 14.2891 12.7211 14.2987C12.7152 14.3077 12.6682 14.3759 12.5523 14.4495C12.4278 14.5284 12.2361 14.6035 11.9998 14.6035V10.6035C10.7549 10.6035 9.87259 11.3604 9.39293 12.0799C8.90394 12.8134 8.6665 13.7115 8.6665 14.6035H12.6665ZM11.9998 14.6035C11.7636 14.6035 11.5719 14.5284 11.4474 14.4495C11.3315 14.3759 11.2845 14.3077 11.2785 14.2987C11.2721 14.2891 11.3332 14.391 11.3332 14.6035H15.3332C15.3332 13.7115 15.0957 12.8134 14.6067 12.0799C14.1271 11.3604 13.2448 10.6035 11.9998 10.6035V14.6035Z' fill='#181818' mask='url(#path-4-inside-1_503_763)'/></svg>",
+                        "description": "Face to Face Interview"
+                    },
+                    {
+                        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='33' viewBox='0 0 32 33' fill='none'><path d='M4 16.6035C4 21.6318 4 26.8127 5.75736 28.3748C7.51472 29.9368 10.3431 29.9368 16 29.9368C21.6569 29.9368 24.4853 29.9368 26.2426 28.3748C28 26.8127 28 21.6318 28 16.6035' stroke='#181818' stroke-width='2'/><path d='M19.5469 19.5394L27.8104 17.0603C28.3583 16.896 28.6322 16.8138 28.835 16.6508C29.0121 16.5085 29.1499 16.3233 29.2353 16.1128C29.3332 15.8717 29.3332 15.5857 29.3332 15.0137C29.3332 12.7639 29.3332 11.639 28.8936 10.7804C28.511 10.0334 27.9033 9.42564 27.1563 9.04314C26.2977 8.60352 25.1728 8.60352 22.923 8.60352H9.07671C6.82687 8.60352 5.70195 8.60352 4.8434 9.04314C4.0964 9.42564 3.48863 10.0334 3.10612 10.7804C2.6665 11.639 2.6665 12.7639 2.6665 15.0137C2.6665 15.5857 2.6665 15.8717 2.76432 16.1128C2.84975 16.3233 2.98756 16.5085 3.16467 16.6508C3.36749 16.8138 3.64141 16.896 4.18925 17.0603L12.4527 19.5394' stroke='#181818' stroke-width='2'/><path d='M18.6665 17.2695H13.3332C12.965 17.2695 12.6665 17.568 12.6665 17.9362V20.8182C12.6665 21.0908 12.8325 21.3359 13.0856 21.4372L14.0191 21.8106C15.2906 22.3192 16.7091 22.3192 17.9806 21.8106L18.9141 21.4372C19.1672 21.3359 19.3332 21.0908 19.3332 20.8182V17.9362C19.3332 17.568 19.0347 17.2695 18.6665 17.2695Z' stroke='#181818' stroke-width='2' stroke-linecap='round'/><path d='M12.228 5.9362C12.7771 4.38261 14.2588 3.26953 16.0004 3.26953C17.742 3.26953 19.2237 4.38261 19.7728 5.9362' stroke='#181818' stroke-width='2' stroke-linecap='round'/></svg>",
+                        "description": "Contextual Study"
+                    }
+                ]
+            }
+        },
+        {
+            "layout": "common_insight",
+            "common_insight": {
+                "title": "Some Common Insights",
+                "insights": [
+                    {
+                        "img": "/assets/img/work/reiki/cancer-patients.jpg",
+                        "img_alt": "Cancer Patients",
+                        "description": [
+                            "“I get carried away by the rumors and misconceptions i hear about the cancer diagnois which affects my state of mind”",
+                            "“The treament schedule is  very complex & Prolonged which makes it hard for me to keep track of ”",
+                            "“Those reports are really hard to understand and learn”",
+                            "“I easily get freaked out whenever experiencing a new symptoms throught the curse of my diagnosis process ”",
+                            "“I really thought my life is already over when I heard about the results ”",
+                            "“I am more worried about my relative and others view when I am being diagnosed with cancer ”"
+                        ]
+                    },
+                    {
+                        "img": "/assets/img/work/reiki/doctor.jpg",
+                        "img_alt": "Doctor",
+                        "description": [
+                            "“The only part where I Struggle the most is motivating my patients without allowing them to feel down”",
+                            "“The most challenging task is convincing the patients about the importance of the diagnosis considering the facts of side effects that comes along with it”",
+                            "“It’s tough to build the trust factor with patients at first go”",
+                            "“Some patients really don’t show their truefeelings or emotions on how they feel”"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "layout": "meet_reiki",
+            "meet_reiki": {
+                "title": "Meet Reiki",
+                "description": "The Word senshi means warrior or fighter in japnese logographic writing system Kanji.The assistant to reflect the patients as every cancer patients can be considered as fighters.",
+                "img": "/assets/img/work/reiki/meet-reiki.jpg",
+                "img_alt": "Meet Reiki",
+                "details": {
+                    "title": "Emotions based Expressions",
+                    "description": "The AI Assistant reactions and behaviour is based upon users mood & how are they feeling right now using the mood tracking feature.The patients current mood are reflected on the assistant’s Face!",
+                    "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'><path d='M7 12V20C7 20.2652 6.89464 20.5196 6.70711 20.7071C6.51957 20.8946 6.26522 21 6 21C5.73478 21 5.48043 20.8946 5.29289 20.7071C5.10536 20.5196 5 20.2652 5 20V12C5 11.7348 5.10536 11.4804 5.29289 11.2929C5.48043 11.1054 5.73478 11 6 11C6.26522 11 6.51957 11.1054 6.70711 11.2929C6.89464 11.4804 7 11.7348 7 12ZM11 3C10.7348 3 10.4804 3.10536 10.2929 3.29289C10.1054 3.48043 10 3.73478 10 4V28C10 28.2652 10.1054 28.5196 10.2929 28.7071C10.4804 28.8946 10.7348 29 11 29C11.2652 29 11.5196 28.8946 11.7071 28.7071C11.8946 28.5196 12 28.2652 12 28V4C12 3.73478 11.8946 3.48043 11.7071 3.29289C11.5196 3.10536 11.2652 3 11 3ZM16 7C15.7348 7 15.4804 7.10536 15.2929 7.29289C15.1054 7.48043 15 7.73478 15 8V24C15 24.2652 15.1054 24.5196 15.2929 24.7071C15.4804 24.8946 15.7348 25 16 25C16.2652 25 16.5196 24.8946 16.7071 24.7071C16.8946 24.5196 17 24.2652 17 24V8C17 7.73478 16.8946 7.48043 16.7071 7.29289C16.5196 7.10536 16.2652 7 16 7ZM21 11C20.7348 11 20.4804 11.1054 20.2929 11.2929C20.1054 11.4804 20 11.7348 20 12V20C20 20.2652 20.1054 20.5196 20.2929 20.7071C20.4804 20.8946 20.7348 21 21 21C21.2652 21 21.5196 20.8946 21.7071 20.7071C21.8946 20.5196 22 20.2652 22 20V12C22 11.7348 21.8946 11.4804 21.7071 11.2929C21.5196 11.1054 21.2652 11 21 11ZM26 9C25.7348 9 25.4804 9.10536 25.2929 9.29289C25.1054 9.48043 25 9.73478 25 10V22C25 22.2652 25.1054 22.5196 25.2929 22.7071C25.4804 22.8946 25.7348 23 26 23C26.2652 23 26.5196 22.8946 26.7071 22.7071C26.8946 22.5196 27 22.2652 27 22V10C27 9.73478 26.8946 9.48043 26.7071 9.29289C26.5196 9.10536 26.2652 9 26 9Z' fill='#D33F89'/></svg>",
+                    "modes": [
+                        {
+                            "title": "Happy",
+                            "img": "/assets/img/work/reiki/mode/happy.jpg",
+                            "img_alt": "Happy"
+                        },
+                        {
+                            "title": "Relieved",
+                            "img": "/assets/img/work/reiki/mode/relieved.jpg",
+                            "img_alt": "Relieved"
+                        },
+                        {
+                            "title": "Sad",
+                            "img": "/assets/img/work/reiki/mode/sad.jpg",
+                            "img_alt": "Sad"
+                        },
+                        {
+                            "title": "Worried",
+                            "img": "/assets/img/work/reiki/mode/worried.jpg",
+                            "img_alt": "Worried"
+                        }
+                    ]
+                }
+            }
         },
         {
             "layout": "refreshed_designs",
             "refreshed_designs": {
                 "title": "Let’s Jump into the designs",
-                "final_outcome": "The redesigned UEM application delivers a significantly improved user experience, allowing IT administrators to manage endpoints more efficiently and effectively. The enhancements to the UI and user flows result in faster task completion, reduced training time, and a more satisfying user experience overall. This case study demonstrates the value of a user-centered approach in addressing existing flaws and creating a product that better serves its users.",
                 "designs": [
                     {
+                        "bg_color": "bg_grey",
                         "tag": "COMPANION",
                         "title": "Visual AI Assistant",
                         "description": "The application is powered by an AI assistant to help and cater users needs whenever possible so it could ease out their effects while using the application.",
-                        "img": "/assets/img/common/enduroom.jpg",
-                        "img_alt": "Enduroom Design system"
+                        "img": "/assets/img/work/reiki/ai-assistant.jpg",
+                        "img_alt": "Visual AI Assistant",
+                        "width": 555
                     },
                     {
+                        "bg_color": "bg_grey",
                         "tag": "COMPANION",
                         "title": "Mood Tracker",
                         "description": "Upon opening the application user can check in how they feel using the mood tracking feature which identifies how the users feel & Curate the content accordingly to make them feel better. With Emotion AI helps to capture the users mood right now through an AI camera.This option can be used by the users when they are unable to express or identify how they feel.",
-                        "img": "/assets/img/common/enduroom.jpg",
-                        "img_alt": "Enduroom Design system"
+                        "img": "/assets/img/work/reiki/mode-tracker.jpg",
+                        "img_alt": "Mood Tracker",
+                        "width": 800
                     },
                     {
+                        "bg_color": "bg_grey",
                         "tag": "HOLD UP",
                         "title": "Discover the Full Case Study on Behance",
                         "description": "For a comprehensive view of my design work, including detailed case studies and insights, please visit my Behance profile. See the full scope of my projects and the impact of the design improvements.",
-                        "img": "/assets/img/common/enduroom.jpg",
-                        "img_alt": "Enduroom Design system"
+                        "is_behance": true,
+                        "behance_data": {
+                            "desc": "Click on the button below to check this case study in behance",
+                            "btn_label": "Visit My Behance Profile",
+                            "btn_url": "https://www.behance.net/gallery/141220245/Reiki-UX-Case-Study-on-Cancer-Patients",
+                            "img": "/assets/img/work/reiki/ai-assistant.jpg",
+                            "img_alt": "Discover the Full Case Study on Behance",
+                            "width": 555,
+                            "height": 450
+                        }
                     }
                 ]
             }

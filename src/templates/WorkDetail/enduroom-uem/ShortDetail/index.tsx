@@ -5,7 +5,6 @@ import { StaticPath } from "@/utils/baseUtils";
 import styles from "./shortDetail.module.scss";
 
 export default function ShortDetail(props: any) {
-    console.log('yes', props);
     return (
         <section className={props?.layoutStyle}>
             <p className={`text-[40px] font-[400] text-black`}>

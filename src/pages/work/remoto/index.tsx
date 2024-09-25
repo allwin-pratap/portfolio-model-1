@@ -7,7 +7,7 @@ import Footer from "@/components/Layout/Footer";
 import WorkDetailIntro from "@/templates/WorkDetail/common/WorkDetailIntro";
 import IssueFaced from '@/templates/WorkDetail/remoto/IssueFaced';
 import HowItWorks from '@/templates/WorkDetail/remoto/HowItWorks';
-import KeyImprovements from '@/templates/WorkDetail/enduroom-uem/KeyImprovements';
+import KeyImprovements from '@/templates/WorkDetail/common/KeyImprovements';
 import RefreshedDesign from "@/templates/WorkDetail/common/RefreshedDesign";
 import NextCaseStudy from "@/templates/WorkDetail/common/NextCaseStudy";
 import NonDisclosureAgree from '@/templates/Home/NonDisclosureAgree';

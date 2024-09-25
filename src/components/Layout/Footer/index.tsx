@@ -1,5 +1,4 @@
 export default function Footer({ data }: any) {
-  console.log(data.copy_rights)
   return (
     <footer className="max-w-[1280px] w-[88%] mx-auto">
       <div className="flex justify-between items-center flex-col md:flex-row pt-[30px] pb-[40px]">

@@ -5,7 +5,7 @@ import AnimatedWrapper from '@/components/AnimatedWrapper';
 import Header from "@/components/Layout/Header";
 import Footer from "@/components/Layout/Footer";
 import WorkDetailIntro from "@/templates/WorkDetail/common/WorkDetailIntro";
-import KeyImprovements from '@/templates/WorkDetail/enduroom-uem/KeyImprovements';
+import KeyImprovements from '@/templates/WorkDetail/common/KeyImprovements';
 import DesignConsideration from '@/templates/WorkDetail/enduroom-uem/DesignConsideration';
 import ShortDetail from '@/templates/WorkDetail/enduroom-uem/ShortDetail';
 import RefreshedDesign from "@/templates/WorkDetail/common/RefreshedDesign";
