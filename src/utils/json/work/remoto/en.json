@@ -29,8 +29,8 @@
             },
             {
                 "label": "Resume",
-                "link": "resume",
-                "target": "_self",
+                "link": "/assets/pdf/resume/resume.pdf",
+                "target": "_blank",
                 "status": ""
             }
         ]
@@ -191,7 +191,7 @@
                 },
                 {
                     "name": "Download Resume",
-                    "url": "",
+                    "url": "/assets/pdf/resume/resume.pdf",
                     "bg_color": "white",
                     "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='20' height='21' viewBox='0 0 20 21' fill='none'><path d='M5 9.7375C5 7.47476 5 6.34339 5.70294 5.64044C6.40589 4.9375 7.53726 4.9375 9.8 4.9375H11C13.2627 4.9375 14.3941 4.9375 15.0971 5.64044C15.8 6.34339 15.8 7.47476 15.8 9.7375V12.1375C15.8 14.4002 15.8 15.5316 15.0971 16.2346C14.3941 16.9375 13.2627 16.9375 11 16.9375H9.8C7.53726 16.9375 6.40589 16.9375 5.70294 16.2346C5 15.5316 5 14.4002 5 12.1375V9.7375Z' stroke='#181818'/><path d='M8 10.9375H12.8' stroke='#181818' strokeLinecap='round'/><path d='M8 8.53711H12.8' stroke='#181818' strokeLinecap='round'/><path d='M8 13.3379H11' stroke='#181818' strokeLinecap='round'/></svg>"
                 }
