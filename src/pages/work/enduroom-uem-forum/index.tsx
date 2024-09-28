@@ -34,7 +34,7 @@ export default function EnduroomUEMForum({ data }: any) {
 
                 {section.layout === 'issue_faced' && (
                   <IssueFaced
-                    layoutStyle={`max-w-[990px] w-[88%] mx-auto my-[75px] p-[40px] bg-[#FAFAFA] border border-[#FAFAFA] rounded-[25px]`}
+                    layoutStyle={`max-w-[990px] w-[88%] mx-auto my-[75px] p-[20px] md:p-[40px] bg-[#FAFAFA] border border-[#FAFAFA] rounded-[25px]`}
                     data={section?.content}
                   />
                 )}
@@ -49,7 +49,7 @@ export default function EnduroomUEMForum({ data }: any) {
 
                 {section.layout === 'refreshed_designs' && (
                   <RefreshedDesign
-                    layoutStyle={`max-w-[990px] w-[88%] mx-auto py-[75px]`}
+                    layoutStyle={`max-w-[990px] w-[88%] mx-auto pt-[75px]`}
                     data={section?.refreshed_designs}
                   />
                 )}

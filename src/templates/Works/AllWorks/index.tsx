@@ -2,6 +2,7 @@ import React from 'react';
 import AnimatedWrapper from '@/components/AnimatedWrapper';
 import ImageLoader from "@/utils/ImageLoader";
 import { StaticPath } from "@/utils/baseUtils";
+import Link from 'next/link';
 
 export default function AllWorks(props: any) {
     return (
@@ -13,9 +14,9 @@ export default function AllWorks(props: any) {
                 {props?.all_works?.map((works: any, index: any) => {
                     return (
                         <React.Fragment key={index}>
-                            <AnimatedWrapper>
-                                <a className={`group flex flex-col border-[1px] border-[#F0F0F0] rounded-[23px] overflow-hidden`} href={works.url} target={works?.target ?? '_self'}>
-                                    <div className={`max-w-[615px] max-h-[400px] lg:h-[400px]`}>
+                            <AnimatedWrapper customStyle={`flex`}>
+                                <Link className={`group flex flex-col border-[1px] border-[#F0F0F0] rounded-[23px] overflow-hidden`} href={works.url} target={works?.target ?? '_self'}>
+                                    <div className={`max-w-[615px] max-h-[400px] lg:h-[400px] overflow-hidden`}>
                                         <ImageLoader
                                             className={`min-h-[265px] max-h-[400px] lg:h-[400px] object-cover transition-all duration-[300ms] ease-in-out scale-[1] group-hover:scale-[1.04]`}
                                             src={StaticPath(works.img)}
@@ -45,7 +46,7 @@ export default function AllWorks(props: any) {
                                             />
                                         </div>
                                     </div>
-                                </a>
+                                </Link>
                             </AnimatedWrapper>
                         </React.Fragment>
                     )

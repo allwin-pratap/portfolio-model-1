@@ -1,5 +1,6 @@
 import ImageLoader from "@/utils/ImageLoader";
 import { StaticPath } from "@/utils/baseUtils";
+import Link from "next/link";
 
 export default function NextCaseStudy(props: any) {
     const { next_case_study, design_system } = props;
@@ -7,7 +8,7 @@ export default function NextCaseStudy(props: any) {
         <section className={`${props?.layoutStyle}`}>
             {
                 (design_system) && (
-                    <div className="flex flex-col md:flex-row items-center border border-[#F1F7FF] bg-[#FAFAFA] rounded-[25px] p-[30px]">
+                    <div className="flex flex-col md:flex-row items-center border border-[#F1F7FF] bg-[#FAFAFA] rounded-[25px] p-[30px] mb-[50px]">
                         <div className="max-w-[360px]">
                             <ImageLoader
                                 className=""
@@ -27,20 +28,21 @@ export default function NextCaseStudy(props: any) {
                     </div>
                 )
             }
-            <div className="flex justify-between pt-[50px]">
-                <div className="flex">
+            <div className="flex justify-between">
+                <Link className="flex group" href={next_case_study?.prev_url}>
                     <div
-                        className="transform rotate-[180deg]"
+                        className="transition-all duration-300 ease-in-out transform rotate-[180deg] pl-[5px] relative group-hover:left-[-3px] left-0"
                         dangerouslySetInnerHTML={{ __html: next_case_study?.svg_icon }}
                     />
-                    <p className="text-[16px] leading-[20px] font-[400] text-black">Back</p>
-                </div>
-                <div className="flex">
-                    <p className="text-[16px] leading-[20px] font-[400] text-black">{next_case_study?.title}</p>
+                    <p className="text-[16px] leading-[20px] font-[400] text-black">{next_case_study?.prev_label}</p>
+                </Link>
+                <Link className="flex justify-center group" href={next_case_study?.next_url}>
+                    <p className="text-[16px] leading-[20px] font-[400] text-black">{next_case_study?.next_label}</p>
                     <div
+                        className="relative transition-all duration-300 ease-in-out pl-[5px] right-0 group-hover:right-[-3px]"
                         dangerouslySetInnerHTML={{ __html: next_case_study?.svg_icon }}
                     />
-                </div>
+                </Link>
             </div>
         </section>
     );

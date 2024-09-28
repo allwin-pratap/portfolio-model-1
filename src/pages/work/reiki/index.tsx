@@ -13,7 +13,7 @@ import CommonInsight from '@/templates/WorkDetail/reiki/CommonInsight';
 import MeetReiki from '@/templates/WorkDetail/reiki/MeetReiki';
 import KeyImprovements from '@/templates/WorkDetail/common/KeyImprovements';
 import RefreshedDesign from "@/templates/WorkDetail/common/RefreshedDesign";
-// import NextCaseStudy from "@/templates/WorkDetail/common/NextCaseStudy";
+import NextCaseStudy from "@/templates/WorkDetail/common/NextCaseStudy";
 // import NonDisclosureAgree from '@/templates/Home/NonDisclosureAgree';
 import ContactMe from '@/templates/Home/ContactMe';
 
@@ -91,17 +91,17 @@ export default function Reiki({ data }: any) {
 
                 {section.layout === 'refreshed_designs' && (
                   <RefreshedDesign
-                    layoutStyle={`max-w-[990px] w-[88%] mx-auto py-[75px]`}
+                    layoutStyle={`max-w-[990px] w-[88%] mx-auto pt-[75px]`}
                     data={section?.refreshed_designs}
                   />
                 )}
 
-                {/* {section.layout === 'next_case_study' && (
+                {section.layout === 'next_case_study' && (
                   <NextCaseStudy
                     layoutStyle={`max-w-[990px] w-[88%] mx-auto py-[75px]`}
                     next_case_study={section?.next_case_study}
                   />
-                )} */}
+                )}
 
                 {/* {section.layout === 'non_disclosure_agreement' && (
                   <NonDisclosureAgree

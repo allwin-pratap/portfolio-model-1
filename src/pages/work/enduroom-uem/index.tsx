@@ -57,7 +57,7 @@ export default function EnduroomUEM({ data }: any) {
 
                 {section.layout === 'refreshed_designs' && (
                   <RefreshedDesign
-                    layoutStyle={`max-w-[990px] w-[88%] mx-auto py-[75px]`}
+                    layoutStyle={`max-w-[990px] w-[88%] mx-auto pt-[75px]`}
                     data={section?.refreshed_designs}
                   />
                 )}

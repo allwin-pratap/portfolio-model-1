@@ -233,7 +233,7 @@
                         "tag": "COMPANION",
                         "title": "Visual AI Assistant",
                         "description": "The application is powered by an AI assistant to help and cater users needs whenever possible so it could ease out their effects while using the application.",
-                        "img": "/assets/img/work/reiki/ai-assistant.jpg",
+                        "img": "/assets/img/work/reiki/ai-assistant.png",
                         "img_alt": "Visual AI Assistant",
                         "width": 555
                     },
@@ -242,7 +242,7 @@
                         "tag": "COMPANION",
                         "title": "Mood Tracker",
                         "description": "Upon opening the application user can check in how they feel using the mood tracking feature which identifies how the users feel & Curate the content accordingly to make them feel better. With Emotion AI helps to capture the users mood right now through an AI camera.This option can be used by the users when they are unable to express or identify how they feel.",
-                        "img": "/assets/img/work/reiki/mode-tracker.jpg",
+                        "img": "/assets/img/work/reiki/mode-tracker.png",
                         "img_alt": "Mood Tracker",
                         "width": 800
                     },
@@ -251,7 +251,7 @@
                         "tag": "HOLD UP",
                         "title": "Discover the Full Case Study on Behance",
                         "description": "For a comprehensive view of my design work, including detailed case studies and insights, please visit my Behance profile. See the full scope of my projects and the impact of the design improvements.",
-                        "is_behance": true,
+                        "type": "behance",
                         "behance_data": {
                             "desc": "Click on the button below to check this case study in behance",
                             "btn_label": "Visit My Behance Profile",
@@ -268,10 +268,10 @@
         {
             "layout": "next_case_study",
             "next_case_study": {
-                "title": "Enduroom Design system",
-                "description": "Carefully curated design system to maintain the consistency across all platforms and devices.",
-                "img": "/assets/img/common/enduroom.jpg",
-                "img_alt": "Enduroom Design system",
+                "prev_label": "Remoto",
+                "prev_url": "/work/remoto",
+                "next_label": "Enduroom UEM",
+                "next_url": "/work/enduroom-uem",
                 "svg_icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M4 12H20M20 12L14 6M20 12L14 18' stroke='#181818' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>"
             }
         },

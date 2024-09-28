@@ -53,20 +53,21 @@ const ProjectSlider = (props: any) => {
 				</p>
 				<Slider ref={slickRef} {...settings} className={`my-[35px]`}>
 					{props?.images.length > 0 && props?.images?.map((item: any, i: number) => (
-						<Link
+						<div
 							key={i}
-							href={item?.link}
+							// href={item?.link}
 							className={``}
 							// href={item?.badge_link}
-							target={`_blank`}>
+							// target={`_blank`}
+							>
 							<ImageLoader
-								className={`object-contain sm:max-w-[580px] lg:max-h-[415px] h-[415px] bg-black`}
+								className={`object-contain sm:max-w-[580px] lg:max-h-[415px] h-[415px]`}
 								src={StaticPath(item?.src)}
 								alt={item?.alt_values}
 								width={580}
 								height={415}
 							/>
-						</Link>
+						</div>
 					))}
 				</Slider>
 			</div>
