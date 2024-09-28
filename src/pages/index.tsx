@@ -13,7 +13,6 @@ import NonDisclosureAgree from '@/templates/Home/NonDisclosureAgree';
 import ContactMe from '@/templates/Home/ContactMe';
 
 export default function Home({ data }: any) {
-  // console.log('data from props:', data);
 
   return (
     <main>

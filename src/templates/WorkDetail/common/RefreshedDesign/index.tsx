@@ -9,7 +9,6 @@ export default function RefreshedDesign(props: any) {
     const { data } = props;
 
     const renderDesignContent = (design: any) => {
-        console.log(design)
         switch (design?.type) {
             case "behance":
                 return (
