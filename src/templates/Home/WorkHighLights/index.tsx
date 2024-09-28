@@ -7,7 +7,7 @@ import Link from 'next/link';
 export default function WorkHighLights(props: any) {
     return (
         <section className={props?.layoutStyle}>
-            <p className={`text-[32px] font-[400] text-black`}>
+            <p className={`text-[32px] font-[400] text-black pb-[5px] border-b border-[#F1F7FF]`}>
                 {props?.title}
             </p>
             <div className="grid grid-cols-2 gap-[30px] lg:gap-[50px] mt-[30px]">

@@ -7,7 +7,7 @@ export default function CommonInsight(props: any) {
     const { data } = props;
     return (
         <section className={`${props?.layoutStyle}`}>
-            <p className={`text-[30px] font-[400] leading-[1.25] text-[#000]`}>{data?.title}</p>
+            <p className={`text-[30px] font-[400] leading-[1.25] text-[#000] pb-[5px] border-b border-[#F1F7FF]`}>{data?.title}</p>
             <div className="grid grid-cols-1 gap-[30px] mt-[80px]">
                 {data?.insights.map((detail: any, index: any) => {
                     return (

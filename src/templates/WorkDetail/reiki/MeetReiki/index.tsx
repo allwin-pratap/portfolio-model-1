@@ -7,7 +7,7 @@ export default function MeetReiki(props: any) {
     const { data } = props;
     return (
         <section className={`${props?.layoutStyle}`}>
-            <p className={`text-[40px] font-[400] leading-[1.25] text-[#000]`}>{data?.title}</p>
+            <p className={`text-[40px] font-[400] leading-[1.25] text-[#000] pb-[5px] border-b border-[#F1F7FF]`}>{data?.title}</p>
             <div className="flex flex-col md:flex-row justify-center items-center bg-[#FDFCFF] border border-solid border-[#F1F7FF] rounded-[25px] gap-[50px] p-[30px] mt-[80px]">
                 <div className="max-w-[165px] w-full">
                     <ImageLoader

@@ -6,7 +6,7 @@ import { StaticPath } from "@/utils/baseUtils";
 export default function ImageGrid(props: any) {
     return (
         <section className={props?.layoutStyle}>
-            <p className={`text-[40px] font-[400] text-black`}>
+            <p className={`text-[40px] font-[400] text-black pb-[5px] border-b border-[#F1F7FF]`}>
                 {props?.title}
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[30px] mt-[50px]">

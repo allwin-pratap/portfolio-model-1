@@ -6,7 +6,7 @@ import { StaticPath } from "@/utils/baseUtils";
 export default function UserResearch(props: any) {
     return (
         <section className={`${props?.layoutStyle} px-[30px] py-[40px]`}>
-            <p className={`text-[40px] leading-[57px] font-[400] text-black`}>
+            <p className={`text-[40px] leading-[57px] font-[400] text-black pb-[5px] border-b border-[#F1F7FF]`}>
                 {props?.data?.title}
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-[30px] mt-[80px]">

@@ -71,7 +71,7 @@ export default function RefreshedDesign(props: any) {
 
     return (
         <section className={`${props?.layoutStyle}`}>
-            <p className={`text-[40px] font-[400] leading-[1.25] text-black`}>{data?.title}</p>
+            <p className={`text-[40px] font-[400] leading-[1.25] text-black pb-[5px] border-b border-[#F1F7FF]`}>{data?.title}</p>
             <div className="pt-[80px]">
                 {data?.designs?.map((design: any, index: any) => {
                     return (
