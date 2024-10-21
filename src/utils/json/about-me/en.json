@@ -39,7 +39,7 @@
         {
             "layout": "about_intro",
             "title": "I’m Karthik",
-            "run_image": "/assets/img/common/runner-ill.jpg",
+            "run_image": "/assets/img/common/runner.svg",
             "run_image_alt": "Running Image",
             "hi_icon": "/assets/img/home/hi-msg.svg",
             "description": [

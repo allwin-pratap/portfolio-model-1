@@ -38,7 +38,7 @@
     "pageData": [
         {
             "layout": "hero_stripe",
-            "runner_img": "/assets/img/home/runner.jpg",
+            "runner_img": "/assets/img/home/runner.svg",
             "runner_img_alt": "Karthik MR",
             "hi_icon":"/assets/img/home/hi-msg.svg"
         },
