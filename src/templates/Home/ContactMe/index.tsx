@@ -4,7 +4,7 @@ export default function ContactMe(props: any) {
     return (
         <section className={`bg-[#fff] pt-[35px]`}>
             <div className={`${props?.layoutStyle}`}>
-                <div className={`flex`}>
+                <div className={`flex items-center`}>
                     <p className={`text-[26px] font-[400] text-black mr-[5px]`}>{props?.title}</p>
                     <div
                         dangerouslySetInnerHTML={{ __html: props?.svg_icon }}
