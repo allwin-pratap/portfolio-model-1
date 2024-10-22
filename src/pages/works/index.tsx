@@ -31,20 +31,20 @@ export default function Works({ data }: any) {
                   />
                 )}
 
+                {section.layout === 'beautiful_design' && (
+                  <ImageGrid
+                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[150px] pb-[50px]`}
+                    title={section?.title}
+                    images={section?.images}
+                  />
+                )}
+
                 {section.layout === 'full_works' && (
                   <AllWorks
                     layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[75px] pb-[50px]`}
                     title={section?.title}
                     svg_icon={section?.svg_icon}
                     all_works={section?.all_works}
-                  />
-                )}
-
-                {section.layout === 'beautiful_design' && (
-                  <ImageGrid
-                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[75px] pb-[50px]`}
-                    title={section?.title}
-                    images={section?.images}
                   />
                 )}
 
@@ -66,7 +66,7 @@ export default function Works({ data }: any) {
 
                 {section.layout === 'contact_me' && (
                   <ContactMe
-                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto bg-[#FAFAFA] rounded-[25px] p-[40px]`}
+                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto bg-[#FAFAFA] rounded-[25px] p-[40px] mt-[50px]`}
                     title={section?.title}
                     description={section?.description}
                     svg_icon={section?.svg_icon}

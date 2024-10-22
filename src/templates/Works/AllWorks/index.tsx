@@ -38,8 +38,14 @@ export default function AllWorks(props: any) {
                                             <p className={`text-[18px] font-[300] leading-[24px] text-black${index < 2 ? '' : ' min-h-[72px]'}`}>{works?.description}</p>
                                         </div>
                                         <div className="flex items-center">
-                                            {(works?.behance_redirect) && (
-                                                <p className="text-[20px] font-[400] leading-[24px] text-black pr-[5px]"> Visit Behance</p>
+                                            {(works?.behance_redirect) ? (
+                                                <p className="text-[20px] font-[400] leading-[24px] text-black pr-[5px]">
+                                                    Visit Behance
+                                                </p>
+                                            ) : (
+                                                <p className="text-[20px] font-[400] leading-[24px] text-black pr-[5px]">
+                                                    View Case Study
+                                                </p>
                                             )}
                                             <div
                                                 dangerouslySetInnerHTML={{ __html: props?.svg_icon }}
