@@ -7,7 +7,7 @@ import Link from 'next/link';
 export default function WorkHighLights(props: any) {
     return (
         <section className={props?.layoutStyle}>
-            <p className={`text-[32px] font-[400] text-black pb-[5px] border-b border-[#F1F7FF]`}>
+            <p className={`text-[32px] font-[400] text-black pb-[5px] border-b border-[#E7EDF5]`}>
                 {props?.title}
             </p>
             <div className="grid grid-cols-2 gap-[30px] lg:gap-[50px] mt-[30px]">
@@ -51,7 +51,7 @@ export default function WorkHighLights(props: any) {
             <div className="flex justify-center mt-[50px]">
                 <Link
                     href="/works/"
-                    className={`inline-block text-[#fff] text-[24px] font-[400] bg-black rounded-[55px] px-[20px] py-[15px]`}>
+                    className={`inline-block text-[#fff] text-[18px] font-[400] bg-black rounded-[55px] px-[25px] py-[15px]`}>
                     View Works
                 </Link>
             </div>

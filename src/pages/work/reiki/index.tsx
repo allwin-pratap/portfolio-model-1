@@ -114,7 +114,7 @@ export default function Reiki({ data }: any) {
 
                 {section.layout === 'contact_me' && (
                   <ContactMe
-                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto bg-[#F4F3F4] rounded-[25px] p-[40px] mt-[50px]`}
+                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto bg-[#FAFAFA] rounded-[25px] p-[40px]`}
                     title={section?.title}
                     description={section?.description}
                     svg_icon={section?.svg_icon}

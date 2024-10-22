@@ -7,8 +7,8 @@ export default function MeetReiki(props: any) {
     const { data } = props;
     return (
         <section className={`${props?.layoutStyle}`}>
-            <p className={`text-[40px] font-[400] leading-[1.25] text-[#000] pb-[5px] border-b border-[#F1F7FF]`}>{data?.title}</p>
-            <div className="flex flex-col md:flex-row justify-center items-center bg-[#FDFCFF] border border-solid border-[#F1F7FF] rounded-[25px] gap-[50px] p-[30px] mt-[80px]">
+            <p className={`text-[40px] font-[400] leading-[1.25] text-[#000] pb-[5px] border-b border-[#E7EDF5]`}>{data?.title}</p>
+            <div className="flex flex-col md:flex-row justify-center items-center bg-[#FDFCFF] border border-solid border-[#E7EDF5] rounded-[25px] gap-[50px] p-[30px] mt-[80px]">
                 <div className="max-w-[165px] w-full">
                     <ImageLoader
                         className="rounded-[25px]"
@@ -22,7 +22,7 @@ export default function MeetReiki(props: any) {
                     {data?.description}
                 </p>
             </div>
-            <div className='border border-solid border-[#F1F7FF] p-[30px] rounded-[25px] mt-[80px]'>
+            <div className='border border-solid border-[#E7EDF5] p-[30px] rounded-[25px] mt-[80px]'>
                 <div className='flex flex-col sm:flex-row sm:items-center gap-[10px] pb-[20px]'>
                     <div
                         dangerouslySetInnerHTML={{ __html: data?.details?.icon }}
@@ -34,7 +34,7 @@ export default function MeetReiki(props: any) {
                     {data?.details?.modes.map((mode: any, index: any) => {
                         return (
                             <React.Fragment key={index}>
-                                <AnimatedWrapper customStyle={`flex items-center justify-center border border-solid border-[#F1F7FF] p-[30px] rounded-[25px]`}>
+                                <AnimatedWrapper customStyle={`flex items-center justify-center border border-solid border-[#E7EDF5] p-[30px] rounded-[25px]`}>
                                     <div className={`flex flex-col justify-center items-center gap-[20px]`}>
                                         <div className='max-w-[315px] w-full'>
                                             <ImageLoader

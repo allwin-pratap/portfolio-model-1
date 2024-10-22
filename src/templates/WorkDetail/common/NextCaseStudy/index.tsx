@@ -8,7 +8,7 @@ export default function NextCaseStudy(props: any) {
         <section className={`${props?.layoutStyle}`}>
             {
                 (design_system) && (
-                    <div className="flex flex-col md:flex-row items-center border border-[#F1F7FF] bg-[#FAFAFA] rounded-[25px] p-[30px] mb-[50px]">
+                    <div className="flex flex-col md:flex-row items-center border border-[#E7EDF5] bg-[#FAFAFA] rounded-[25px] p-[30px] mb-[50px]">
                         <div className="max-w-[360px]">
                             <ImageLoader
                                 className=""

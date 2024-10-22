@@ -22,7 +22,7 @@ export default function WorkDetailIntro(props: any) {
             </div>
             <div className="">
                 <ImageLoader
-                    className="border border-[#F1F7FF] bg-[#FAFAFA] rounded-[25px]"
+                    className="border border-[#E7EDF5] bg-[#FAFAFA] rounded-[25px]"
                     src={StaticPath(data?.img)}
                     alt={data?.img_alt}
                     width={1280}

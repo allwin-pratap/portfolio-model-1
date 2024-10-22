@@ -7,12 +7,12 @@ export default function CommonInsight(props: any) {
     const { data } = props;
     return (
         <section className={`${props?.layoutStyle}`}>
-            <p className={`text-[30px] font-[400] leading-[1.25] text-[#000] pb-[5px] border-b border-[#F1F7FF]`}>{data?.title}</p>
+            <p className={`text-[30px] font-[400] leading-[1.25] text-[#000] pb-[5px] border-b border-[#E7EDF5]`}>{data?.title}</p>
             <div className="grid grid-cols-1 gap-[30px] mt-[80px]">
                 {data?.insights.map((detail: any, index: any) => {
                     return (
                         <React.Fragment key={index}>
-                            <AnimatedWrapper customStyle={`flex border border-solid border-[#F1F7FF] p-[30px] rounded-[25px]`}>
+                            <AnimatedWrapper customStyle={`flex border border-solid border-[#E7EDF5] p-[30px] rounded-[25px]`}>
                                 <div className={`flex flex-col md:flex-row max-md:justify-center max-md:items-center gap-[50px]`}>
                                     <div className='w-full bg-[#FAFAFA] rounded-[25px]'>
                                         <ImageLoader

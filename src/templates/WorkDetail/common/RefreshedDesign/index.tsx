@@ -32,7 +32,7 @@ export default function RefreshedDesign(props: any) {
                             design?.improved.map((improve: any, index: any) => {
                                 return (
                                     <React.Fragment key={index}>
-                                        <AnimatedWrapper customStyle={`flex flex-col border border-[#F1F7FF] rounded-[20px] md:py-[30px] md:px-[20px] ${index == 0 ? 'lg:row-span-2 lg:col-start-1 lg:row-start-2' : ''} ${index == 1 ? 'lg:row-span-2 lg:col-start-2 lg:row-start-1' : ''} ${index == 2 ? 'lg:row-span-2 lg:col-start-2 lg:row-start-3' : ''} ${index == 3 ? 'lg:row-span-2 lg:col-start-3 lg:row-start-2' : ''}`}>
+                                        <AnimatedWrapper customStyle={`flex flex-col border border-[#E7EDF5] rounded-[20px] md:py-[30px] md:px-[20px] ${index == 0 ? 'lg:row-span-2 lg:col-start-1 lg:row-start-2' : ''} ${index == 1 ? 'lg:row-span-2 lg:col-start-2 lg:row-start-1' : ''} ${index == 2 ? 'lg:row-span-2 lg:col-start-2 lg:row-start-3' : ''} ${index == 3 ? 'lg:row-span-2 lg:col-start-3 lg:row-start-2' : ''}`}>
                                             <div>
                                                 <ImageLoader
                                                     src={StaticPath(improve?.img)}
@@ -70,7 +70,7 @@ export default function RefreshedDesign(props: any) {
 
     return (
         <section className={`${props?.layoutStyle}`}>
-            <p className={`text-[40px] font-[400] leading-[1.25] text-black pb-[5px] border-b border-[#F1F7FF]`}>{data?.title}</p>
+            <p className={`text-[40px] font-[400] leading-[1.25] text-black pb-[5px] border-b border-[#E7EDF5]`}>{data?.title}</p>
             <div className="pt-[80px]">
                 {data?.designs?.map((design: any, index: any) => {
                     return (
@@ -81,7 +81,7 @@ export default function RefreshedDesign(props: any) {
                                     <p className={`text-[36px] leading-[42px] font-[400] text-black text-center pt-[20px] pb-[10px]`}>{design?.title}</p>
                                     <p className={`text-[20px] leading-[30px] font-[300] text-[#595959] text-center`}>{design?.description}</p>
                                 </div>
-                                <div className={`mt-[60px] border border-[#F1F7FF] rounded-[25px] p-[35px] md:p-[55px] lg:p-[70px] ${styles[`${design?.bg_color}`]}`}>
+                                <div className={`mt-[60px] border border-[#E7EDF5] rounded-[25px] p-[35px] md:p-[55px] lg:p-[70px] ${styles[`${design?.bg_color}`]}`}>
                                     {
                                         renderDesignContent(design)
                                     }

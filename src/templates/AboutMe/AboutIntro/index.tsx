@@ -7,7 +7,7 @@ export default function AboutIntro(props: any) {
         <section className={`${props?.layoutStyle}`}>
             <div className="flex flex-col lg:flex-row justify-between sm:gap-[40px]">
                 <div className="flex flex-col justify-between">
-                    <div className="relative shrink-0 border border-[#F1F7FF] rounded-[25px]">
+                    <div className="relative shrink-0 border border-[#E7EDF5] rounded-[25px] bg-[#FAFAFA]">
                         <ImageLoader
                             className=""
                             src={StaticPath(props?.run_image)}
@@ -25,7 +25,7 @@ export default function AboutIntro(props: any) {
                             />
                         </div>
                     </div>
-                    <div className="grid grid-cols-4 sm:gap-[40px] py-[20px] sm:py-[40px] mt-[40px] border border-[#F1F7FF] rounded-[25px]">
+                    <div className="grid grid-cols-4 sm:gap-[40px] py-[20px] sm:py-[40px] mt-[40px] border border-[#E7EDF5] rounded-[25px] bg-[#fff]">
                         {props?.social_connect?.map((social: any, index: any) => {
                             return (
                                 <a key={index} className={`flex justify-center px-[20px] sm:px-[50px]`} href={social.link} target={social?.target ?? '_self'}>
@@ -37,7 +37,7 @@ export default function AboutIntro(props: any) {
                         })}
                     </div>
                 </div>
-                <div className="lg:max-w-[615px] border border-[#F1F7FF] rounded-[25px] py-[20px] px-[30px] sm:p-[40px] max-lg:mt-[40px]">
+                <div className="lg:max-w-[615px] border border-[#E7EDF5] rounded-[25px] py-[20px] px-[30px] sm:p-[40px] max-lg:mt-[40px] bg-[#fff]">
                     <p className={`text-[32px] font-[400] text-black`}>{props?.title}</p>
                     {props?.description?.map((desc: any, index: any) => {
                         return (

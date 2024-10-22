@@ -64,12 +64,12 @@
                     "img_alt": "Enduroom UEM"
                 },
                 {
-                    "title":"Enduroom Forum",
+                    "title":"Enduroom",
                     "description": "A design system for the UEM app, providing a cohesive and scalable framework for consistent and efficient UI/UX development.",
                     "tags": ["UX/UI", "Web Designs"],
                     "url": "work/enduroom-uem",
                     "img": "/assets/img/works/all-works/enduroom.jpg",
-                    "img_alt": "Enduroom Forum"
+                    "img_alt": "Enduroom"
                 },
                 {
                     "title":"Remoto",
@@ -90,7 +90,7 @@
             ]
         },
         {
-            "layout": "image_with_title",
+            "layout": "image_with_title_hidden",
             "title": "Cross-Platform Creativity: Designs That Fit Everywhere",
             "img": "/assets/img/works/kevinryan.jpg",
             "img_alt": "Enduroom Design system"
@@ -159,7 +159,7 @@
         }
     ],
     "footer": {
-        "copy_rights": "2024. All Rights Reserved",
+        "copy_rights": "Copyright © 2024. All Rights Reserved",
         "links": [
             {
                 "name": "Linkedin",

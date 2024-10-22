@@ -7,7 +7,7 @@ import Link from 'next/link';
 export default function AllWorks(props: any) {
     return (
         <section className={props?.layoutStyle}>
-            <p className={`text-[40px] font-[400] text-black pb-[5px] border-b border-[#F1F7FF]`}>
+            <p className={`text-[40px] font-[400] text-black pb-[5px] border-b border-[#E7EDF5]`}>
                 {props?.title}
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[50px] mt-[80px]">

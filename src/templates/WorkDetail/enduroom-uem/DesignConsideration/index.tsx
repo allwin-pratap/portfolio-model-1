@@ -4,10 +4,10 @@ import { StaticPath } from "@/utils/baseUtils";
 export default function DesignConsideration(props: any) {
     return (
         <section className={props?.layoutStyle}>
-            <p className={`text-[40px] font-[400] text-black pb-[5px] border-b border-[#F1F7FF]`}>
+            <p className={`text-[40px] font-[400] text-black pb-[5px] border-b border-[#E7EDF5]`}>
                 {props?.data?.title}
             </p>
-            <div className="mt-[40px] p-[20px] sm:p-[40px] bg-[#FFF] border border-[#FAFAFA] rounded-[25px] bg-[#FAF8F7] relative">
+            <div className="mt-[40px] p-[20px] sm:p-[40px] bg-[#FFF] border border-[#E7EDF5] rounded-[25px] bg-[#FAF8F7] relative">
                 <div className="relative z-[10]">
                     {props?.data?.design_consider?.map((consider: any, index: any) => {
                         return (

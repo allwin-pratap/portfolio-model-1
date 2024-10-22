@@ -186,12 +186,12 @@
             "svg_icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M4 12H20M20 12L14 6M20 12L14 18' stroke='#181818' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>",
             "all_works": [
                 {
-                    "title":"Enduroom Forum",
+                    "title":"Enduroom",
                     "description": "A design system for the UEM app, providing a cohesive and scalable framework for consistent and efficient UI/UX development.",
                     "tags": ["UX/UI", "Web Designs"],
                     "url": "work/enduroom-uem-forum",
                     "img": "/assets/img/works/all-works/enduroom.jpg",
-                    "img_alt": "Enduroom Forum"
+                    "img_alt": "Enduroom"
                 },
                 {
                     "title":"Remoto",
@@ -239,14 +239,6 @@
                     "target": "_blank",
                     "img": "/assets/img/works/all-works/express-news.jpg",
                     "img_alt": "Express News"
-                },
-                {
-                    "title":"Enduroom Design System",
-                    "description": "Carefully curated design system to maintain the consistency across all platforms and devices.",
-                    "tags": ["Design System"],
-                    "url": "",
-                    "img": "/assets/img/works/all-works/enduroom-design-system.jpg",
-                    "img_alt": "Enduroom Design System"
                 }
             ]
         },
@@ -272,7 +264,7 @@
         }
     ],
     "footer": {
-        "copy_rights": "2024. All Rights Reserved",
+        "copy_rights": "Copyright © 2024. All Rights Reserved",
         "links": [
             {
                 "name": "Linkedin",

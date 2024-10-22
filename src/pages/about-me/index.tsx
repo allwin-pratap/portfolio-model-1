@@ -11,7 +11,7 @@ import ContactMe from '@/templates/Home/ContactMe';
 
 export default function AboutMe({ data }: any) {
   return (
-    <main>
+    <main className="bg-[url('./../../public/assets/img/dots.svg')] bg-center bg-repeat bg-auto bg-center h-full w-full">
       <Header
         data={data?.header}
         darkHeader={false}
@@ -52,7 +52,7 @@ export default function AboutMe({ data }: any) {
 
                 {section.layout === 'contact_me' && (
                   <ContactMe
-                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto bg-[#F4F3F4] rounded-[25px] p-[40px] mt-[50px]`}
+                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto bg-[#FAFAFA] rounded-[25px] p-[40px]`}
                     title={section?.title}
                     description={section?.description}
                     svg_icon={section?.svg_icon}

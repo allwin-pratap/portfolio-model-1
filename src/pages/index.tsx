@@ -15,7 +15,7 @@ import ContactMe from '@/templates/Home/ContactMe';
 export default function Home({ data }: any) {
 
   return (
-    <main>
+    <main className="">
       <Header
         // headerStyles={`!bg-[#030C22]`}
         data={data?.header}
@@ -30,7 +30,7 @@ export default function Home({ data }: any) {
               <AnimatedWrapper>
                 {section.layout === 'hero_stripe' && (
                   <HeroStripe
-                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto pt-[150px]`}
+                    layoutStyle={`bg-[url('./../../public/assets/img/dots.svg')] pt-[150px] bg-center bg-repeat bg-auto bg-center h-full w-full`}
                     runner_img={section?.runner_img}
                     runner_img_alt={section?.runner_img_alt}
                     hi_icon={section?.hi_icon}
@@ -39,7 +39,7 @@ export default function Home({ data }: any) {
 
                 {section.layout === 'self_intro' && (
                   <Intro
-                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto py-[30px] md:py-[60px]`}
+                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto py-[30px] md:py-[60px] bg-[url('./../../public/assets/img/dots.svg')] bg-center bg-repeat bg-auto bg-center h-full w-full`}
                     title={section?.title}
                     job_role={section?.job_role}
                     description={section?.description}
@@ -86,7 +86,7 @@ export default function Home({ data }: any) {
 
                 {section.layout === 'contact_me' && (
                   <ContactMe
-                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto bg-[#F4F3F4] rounded-[25px] p-[40px] mt-[50px]`}
+                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto bg-[#FAFAFA] rounded-[25px] p-[40px]`}
                     title={section?.title}
                     description={section?.description}
                     svg_icon={section?.svg_icon}

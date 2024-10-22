@@ -194,12 +194,12 @@
                     "img_alt": "Enduroom UEM"
                 },
                 {
-                    "title":"Enduroom Forum",
+                    "title":"Enduroom",
                     "description": "A design system for the UEM app, providing a cohesive and scalable framework for consistent and efficient UI/UX development.",
                     "tags": ["UX/UI", "Web Designs"],
                     "url": "work/enduroom-uem-forum",
                     "img": "/assets/img/works/all-works/enduroom.jpg",
-                    "img_alt": "Enduroom Forum"
+                    "img_alt": "Enduroom"
                 },
                 {
                     "title":"Remoto",
@@ -280,7 +280,7 @@
         }
     ],
     "footer": {
-        "copy_rights": "2024. All Rights Reserved",
+        "copy_rights": "Copyright © 2024. All Rights Reserved",
         "links": [
             {
                 "name": "Linkedin",
