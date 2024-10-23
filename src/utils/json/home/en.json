@@ -82,10 +82,10 @@
             ]
         },
         {
-            "layout": "image_with_title_hidden",
+            "layout": "image_with_title",
             "title": "Cross-Platform Creativity: Designs That Fit Everywhere",
-            "img": "/assets/img/works/kevinryan.jpg",
-            "img_alt": "Enduroom Design system"
+            "img": "/assets/img/works/cross-platform.png",
+            "img_alt": "Enduroom"
         },
         {
             "layout": "image_slider",

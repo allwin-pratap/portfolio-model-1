@@ -23,8 +23,8 @@ export default function AppoarchMethod(props: any) {
                         {props?.my_stack?.lists.map((item: any, index: any) => {
                             return (
                                 <React.Fragment key={index}>
-                                    <AnimatedWrapper>
-                                        <div className="flex flex-col items-center justify-center border border-[#E7EDF5] rounded-[25px] p-[30px] max-w-[178px] w-full mx-auto">
+                                    <AnimatedWrapper customStyle={`flex`}>
+                                        <div className="flex flex-col items-center justify-between border border-[#E7EDF5] rounded-[25px] p-[30px] max-w-[178px] w-full mx-auto">
                                             <ImageLoader
                                                 className=""
                                                 src={StaticPath(item?.icon)}
@@ -32,7 +32,7 @@ export default function AppoarchMethod(props: any) {
                                                 width={item?.width}
                                                 height={85}
                                             />
-                                            <p className={`text-[20px] leading-[30px] font-[400] text-black pt-[30px]`}>{item?.label}</p>
+                                            <p className={`text-[20px] leading-[30px] font-[400] text-black pt-[30px] whitespace-nowrap`}>{item?.label}</p>
                                         </div>
                                     </AnimatedWrapper>
                                 </React.Fragment>

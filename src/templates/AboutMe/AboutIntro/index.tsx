@@ -29,7 +29,7 @@ export default function AboutIntro(props: any) {
                         {props?.social_connect?.map((social: any, index: any) => {
                             return (
                                 <a key={index} className={`flex justify-center px-[20px] sm:px-[50px]`} href={social.link} target={social?.target ?? '_self'}>
-                                    <div className={`h-[44px] w-[44px] flex justify-center items-center ${styles['svg_wrapper']}`}
+                                    <div className={`h-[44px] w-[44px] flex justify-center items-center ${styles['svg_wrapper']} ${styles[`${social?.class_name}`]}`}
                                         dangerouslySetInnerHTML={{ __html: social?.svg_icon }}
                                     />
                                 </a>

@@ -26,7 +26,7 @@ export default function WorkHighLights(props: any) {
                                             height={264}
                                         />
                                     </div>
-                                    <div className={`flex gap-[20px] lg:gap-[30px] border-t-[1px] border-[#F0F0F0] p-[30px]${index < 2 ? ' flex-col md:flex-row md:justify-between md:items-center' : ' flex-col'}`}>
+                                    <div className={`flex gap-[20px] lg:gap-[30px] border-t-[1px] border-[#F0F0F0] p-[30px]${index < 1 ? ' flex-col md:flex-row md:justify-between md:items-center' : ' flex-col'}`}>
                                         <div>
                                             <div className="flex gap-[10px]">
                                                 {works?.tags?.map((tag: any, index: any) => {
@@ -36,7 +36,7 @@ export default function WorkHighLights(props: any) {
                                                 })}
                                             </div>
                                             <p className="text-[24px] font-[400] text-black pt-[10px] pb-[5px]">{works.title}</p>
-                                            <p className={`text-[18px] font-[300] leading-[24px] text-black${index < 2 ? '' : ' md:min-h-[72px]'}`}>{works.description}</p>
+                                            <p className={`text-[18px] font-[300] leading-[24px] text-black${index < 1 ? '' : ' md:min-h-[72px]'}`}>{works.description}</p>
                                         </div>
                                         <div
                                             dangerouslySetInnerHTML={{ __html: props?.svg_icon }}

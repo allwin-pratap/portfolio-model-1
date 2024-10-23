@@ -2,5 +2,21 @@
   svg {
     max-width: 44px;
     height: 44px;
+    path {
+      transition: all 0.3 s ease-in-out;
+    }
   }
+}
+
+.behance:hover svg path {
+  fill: #0054ff;
+}
+.linkedin:hover svg path {
+  fill: #0a67c5;
+}
+.dribble:hover svg path {
+  fill: #b8509a;
+}
+.instagram:hover svg path {
+  fill: #c003e8;
 }

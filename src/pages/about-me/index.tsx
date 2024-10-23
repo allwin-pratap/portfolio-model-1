@@ -11,7 +11,7 @@ import ContactMe from '@/templates/Home/ContactMe';
 
 export default function AboutMe({ data }: any) {
   return (
-    <main className="bg-[url('./../../public/assets/img/dots.svg')] bg-center bg-repeat bg-auto bg-center h-full w-full">
+    <main className="bg-white bg-[radial-gradient(#D9D9D9_1px,transparent_0)] bg-[length:30px_30px] bg-[-19px_-19px]">
       <Header
         data={data?.header}
         darkHeader={false}

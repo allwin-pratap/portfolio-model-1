@@ -8,7 +8,7 @@ export default function Footer({ data }: any) {
         <div className="flex flex-col md:flex-row order-1 md:order-2">
           {data?.links?.map((link: any, index: any) => {
             return (
-              <a className="text-[16px] font-[300] text-black text-center mx-[25px] md:last:mr-0 py-[5px] md:py-0" key={index} href={link.url}>{link.name}</a>
+              <a className="text-[16px] font-[300] text-black text-center mx-[25px] md:last:mr-0 py-[5px] md:py-0 transition-all duration-300 ease-in-out hover:text-[#000]" key={index} href={link.url}>{link.name}</a>
             )
           })}
         </div>

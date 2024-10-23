@@ -53,10 +53,6 @@
                         "value": "Security"
                     },
                     {
-                        "label": "Company",
-                        "value": "Mitsogo"
-                    },
-                    {
                         "label": "Year",
                         "value": "2024"
                     }
@@ -172,7 +168,7 @@
             }
         },
         {
-            "layout": "non_disclosure_agreement",
+            "layout": "non_disclosure_agreement-hide",
             "title": "NDA Information",
             "description": "Keep the details under wraps—this is top-secret design stuff. No sharing, no spoilers!",
             "svg_icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M9 16.002C9.85038 16.6323 10.8846 17.002 12 17.002C13.1154 17.002 14.1496 16.6323 15 16.002' stroke='#7B7B7B' stroke-linecap='round'/><ellipse cx='15' cy='10.502' rx='1' ry='1.5' fill='#7B7B7B'/><ellipse cx='9' cy='10.502' rx='1' ry='1.5' fill='#7B7B7B'/><path d='M2 12.002C2 7.28791 2 4.93089 3.46447 3.46642C4.92893 2.00195 7.28595 2.00195 12 2.00195C16.714 2.00195 19.0711 2.00195 20.5355 3.46642C22 4.93089 22 7.28791 22 12.002C22 16.716 22 19.073 20.5355 20.5375C19.0711 22.002 16.714 22.002 12 22.002C7.28595 22.002 4.92893 22.002 3.46447 20.5375C2 19.073 2 16.716 2 12.002Z' stroke='#7B7B7B'/></svg>"

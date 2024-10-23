@@ -37,10 +37,10 @@
     },
     "pageData": [
         {
-            "layout": "image_with_title_hide",
+            "layout": "image_with_title",
             "title": "Designs That Made the Cut (And Some That Didn't)",
-            "img": "/assets/img/works/kevinryan.jpg",
-            "img_alt": "Enduroom Design system"
+            "img": "/assets/img/works/cross-platform.png",
+            "img_alt": "Enduroom"
         },
         {
             "layout": "beautiful_design",
@@ -64,7 +64,7 @@
                 {
                     "url": "",
                     "img": "/assets/img/works/designed/04.jpg",
-                    "img_alt": "Enduroom Design system"
+                    "img_alt": "Enduroom"
                 },
                 {
                     "url": "",
@@ -74,12 +74,12 @@
                 {
                     "url": "",
                     "img": "/assets/img/works/designed/06.jpg",
-                    "img_alt": "Enduroom Design system"
+                    "img_alt": "Enduroom"
                 },
                 {
                     "url": "",
                     "img": "/assets/img/works/designed/07.jpg",
-                    "img_alt": "Enduroom Design system"
+                    "img_alt": "Enduroom"
                 },
                 {
                     "url": "",
@@ -89,22 +89,22 @@
                 {
                     "url": "",
                     "img": "/assets/img/works/designed/09.jpg",
-                    "img_alt": "Enduroom Design system"
+                    "img_alt": "Enduroom"
                 },
                 {
                     "url": "",
                     "img": "/assets/img/works/designed/10.jpg",
-                    "img_alt": "Enduroom Design system"
+                    "img_alt": "Enduroom"
                 },
                 {
                     "url": "",
                     "img": "/assets/img/works/designed/11.jpg",
-                    "img_alt": "Enduroom Design system"
+                    "img_alt": "Enduroom"
                 },
                 {
                     "url": "",
                     "img": "/assets/img/works/designed/12.jpg",
-                    "img_alt": "Enduroom Design system"
+                    "img_alt": "Enduroom"
                 }
             ]
         },
@@ -130,7 +130,7 @@
                 {
                     "url": "",
                     "img": "/assets/img/works/designed/02.jpg",
-                    "img_alt": "Enduroom Design system"
+                    "img_alt": "Enduroom"
                 },
                 {
                     "url": "",
@@ -140,7 +140,7 @@
                 {
                     "url": "",
                     "img": "/assets/img/works/designed/02.jpg",
-                    "img_alt": "Enduroom Design system"
+                    "img_alt": "Enduroom"
                 }
             ]
         },
@@ -166,7 +166,7 @@
                 {
                     "url": "",
                     "img": "/assets/img/works/designed/02.jpg",
-                    "img_alt": "Enduroom Design system"
+                    "img_alt": "Enduroom"
                 },
                 {
                     "url": "",
@@ -176,7 +176,7 @@
                 {
                     "url": "",
                     "img": "/assets/img/works/designed/02.jpg",
-                    "img_alt": "Enduroom Design system"
+                    "img_alt": "Enduroom"
                 }
             ]
         },

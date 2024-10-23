@@ -42,7 +42,7 @@
                 "title": "Enduroom",
                 "description": "The UEM forum support website has been enhanced to foster community engagement and collaboration among users. It now features badges, leaderboards, discussion threads, ideation spaces, groups, and tags, creating a more interactive and user-friendly platform for IT professionals to connect and share knowledge.",
                 "img": "/assets/img/work/enduroom-uem-forum/enduroom-uem-forum.jpg",
-                "img_alt": "Enduroom Design system",
+                "img_alt": "Enduroom",
                 "history": [
                     {
                         "label": "Role",
@@ -51,10 +51,6 @@
                     {
                         "label": "Industry",
                         "value": "Security"
-                    },
-                    {
-                        "label": "Company",
-                        "value": "Mitsogo"
                     },
                     {
                         "label": "Year",
@@ -138,14 +134,14 @@
                         "description": "The forum's home page has been refreshed with a modern design and is now packed with new features like custom feeds where the users can curate the content based on their likes and following providing users with a more engaging and intuitive experience right from the start.",
                         "bg_color": "bg_grey",
                         "img": "/assets/img/work/enduroom-uem-forum/custom-feeds.jpg",
-                        "img_alt": "Enduroom Design system"
+                        "img_alt": "Enduroom"
                     },
                     {
                         "tag": "GAMIFICATIONS",
                         "title": "Enhanced Engagement Factors",
                         "description": "Gamification elements, including badges and leaderboards, have been introduced to the forums to encourage active participation and create a more engaging user experience.",
                         "img": "/assets/img/work/enduroom-uem-forum/engagement-factors.jpg",
-                        "img_alt": "Enduroom Design system"
+                        "img_alt": "Enduroom"
                     },
                     {
                         "tag": "GROUPS & EVENTS",
@@ -153,7 +149,7 @@
                         "description": "Groups and events have been integrated into the forums, allowing users to connect around shared interests and participate in community-driven activities, further enhancing collaboration and engagement.",
                         "bg_color": "bg_grey",
                         "img": "/assets/img/work/enduroom-uem-forum/networking-factors.jpg",
-                        "img_alt": "Enduroom Design system"
+                        "img_alt": "Enduroom"
                     },
                     {
                         "tag": "DISCUSSIONS AND IDEATIONS",
@@ -161,7 +157,7 @@
                         "description": "Discussions and ideations have been added to the forums, enabling users to engage in in-depth conversations and propose new ideas, fostering a more interactive and innovative community environment.",
                         "bg_color": "bg_grey",
                         "img": "/assets/img/work/enduroom-uem-forum/enhanced-topic.jpg",
-                        "img_alt": "Enduroom Design system"
+                        "img_alt": "Enduroom"
                     },
                     {
                         "tag": "OTHERS",
@@ -169,7 +165,7 @@
                         "description": "The tables have been redesigned to handle more data efficiently, with a better format and responsive design for an improved user experience across all devices.",
                         "bg_color": "bg_grey",
                         "img": "/assets/img/work/enduroom-uem-forum/custom-feeds.jpg",
-                        "img_alt": "Enduroom Design system",
+                        "img_alt": "Enduroom",
                         "type": "multi_img",
                         "improved": [
                             {
@@ -212,7 +208,7 @@
             }
         },
         {
-            "layout": "non_disclosure_agreement",
+            "layout": "non_disclosure_agreement-hide",
             "title": "NDA Information",
             "description": "Keep the details under wraps—this is top-secret design stuff. No sharing, no spoilers!",
             "svg_icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M9 16.002C9.85038 16.6323 10.8846 17.002 12 17.002C13.1154 17.002 14.1496 16.6323 15 16.002' stroke='#7B7B7B' stroke-linecap='round'/><ellipse cx='15' cy='10.502' rx='1' ry='1.5' fill='#7B7B7B'/><ellipse cx='9' cy='10.502' rx='1' ry='1.5' fill='#7B7B7B'/><path d='M2 12.002C2 7.28791 2 4.93089 3.46447 3.46642C4.92893 2.00195 7.28595 2.00195 12 2.00195C16.714 2.00195 19.0711 2.00195 20.5355 3.46642C22 4.93089 22 7.28791 22 12.002C22 16.716 22 19.073 20.5355 20.5375C19.0711 22.002 16.714 22.002 12 22.002C7.28595 22.002 4.92893 22.002 3.46447 20.5375C2 19.073 2 16.716 2 12.002Z' stroke='#7B7B7B'/></svg>"
