@@ -68,7 +68,7 @@
                     "description": "A design system for the UEM app, providing a cohesive and scalable framework for consistent and efficient UI/UX development.",
                     "tags": ["UX/UI", "Web Designs"],
                     "url": "work/enduroom-uem",
-                    "img": "/assets/img/works/all-works/enduroom.jpg",
+                    "img": "/assets/img/works/all-works/enduroom.png",
                     "img_alt": "Enduroom"
                 },
                 {
@@ -84,7 +84,7 @@
                     "description": "Reiki is a mobile app designed to support the well-being of cancer patients, with an AI assistant as a personal companion.",
                     "tags": ["UI/UX", "Product Design"],
                     "url": "work/reiki",
-                    "img": "/assets/img/works/all-works/reiki.jpg",
+                    "img": "/assets/img/works/all-works/reiki.png",
                     "img_alt": "Reiki"
                 }
             ]
