@@ -5,6 +5,37 @@ import Link from 'next/link';
 import Styles from './header.module.scss'
 import { usePathname, useRouter } from 'next/navigation'
 
+const data = {
+    logo: "",
+    logo_alt: "Karthik",
+    menu: [
+      {
+        label: "Home",
+        link: null,
+        target: "_self",
+        status: ""
+      },
+      {
+        label: "Works",
+        link: "works",
+        target: "_self",
+        status: ""
+      },
+      {
+        label: "About",
+        link: "about-me",
+        target: "_self",
+        status: ""
+      },
+      {
+        label: "Resume",
+        link: "assets/pdf/resume/Karthik-MR.pdf",
+        target: "_blank",
+        status: ""
+      }
+    ]
+}
+
 const Header = (props: any) => {
     let pathname = usePathname();
     const { width: isResize } = useOnResize() || {};

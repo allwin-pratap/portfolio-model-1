@@ -79,20 +79,14 @@ export default function Remoto({ data }: any) {
                 )}
 
                 {section.layout === 'contact_me' && (
-                  <ContactMe
-                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto bg-[#FAFAFA] rounded-[25px] p-[40px]`}
-                    title={section?.title}
-                    description={section?.description}
-                    svg_icon={section?.svg_icon}
-                    contact_list={section?.contact_list}
-                  />
+                  <ContactMe />
                 )}
               </AnimatedWrapper>
             </React.Fragment>
           );
         })
       }
-      <Footer data={data?.footer} />
+      <Footer/>
     </main>
   );
 }
