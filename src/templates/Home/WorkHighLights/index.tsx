@@ -26,7 +26,7 @@ export default function WorkHighLights(props: any) {
                                             height={264}
                                         />
                                     </div>
-                                    <div className={`flex gap-[20px] lg:gap-[30px] border-t-[1px] border-[#F0F0F0] p-[30px]${index < 1 ? ' flex-col md:flex-row md:justify-between md:items-center' : ' flex-col'}`}>
+                                    <div className={`flex gap-[20px] lg:gap-[30px] bg-[#fff] border-t-[1px] border-[#F0F0F0] p-[30px]${index < 1 ? ' flex-col md:flex-row md:justify-between md:items-center' : ' flex-col'}`}>
                                         <div>
                                             <div className="flex gap-[10px]">
                                                 {works?.tags?.map((tag: any, index: any) => {

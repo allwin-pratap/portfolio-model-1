@@ -15,7 +15,7 @@ import ContactMe from '@/templates/Home/ContactMe';
 export default function Home({ data }: any) {
 
   return (
-    <main className="">
+    <main className="bg-white bg-[radial-gradient(#D9D9D9_1px,transparent_0)] bg-[length:30px_30px] bg-[-19px_-19px]">
       <Header
         // headerStyles={`!bg-[#030C22]`}
         data={data?.header}
@@ -30,7 +30,7 @@ export default function Home({ data }: any) {
               <AnimatedWrapper>
                 {section.layout === 'hero_stripe' && (
                   <HeroStripe
-                    layoutStyle={`bg-white bg-[radial-gradient(#D9D9D9_1px,transparent_0)] bg-[length:30px_30px] bg-[-19px_-19px] pt-[150px]`}
+                    layoutStyle={`relative max-w-[1280px] w-[88%] mx-auto pt-[150px]`}
                     runner_img={section?.runner_img}
                     runner_img_alt={section?.runner_img_alt}
                     hi_icon={section?.hi_icon}
@@ -39,7 +39,7 @@ export default function Home({ data }: any) {
 
                 {section.layout === 'self_intro' && (
                   <Intro
-                    layoutStyle={`bg-white bg-[radial-gradient(#D9D9D9_1px,transparent_0)] bg-[length:30px_30px] bg-[-19px_-19px]`}
+                    layoutStyle={`max-w-[1280px] w-[88%] mx-auto py-[30px] md:py-[60px]`}
                     title={section?.title}
                     job_role={section?.job_role}
                     description={section?.description}
