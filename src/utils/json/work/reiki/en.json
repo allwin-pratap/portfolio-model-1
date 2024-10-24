@@ -41,7 +41,7 @@
             "project_intro": {
                 "title": "Reiki",
                 "description": "Reiki is a conceptual mobile app focused on maintaining the sanity of cancer patients & Increase their well being. With the help of an AI assistant has a personal companion this apps comes in handy when delivering different needs of the patients.",
-                "img": "/assets/img/work/reiki/reiki.jpg",
+                "img": "/assets/img/work/reiki/reiki.png",
                 "img_alt": "Enduroom",
                 "history": [
                     {
@@ -233,6 +233,7 @@
                         "tag": "COMPANION",
                         "title": "Visual AI Assistant",
                         "description": "The application is powered by an AI assistant to help and cater users needs whenever possible so it could ease out their effects while using the application.",
+                        "box_shadow": "false",
                         "img": "/assets/img/work/reiki/ai-assistant.png",
                         "img_alt": "Visual AI Assistant",
                         "width": 555
@@ -242,6 +243,7 @@
                         "tag": "COMPANION",
                         "title": "Mood Tracker",
                         "description": "Upon opening the application user can check in how they feel using the mood tracking feature which identifies how the users feel & Curate the content accordingly to make them feel better. With Emotion AI helps to capture the users mood right now through an AI camera.This option can be used by the users when they are unable to express or identify how they feel.",
+                        "box_shadow": "false",
                         "img": "/assets/img/work/reiki/mode-tracker.png",
                         "img_alt": "Mood Tracker",
                         "width": 800
@@ -256,9 +258,9 @@
                             "desc": "Click on the button below to check this case study in behance",
                             "btn_label": "Visit My Behance Profile",
                             "btn_url": "https://www.behance.net/gallery/141220245/Reiki-UX-Case-Study-on-Cancer-Patients",
-                            "img": "/assets/img/work/reiki/ai-assistant.jpg",
+                            "img": "/assets/img/work/reiki/visit-behance.png",
                             "img_alt": "Discover the Full Case Study on Behance",
-                            "width": 555,
+                            "width": 980,
                             "height": 450
                         }
                     }

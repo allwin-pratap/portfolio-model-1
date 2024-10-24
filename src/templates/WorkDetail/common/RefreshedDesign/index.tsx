@@ -12,17 +12,27 @@ export default function RefreshedDesign(props: any) {
         switch (design?.type) {
             case "behance":
                 return (
-                    <div className='flex flex-col items-center'>
-                        <p className='text-[20px] leading-[30px] font-[400] text-black text-center pb-[30px]'>
-                            {design?.behance_data?.desc}
-                        </p>
-                        <Link
-                            href={design?.behance_data?.btn_url}
-                            className='text-[20px] leading-[30px] font-[400] text-white p-[15px] bg-black rounded-[55px]'
-                            target='_blank'
-                        >
-                            {design?.behance_data?.btn_label}
-                        </Link>
+                    <div className='relative m-[-35px] md:m-[-55px] lg:m-[-70px]'>
+                        <div className='max-w-[980px] mx-auto'>
+                            <ImageLoader
+                                src={StaticPath(design?.behance_data?.img)}
+                                alt={design?.behance_data?.img_alt}
+                                width={design?.behance_data?.width ?? 815}
+                                height={design?.behance_data?.height ?? 580}
+                            />
+                        </div>
+                        <div className='absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] flex flex-col items-center'>
+                            <p className='text-[20px] leading-[30px] font-[400] text-black text-center pb-[30px]'>
+                                {design?.behance_data?.desc}
+                            </p>
+                            <Link
+                                href={design?.behance_data?.btn_url}
+                                className='text-[20px] leading-[30px] font-[400] text-white p-[15px] bg-black rounded-[55px]'
+                                target='_blank'
+                            >
+                                {design?.behance_data?.btn_label}
+                            </Link>
+                        </div>
                     </div>
                 );
             case "multi_img":
