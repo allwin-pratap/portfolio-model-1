@@ -111,7 +111,8 @@
                         "title": "Improved onboarding Experience",
                         "description": "Improved the onboarding flow by nudging the users to select the required permission and better illustrations for representation.",
                         "bg_color": "bg_grey",
-                        "img": "/assets/img/work/remoto/improved-onboarding-experience.jpg",
+                        "box_shadow": "false",
+                        "img": "/assets/img/work/remoto/improved-onboarding-experience.png",
                         "img_alt": "Improved onboarding Experience"
                     },
                     {
@@ -119,6 +120,7 @@
                         "title": "Parameters",
                         "description": "Displaying important parameters which are very much responsible for the smooth functioning of the application which assists the users & admins to keep track of the usages",
                         "bg_color": "bg_grey",
+                        "box_shadow": "false",
                         "img": "/assets/img/work/remoto/parameters.jpg",
                         "img_alt": "Parameters"
                     },
@@ -127,6 +129,7 @@
                         "title": "Enhanced selection methods",
                         "description": "Improved the permissions access & Control settings by changing the functionality by switching to toggles and dropdowns for more upfront details.",
                         "bg_color": "bg_grey",
+                        "box_shadow": "false",
                         "img": "/assets/img/work/remoto/enhanced-selection-method.jpg",
                         "img_alt": "Enhanced selection methods"
                     },
@@ -135,6 +138,7 @@
                         "title": "New Notification Drawer",
                         "description": "Improved the permissions access & Control settings by changing the functionality by switching to toggles and dropdowns for more upfront details.",
                         "bg_color": "bg_grey",
+                        "box_shadow": "false",
                         "img": "/assets/img/work/remoto/new-notification-drawer.jpg",
                         "img_alt": "New Notification Drawer"
                     },
@@ -143,6 +147,7 @@
                         "title": "Increased Engagement",
                         "description": "Increased the Interaction between the users and admin to keep track of all the important updates, notifications and a message section to get in touch with the admin incase of any trouble",
                         "bg_color": "bg_grey",
+                        "box_shadow": "false",
                         "img": "/assets/img/work/remoto/increased-engagement.jpg",
                         "img_alt": "Increased Engagement"
                     },
@@ -151,6 +156,7 @@
                         "title": "Essential Settings",
                         "description": "Introduced few essential settings which can contribute for the efficient working of the application at all scenarios.",
                         "bg_color": "bg_grey",
+                        "box_shadow": "false",
                         "img": "/assets/img/work/remoto/essential-settings.jpg",
                         "img_alt": "Essential Settings"
                     }
