@@ -123,6 +123,14 @@
             ]
         },
         {
+            "layout": "motivation",
+            "content": {
+                "title": "Motivation Customization Networking",
+                "img": "/assets/img/work/enduroom-uem-forum/motivation.png",
+                "img_alt": "Motivation Customization Networking"
+            }
+        },
+        {
             "layout": "refreshed_designs",
             "refreshed_designs": {
                 "title": "Refreshed Designs",
@@ -133,14 +141,16 @@
                         "title": "Custom feeds",
                         "description": "The forum's home page has been refreshed with a modern design and is now packed with new features like custom feeds where the users can curate the content based on their likes and following providing users with a more engaging and intuitive experience right from the start.",
                         "bg_color": "bg_grey",
-                        "img": "/assets/img/work/enduroom-uem-forum/custom-feeds.jpg",
+                        "img": "/assets/img/work/enduroom-uem-forum/custom-feeds.png",
                         "img_alt": "Enduroom"
                     },
                     {
                         "tag": "GAMIFICATIONS",
                         "title": "Enhanced Engagement Factors",
                         "description": "Gamification elements, including badges and leaderboards, have been introduced to the forums to encourage active participation and create a more engaging user experience.",
-                        "img": "/assets/img/work/enduroom-uem-forum/engagement-factors.jpg",
+                        "bg_color": "bg_grey",
+                        "box_shadow": "false",
+                        "img": "/assets/img/work/enduroom-uem-forum/engagement-factors.png",
                         "img_alt": "Enduroom"
                     },
                     {
@@ -148,7 +158,7 @@
                         "title": "Enhanced Networking Factors",
                         "description": "Groups and events have been integrated into the forums, allowing users to connect around shared interests and participate in community-driven activities, further enhancing collaboration and engagement.",
                         "bg_color": "bg_grey",
-                        "img": "/assets/img/work/enduroom-uem-forum/networking-factors.jpg",
+                        "img": "/assets/img/work/enduroom-uem-forum/networking-factors.png",
                         "img_alt": "Enduroom"
                     },
                     {
@@ -156,7 +166,7 @@
                         "title": "Enhanced Topics",
                         "description": "Discussions and ideations have been added to the forums, enabling users to engage in in-depth conversations and propose new ideas, fostering a more interactive and innovative community environment.",
                         "bg_color": "bg_grey",
-                        "img": "/assets/img/work/enduroom-uem-forum/enhanced-topic.jpg",
+                        "img": "/assets/img/work/enduroom-uem-forum/enhanced-topic.png",
                         "img_alt": "Enduroom"
                     },
                     {
@@ -164,9 +174,10 @@
                         "title": "Micro Improvements",
                         "description": "The tables have been redesigned to handle more data efficiently, with a better format and responsive design for an improved user experience across all devices.",
                         "bg_color": "bg_grey",
-                        "img": "/assets/img/work/enduroom-uem-forum/custom-feeds.jpg",
+                        "box_shadow": "false",
+                        "img": "/assets/img/work/enduroom-uem-forum/micro-improvements.png",
                         "img_alt": "Enduroom",
-                        "type": "multi_img",
+                        "type": "multi_img_hidden",
                         "improved": [
                             {
                                 "title": "Groups",

@@ -10,7 +10,7 @@ export default function WorkDetailIntro(props: any) {
         <section className={`${props?.layoutStyle}`}>
             <p className={`text-[50px] md:text-[90px] font-[400] leading-[1.25] text-black`}>{data?.title}</p>
             <p className={`text-[20px] font-[300] text-[#595959] pt-[20px]`}>{data?.description}</p>
-            <div className="grid  grid-cols-2 md:grid-cols-4 gap-[30px] py-[80px]">
+            <div className="flex flex-col sm:flex-row gap-[30px] sm:gap-[60px] py-[80px]">
                 {data?.history?.map((his: any, index: any) => {
                     return (
                         <div key={index}>

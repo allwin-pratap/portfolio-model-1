@@ -7,6 +7,7 @@ import Footer from "@/components/Layout/Footer";
 import WorkDetailIntro from "@/templates/WorkDetail/common/WorkDetailIntro";
 import KeyImprovements from '@/templates/WorkDetail/common/KeyImprovements';
 import IssueFaced from '@/templates/WorkDetail/enduroom-uem-forum/IssueFaced';
+import MotivationStripe from '@/templates/WorkDetail/enduroom-uem-forum/MotivationStripe';
 import RefreshedDesign from "@/templates/WorkDetail/common/RefreshedDesign";
 import NextCaseStudy from "@/templates/WorkDetail/common/NextCaseStudy";
 import NonDisclosureAgree from '@/templates/Home/NonDisclosureAgree';
@@ -44,6 +45,13 @@ export default function EnduroomUEMForum({ data }: any) {
                     layoutStyle={`max-w-[990px] w-[88%] mx-auto py-[75px]`}
                     title={section?.title}
                     key_improve={section?.key_improve}
+                  />
+                )}
+
+                {section.layout === 'motivation' && (
+                  <MotivationStripe
+                    layoutStyle={`max-w-[990px] w-[88%] mx-auto my-[75px] p-[20px] md:p-[40px] bg-[#FAFAFA] border border-[#E7EDF5] rounded-[25px]`}
+                    data={section?.content}
                   />
                 )}
 
