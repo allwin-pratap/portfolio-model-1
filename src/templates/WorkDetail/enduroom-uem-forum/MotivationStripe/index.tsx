@@ -8,7 +8,7 @@ export default function MotivationStripe(props: any) {
             <div>
                 <Marquee title={props?.data?.title} />
             </div>
-            <div className="mt-[10px] md:mt-[40px] p-[20px] md:p-[40px] bg-[#FFF] rounded-[25px] relative">
+            <div className="mt-[10px] md:mt-[40px] px-[20px] md:px-[40px] bg-[#FFF] rounded-[25px] relative">
                 <div className="block">
                     <ImageLoader
                         src={StaticPath(props?.data?.img)}
