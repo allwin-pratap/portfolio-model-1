@@ -192,7 +192,7 @@
             "meet_reiki": {
                 "title": "Meet Reiki",
                 "description": "The Word senshi means warrior or fighter in japnese logographic writing system Kanji.The assistant to reflect the patients as every cancer patients can be considered as fighters.",
-                "img": "/assets/img/work/reiki/meet-reiki.jpg",
+                "img": "/assets/img/work/reiki/meet-reiki.png",
                 "img_alt": "Meet Reiki",
                 "details": {
                     "title": "Emotions based Expressions",
@@ -201,22 +201,22 @@
                     "modes": [
                         {
                             "title": "Happy",
-                            "img": "/assets/img/work/reiki/mode/happy.jpg",
+                            "img": "/assets/img/work/reiki/mode/happy.png",
                             "img_alt": "Happy"
                         },
                         {
                             "title": "Relieved",
-                            "img": "/assets/img/work/reiki/mode/relieved.jpg",
+                            "img": "/assets/img/work/reiki/mode/relieved.png",
                             "img_alt": "Relieved"
                         },
                         {
                             "title": "Sad",
-                            "img": "/assets/img/work/reiki/mode/sad.jpg",
+                            "img": "/assets/img/work/reiki/mode/sad.png",
                             "img_alt": "Sad"
                         },
                         {
                             "title": "Worried",
-                            "img": "/assets/img/work/reiki/mode/worried.jpg",
+                            "img": "/assets/img/work/reiki/mode/worried.png",
                             "img_alt": "Worried"
                         }
                     ]

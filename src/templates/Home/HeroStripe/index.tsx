@@ -4,7 +4,7 @@ import { StaticPath } from "@/utils/baseUtils";
 export default function HeroStripe(props: any) {
     return (
         <section className={props?.layoutStyle}>
-            <div className="max-w-[700px] relative">
+            <div className="max-w-[700px] relative left-[-11%]">
                 <ImageLoader
                     src={StaticPath(props?.runner_img)}
                     alt={props?.runner_img_alt}
