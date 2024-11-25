@@ -24,6 +24,7 @@ export default function AllWorks(props: any) {
                                                 alt={works.img_alt}
                                                 width={1280}
                                                 height={400}
+                                                quality={75}
                                             />
                                         </div>
                                         <div className={`flex flex-col gap-[30px] p-[30px] pb-0 border-t-[1px] border-[#F0F0F0]`}>

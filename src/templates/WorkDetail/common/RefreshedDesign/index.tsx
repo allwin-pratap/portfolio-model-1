@@ -19,6 +19,7 @@ export default function RefreshedDesign(props: any) {
                                 alt={design?.behance_data?.img_alt}
                                 width={design?.behance_data?.width ?? 815}
                                 height={design?.behance_data?.height ?? 580}
+                                quality={75}
                             />
                         </div>
                         <div className='absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] flex flex-col items-center'>
@@ -49,6 +50,7 @@ export default function RefreshedDesign(props: any) {
                                                     alt={improve?.img_alt}
                                                     width={improve?.width ?? 235}
                                                     height={improve?.height ?? 160}
+                                                    quality={75}
                                                 />
                                             </div>
                                             <p className='text-[24px] leading-[30px] font-[500] text-black text-center sm:text-left pt-[30px] pb-[20px]'>
@@ -72,6 +74,7 @@ export default function RefreshedDesign(props: any) {
                             alt={design?.img_alt}
                             width={design?.width ?? 815}
                             height={design?.height ?? 580}
+                            quality={75}
                         />
                     </div>
                 );

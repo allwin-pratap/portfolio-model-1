@@ -21,6 +21,7 @@ export default function ImageGrid(props: any) {
                                         alt={works.img_alt}
                                         width={405}
                                         height={285}
+                                        quality={75}
                                     />
                                 </div>
                             </AnimatedWrapper>

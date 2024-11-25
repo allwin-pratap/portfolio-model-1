@@ -24,6 +24,7 @@ export default function WorkHighLights(props: any) {
                                             alt={works.img_alt}
                                             width={1280}
                                             height={index < 1 ? 580 : 450}
+                                            quality={index < 1 ? 75 : 70}
                                         />
                                         {
                                             (index < 1) && (
@@ -33,6 +34,7 @@ export default function WorkHighLights(props: any) {
                                                     alt={works.img_alt}
                                                     width={1280}
                                                     height={index < 1 ? 580 : 450}
+                                                    quality={75}
                                                 />
                                             )
                                         }

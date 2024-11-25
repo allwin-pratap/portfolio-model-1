@@ -27,6 +27,7 @@ export default function WorkDetailIntro(props: any) {
                     alt={data?.img_alt}
                     width={1280}
                     height={660}
+                    quality={75}
                 />
             </div>
             <div className="pb-[40px]">
