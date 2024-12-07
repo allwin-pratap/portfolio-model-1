@@ -23,7 +23,7 @@ const ImageLoader = ({
 
 	return (
 		<React.Fragment>
-			{!isLoaded && <div className="img_loader_bg" />}
+			{!isLoaded && <div className="rounded-[20px] overflow-hidden img_loader_bg" />}
 			<Image
 				src={src}
 				sizes={sizes}

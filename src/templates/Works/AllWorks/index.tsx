@@ -1,7 +1,7 @@
 import React from 'react';
 import AnimatedWrapper from '@/components/AnimatedWrapper';
 import ImageLoader from "@/utils/ImageLoader";
-import { StaticPath, dynamicBlurUrl } from "@/utils/baseUtils";
+import { StaticPath } from "@/utils/baseUtils";
 import Link from 'next/link';
 
 export default function AllWorks(props: any) {
@@ -25,8 +25,6 @@ export default function AllWorks(props: any) {
                                                 width={1280}
                                                 height={400}
                                                 quality={75}
-                                                placeholder="blur"
-                                                blurDataURL={dynamicBlurUrl(works?.img)}
                                             />
                                         </div>
                                         <div className={`flex flex-col gap-[30px] p-[30px] pb-0 border-t-[1px] border-[#F0F0F0]`}>
