@@ -24,7 +24,7 @@ export default function WorkHighLights(props: any) {
                         <React.Fragment key={index}>
                             <AnimatedWrapper customStyle={`group flex flex-col border-[1px] border-[#F0F0F0] rounded-[23px] overflow-hidden max-md:col-span-2 ${index < 1 ? 'md:col-span-2' : 'md:row-start-3'}`}>
                                 <Link className={``} href={works.url}>
-                                    <div className={`${index < 1 ? 'max-w-[1280px] max-h-[450px] md:max-h-[580px]' : 'max-h-[450px]'} overflow-hidden`}>
+                                    <div className={`${index < 1 ? 'max-w-[1280px] max-h-[450px] md:max-h-[580px]' : 'max-h-[450px]'} overflow-hidden relative`}>
                                         <ImageLoader
                                             src={StaticPath(works?.img)}
                                             className={`xl:min-h-[450px] object-cover transition-all duration-[300ms] ease-in-out scale-[1] group-hover:scale-[1.04] ${index < 1 ? 'hidden md:block' : ''}`}

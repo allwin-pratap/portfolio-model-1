@@ -9,7 +9,7 @@ export default function MeetReiki(props: any) {
         <section className={`${props?.layoutStyle}`}>
             <p className={`text-[40px] font-[400] leading-[1.25] text-[#000] pb-[5px] border-b border-[#E7EDF5]`}>{data?.title}</p>
             <div className="flex flex-col md:flex-row justify-center items-center bg-[#FDFCFF] border border-solid border-[#E7EDF5] rounded-[25px] gap-[50px] p-[30px] mt-[80px]">
-                <div className="max-w-[165px] w-full">
+                <div className="max-w-[165px] w-full relative">
                     <ImageLoader
                         className="rounded-[25px]"
                         src={StaticPath(data?.img)}
@@ -36,7 +36,7 @@ export default function MeetReiki(props: any) {
                             <React.Fragment key={index}>
                                 <AnimatedWrapper customStyle={`flex items-center justify-center border border-solid border-[#E7EDF5] p-[30px] rounded-[25px]`}>
                                     <div className={`flex flex-col justify-center items-center gap-[20px]`}>
-                                        <div className='max-w-[315px] w-full'>
+                                        <div className='max-w-[315px] w-full relative'>
                                             <ImageLoader
                                                 className="rounded-[25px]"
                                                 src={StaticPath(mode?.img)}

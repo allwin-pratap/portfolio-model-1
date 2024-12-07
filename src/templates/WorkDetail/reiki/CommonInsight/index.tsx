@@ -14,7 +14,7 @@ export default function CommonInsight(props: any) {
                         <React.Fragment key={index}>
                             <AnimatedWrapper customStyle={`flex border border-solid border-[#E7EDF5] p-[30px] rounded-[25px]`}>
                                 <div className={`flex flex-col md:flex-row max-md:justify-center max-md:items-center gap-[50px]`}>
-                                    <div className='w-full bg-[#FAFAFA] rounded-[25px]'>
+                                    <div className='w-full bg-[#FAFAFA] rounded-[25px] relative'>
                                         <ImageLoader
                                             className="rounded-[25px] max-w-[315px] mx-auto"
                                             src={StaticPath(detail?.img)}

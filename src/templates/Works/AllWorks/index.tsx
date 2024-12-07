@@ -17,7 +17,7 @@ export default function AllWorks(props: any) {
                             <AnimatedWrapper customStyle={`flex`}>
                                 <Link className={`group flex flex-col justify-between border-[1px] border-[#F0F0F0] rounded-[23px] overflow-hidden`} href={works.url} target={works?.target ?? '_self'}>
                                     <div>
-                                        <div className={`max-w-[615px] max-h-[400px] lg:h-[400px] overflow-hidden`}>
+                                        <div className={`max-w-[615px] max-h-[400px] lg:h-[400px] overflow-hidden relative`}>
                                             <ImageLoader
                                                 className={`min-h-[265px] max-h-[400px] lg:h-[400px] object-cover transition-all duration-[300ms] ease-in-out scale-[1] group-hover:scale-[1.04]`}
                                                 src={StaticPath(works.img)}

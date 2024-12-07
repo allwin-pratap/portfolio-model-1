@@ -15,7 +15,7 @@ export default function KeyImprovements(props: any) {
                     return (
                         <React.Fragment key={index}>
                             <AnimatedWrapper customStyle={`flex border border-[#E7EDF5] rounded-[20px]`}>
-                                <div className={`max-md:max-w-[420px] max-md:mx-auto flex flex-col p-[30px] rounded-[23px] overflow-hidden ${styles[`${keys.bg_color}`]}`}>
+                                <div className={`max-md:max-w-[420px] max-md:mx-auto flex flex-col p-[30px] rounded-[23px] overflow-hidden relative ${styles[`${keys.bg_color}`]}`}>
                                     {
                                         (keys.is_image) ? (
                                             <React.Fragment>

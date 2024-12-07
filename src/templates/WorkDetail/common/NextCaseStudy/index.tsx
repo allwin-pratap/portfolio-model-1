@@ -9,7 +9,7 @@ export default function NextCaseStudy(props: any) {
             {
                 (design_system) && (
                     <div className="flex flex-col md:flex-row items-center border border-[#E7EDF5] bg-[#FAFAFA] rounded-[25px] p-[30px] mb-[50px]">
-                        <div className="max-w-[360px]">
+                        <div className="max-w-[360px] relative">
                             <ImageLoader
                                 className=""
                                 src={StaticPath(design_system?.img)}

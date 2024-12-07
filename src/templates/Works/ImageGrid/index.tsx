@@ -14,7 +14,7 @@ export default function ImageGrid(props: any) {
                     return (
                         <React.Fragment key={index}>
                             <AnimatedWrapper>
-                                <div className={`mx-auto max-w-[405px] max-h-[285px] rounded-[25px] overflow-hidden`}>
+                                <div className={`mx-auto max-w-[405px] max-h-[285px] rounded-[25px] overflow-hidden relative`}>
                                     <ImageLoader
                                         src={StaticPath(works.img)}
                                         className="transition-all duration-[300ms] ease-in-out scale-[1] hover:scale-[1.05]"

@@ -13,7 +13,7 @@ export default function RefreshedDesign(props: any) {
             case "behance":
                 return (
                     <div className='relative m-[-35px] md:m-[-55px] lg:m-[-70px]'>
-                        <div className='max-w-[980px] mx-auto'>
+                        <div className='max-w-[980px] mx-auto relative'>
                             <ImageLoader
                                 src={StaticPath(design?.behance_data?.img)}
                                 alt={design?.behance_data?.img_alt}
@@ -43,7 +43,7 @@ export default function RefreshedDesign(props: any) {
                             design?.improved.map((improve: any, index: any) => {
                                 return (
                                     <React.Fragment key={index}>
-                                        <AnimatedWrapper customStyle={`flex flex-col border border-[#E7EDF5] rounded-[20px] md:py-[30px] md:px-[20px] ${index == 0 ? 'lg:row-span-2 lg:col-start-1 lg:row-start-2' : ''} ${index == 1 ? 'lg:row-span-2 lg:col-start-2 lg:row-start-1' : ''} ${index == 2 ? 'lg:row-span-2 lg:col-start-2 lg:row-start-3' : ''} ${index == 3 ? 'lg:row-span-2 lg:col-start-3 lg:row-start-2' : ''}`}>
+                                        <AnimatedWrapper customStyle={`flex flex-col border border-[#E7EDF5] rounded-[20px] md:py-[30px] md:px-[20px] relative ${index == 0 ? 'lg:row-span-2 lg:col-start-1 lg:row-start-2' : ''} ${index == 1 ? 'lg:row-span-2 lg:col-start-2 lg:row-start-1' : ''} ${index == 2 ? 'lg:row-span-2 lg:col-start-2 lg:row-start-3' : ''} ${index == 3 ? 'lg:row-span-2 lg:col-start-3 lg:row-start-2' : ''}`}>
                                             <div>
                                                 <ImageLoader
                                                     src={StaticPath(improve?.img)}
@@ -67,7 +67,7 @@ export default function RefreshedDesign(props: any) {
                 );
             default:
                 return (
-                    <div className='max-w-[815px] mx-auto flex justify-center items-center'>
+                    <div className='max-w-[815px] mx-auto flex justify-center items-center relative'>
                         <ImageLoader
                             className={`rounded-[16px] ${design?.box_shadow == "false" ? '' : 'shadow-[0px_8px_8px_rgba(24,24,24,0.02)]'}`}
                             src={StaticPath(design?.img)}

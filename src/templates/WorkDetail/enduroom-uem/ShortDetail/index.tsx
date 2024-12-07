@@ -19,7 +19,7 @@ export default function ShortDetail(props: any) {
                                     <div>
                                         <p className="text-[22px] md:text-[32px] font-[400] text-black text-center md:text-left">{detail?.title}</p>
                                     </div>
-                                    <div className={`pt-[40px] max-w-[880px] mx-auto  ${index == 2 || index == 6 ? '!mr-0' : ''}`}>
+                                    <div className={`pt-[40px] relative max-w-[880px] mx-auto  ${index == 2 || index == 6 ? '!mr-0' : ''}`}>
                                         <ImageLoader
                                             src={StaticPath(detail?.img)}
                                             alt={detail?.img_alt}

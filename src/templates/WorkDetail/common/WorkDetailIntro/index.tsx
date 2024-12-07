@@ -20,7 +20,7 @@ export default function WorkDetailIntro(props: any) {
                     )
                 })}
             </div>
-            <div className="">
+            <div className="relative">
                 <ImageLoader
                     className="border border-[#E7EDF5] bg-[#FAFAFA] rounded-[25px]"
                     src={StaticPath(data?.img)}

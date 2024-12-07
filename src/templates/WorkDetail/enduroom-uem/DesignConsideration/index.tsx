@@ -24,7 +24,7 @@ export default function DesignConsideration(props: any) {
                         )
                     })}
                 </div>
-                <div className="pt-[40px] max-w-[880px] mx-auto">
+                <div className="pt-[40px] max-w-[880px] mx-auto relative">
                     <ImageLoader
                         src={StaticPath(props?.data?.img)}
                         alt={`waiting`}
