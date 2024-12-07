@@ -1,7 +1,7 @@
 import React from 'react';
 import AnimatedWrapper from '@/components/AnimatedWrapper';
 import ImageLoader from "@/utils/ImageLoader";
-import { StaticPath } from "@/utils/baseUtils";
+import { StaticPath, dynamicBlurUrl } from "@/utils/baseUtils";
 import Link from 'next/link';
 
 export default function AllWorks(props: any) {
@@ -20,11 +20,13 @@ export default function AllWorks(props: any) {
                                         <div className={`max-w-[615px] max-h-[400px] lg:h-[400px] overflow-hidden relative`}>
                                             <ImageLoader
                                                 className={`min-h-[265px] max-h-[400px] lg:h-[400px] object-cover transition-all duration-[300ms] ease-in-out scale-[1] group-hover:scale-[1.04]`}
-                                                src={StaticPath(works.img)}
+                                                src={StaticPath(works?.img)}
                                                 alt={works.img_alt}
                                                 width={1280}
                                                 height={400}
                                                 quality={75}
+                                                placeholder="blur"
+                                                blurDataURL={dynamicBlurUrl(works?.img)}
                                             />
                                         </div>
                                         <div className={`flex flex-col gap-[30px] p-[30px] pb-0 border-t-[1px] border-[#F0F0F0]`}>

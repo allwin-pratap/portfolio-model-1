@@ -1,7 +1,7 @@
 import React from 'react';
 import AnimatedWrapper from '@/components/AnimatedWrapper';
 import ImageLoader from "@/utils/ImageLoader";
-import { StaticPath } from "@/utils/baseUtils";
+import { StaticPath, dynamicBlurUrl } from "@/utils/baseUtils";
 import styles from "./refreshedDesign.module.scss";
 import Link from 'next/link';
 
@@ -20,6 +20,8 @@ export default function RefreshedDesign(props: any) {
                                 width={design?.behance_data?.width ?? 815}
                                 height={design?.behance_data?.height ?? 580}
                                 quality={75}
+                                placeholder="blur"
+                                blurDataURL={dynamicBlurUrl(design?.behance_data?.img)}
                             />
                         </div>
                         <div className='absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] flex flex-col items-center'>
@@ -51,6 +53,8 @@ export default function RefreshedDesign(props: any) {
                                                     width={improve?.width ?? 235}
                                                     height={improve?.height ?? 160}
                                                     quality={75}
+                                                    placeholder="blur"
+                                                    blurDataURL={dynamicBlurUrl(improve?.img)}
                                                 />
                                             </div>
                                             <p className='text-[24px] leading-[30px] font-[500] text-black text-center sm:text-left pt-[30px] pb-[20px]'>
@@ -75,6 +79,8 @@ export default function RefreshedDesign(props: any) {
                             width={design?.width ?? 815}
                             height={design?.height ?? 580}
                             quality={75}
+                            placeholder="blur"
+                            blurDataURL={dynamicBlurUrl(design?.img)}
                         />
                     </div>
                 );
