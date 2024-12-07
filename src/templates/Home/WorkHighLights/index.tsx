@@ -1,10 +1,18 @@
 import React from 'react';
 import AnimatedWrapper from '@/components/AnimatedWrapper';
 import ImageLoader from "@/utils/ImageLoader";
-import { StaticPath } from "@/utils/baseUtils";
+import { StaticPath, dynamicBlurUrl } from "@/utils/baseUtils";
 import Link from 'next/link';
 
 export default function WorkHighLights(props: any) {
+
+    // const simulateSlowImage = (src: string): Promise<string> => {
+
+    //     return new Promise((resolve) => {
+    //         setTimeout(() => resolve(StaticPath(src)), 3000); // Delay by 3 seconds
+    //     });
+    // };
+
     return (
         <section className={props?.layoutStyle}>
             <p className={`text-[32px] font-[400] text-black pb-[5px] border-b border-[#E7EDF5]`}>
@@ -18,13 +26,15 @@ export default function WorkHighLights(props: any) {
                                 <Link className={``} href={works.url}>
                                     <div className={`${index < 1 ? 'max-w-[1280px] max-h-[450px] md:max-h-[580px]' : 'max-h-[450px]'} overflow-hidden`}>
                                         <ImageLoader
-                                            src={StaticPath(works.img)}
-                                            className={`min-h-[265px] object-cover transition-all duration-[300ms] ease-in-out scale-[1] group-hover:scale-[1.04] ${index < 1 ? 'hidden md:block': ''}`}
+                                            src={StaticPath(works?.img)}
+                                            className={`min-h-[450px] object-cover transition-all duration-[300ms] ease-in-out scale-[1] group-hover:scale-[1.04] ${index < 1 ? 'hidden md:block' : ''}`}
                                             // src={StaticPath('/assets/img/home/uem-security-app.png')}
                                             alt={works.img_alt}
                                             width={1280}
                                             height={index < 1 ? 580 : 450}
                                             quality={index < 1 ? 75 : 70}
+                                            placeholder="blur"
+                                            blurDataURL={dynamicBlurUrl(works?.img)}
                                         />
                                         {
                                             (index < 1) && (
@@ -35,6 +45,8 @@ export default function WorkHighLights(props: any) {
                                                     width={1280}
                                                     height={index < 1 ? 580 : 450}
                                                     quality={75}
+                                                    placeholder="blur"
+                                                    blurDataURL={dynamicBlurUrl(works?.img_mobile)}
                                                 />
                                             )
                                         }

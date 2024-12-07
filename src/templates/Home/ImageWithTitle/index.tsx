@@ -1,5 +1,5 @@
 import ImageLoader from "@/utils/ImageLoader";
-import { StaticPath } from "@/utils/baseUtils";
+import { StaticPath, dynamicBlurUrl } from "@/utils/baseUtils";
 
 export default function ImageWithTitle(props: any) {
     return (
@@ -14,6 +14,8 @@ export default function ImageWithTitle(props: any) {
                     width={1280}
                     height={448}
                     quality={75}
+                    placeholder="blur"
+                    blurDataURL={dynamicBlurUrl(props?.img)}
                 />
             </div>
         </section>

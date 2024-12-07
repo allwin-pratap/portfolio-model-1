@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React, { useEffect, useState, useRef } from 'react';
 import ImageLoader from '@/utils/ImageLoader';
 import Slider from '@/components/Slider';
-import { StaticPath } from "@/utils/baseUtils";
+import { StaticPath, dynamicBlurUrl } from "@/utils/baseUtils";
 
 const ProjectSlider = (props: any) => {
 	const slickRef = useRef<any>(null);
@@ -66,6 +66,8 @@ const ProjectSlider = (props: any) => {
 								alt={item?.alt_values}
 								width={580}
 								height={415}
+								placeholder="blur"
+                                blurDataURL={dynamicBlurUrl(item?.src)}
 							/>
 						</div>
 					))}

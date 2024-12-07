@@ -1,4 +1,5 @@
 import Image from "next/image";
+import React, { useState } from "react";
 
 const ImageLoader = ({
 	src,
@@ -14,25 +15,34 @@ const ImageLoader = ({
 	style,
 	placeholder,
 	alt,
+	blurDataURL,
 	...all
 }: any) => {
+
+	const [isLoaded, setIsLoaded] = useState(false);
+
 	return (
-		<Image
-			src={src}
-			sizes={sizes}
-			unoptimized={unoptimized}
-			priority={priority}
-			loading={loading}
-			className={className}
-			quality={quality ?? 100}
-			fill={fill}
-			width={width}
-			height={height}
-			style={style}
-			alt={alt}
-			placeholder={placeholder}
-			{...all}
-		/>
+		<React.Fragment>
+			{!isLoaded && <div className="img_loader_bg" />}
+			<Image
+				src={src}
+				sizes={sizes}
+				unoptimized={unoptimized}
+				priority={priority}
+				loading={loading}
+				className={className}
+				quality={quality ?? 100}
+				fill={fill}
+				width={width}
+				height={height}
+				style={style}
+				alt={alt}
+				placeholder={placeholder}
+				blurDataURL={blurDataURL}
+				onLoadingComplete={() => setIsLoaded(true)}
+				{...all}
+			/>
+		</React.Fragment>
 	);
 };
 
