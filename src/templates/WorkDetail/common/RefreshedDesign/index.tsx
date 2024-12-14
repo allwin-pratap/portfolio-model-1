@@ -11,6 +11,7 @@ export default function RefreshedDesign(props: any) {
 
     const settings = {
         dots: true, // Enable dots
+		arrows: false,
         infinite: true, // Infinite looping
         speed: 500, // Transition speed
         slidesToShow: 1, // Show 1 slide at a time
@@ -91,7 +92,7 @@ export default function RefreshedDesign(props: any) {
                                         alt={image?.img_alt}
                                         width={design?.width ?? 815}
                                         height={design?.height ?? 580}
-                                        quality={95}
+                                        quality={100}
                                         placeholder="blur"
                                         blurDataURL={dynamicBlurUrl(image?.img)}
                                     />

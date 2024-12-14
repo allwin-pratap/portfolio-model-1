@@ -40,7 +40,7 @@ export default function NextCaseStudy(props: any) {
                             {result?.lists?.map((list: any, index: any) => {
                                 return (
                                     <React.Fragment key={index}>
-                                        <AnimatedWrapper customStyle={`flex items-center border border-[#E7EDF5] bg-[#FAFAFA] rounded-[8px] mb-[20px] p-[8px] w-full`}>
+                                        <AnimatedWrapper customStyle={`flex items-center border border-[#E7EDF5] rounded-[8px] mb-[20px] p-[8px] w-full`}>
                                             <div
                                                 dangerouslySetInnerHTML={{ __html: result?.svg_icon }}
                                             />

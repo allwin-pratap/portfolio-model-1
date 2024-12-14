@@ -40,6 +40,7 @@ export default function EnduroomUEM({ data }: any) {
                     layoutStyle={`max-w-[990px] w-[88%] mx-auto py-[75px]`}
                     title={section?.title}
                     key_improve={section?.key_improve}
+                    borderTransparent={true}
                   />
                 )}
 
