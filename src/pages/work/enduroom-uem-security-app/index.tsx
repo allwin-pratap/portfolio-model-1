@@ -12,6 +12,7 @@ import RefreshedDesign from "@/templates/WorkDetail/common/RefreshedDesign";
 import NextCaseStudy from "@/templates/WorkDetail/common/NextCaseStudy";
 import NonDisclosureAgree from '@/templates/Home/NonDisclosureAgree';
 import ContactMe from '@/templates/Home/ContactMe';
+import ScrollVolumeTracker from '@/components/ScrollVolumeTracker';
 
 export default function EnduroomUEM({ data }: any) {
 
@@ -21,6 +22,7 @@ export default function EnduroomUEM({ data }: any) {
         data={data?.header}
         darkHeader={false}
       />
+      <ScrollVolumeTracker />
       {
         data?.pageData.map((section: any, index: any) => {
           return (
@@ -67,6 +69,7 @@ export default function EnduroomUEM({ data }: any) {
                     layoutStyle={`max-w-[990px] w-[88%] mx-auto py-[75px]`}
                     next_case_study={section?.next_case_study}
                     design_system={section?.design_system}
+                    result={section?.result}
                   />
                 )}
 

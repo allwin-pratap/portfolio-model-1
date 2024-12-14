@@ -12,6 +12,7 @@ import RefreshedDesign from "@/templates/WorkDetail/common/RefreshedDesign";
 import NextCaseStudy from "@/templates/WorkDetail/common/NextCaseStudy";
 import NonDisclosureAgree from '@/templates/Home/NonDisclosureAgree';
 import ContactMe from '@/templates/Home/ContactMe';
+import ScrollVolumeTracker from '@/components/ScrollVolumeTracker';
 
 export default function Remoto({ data }: any) {
 
@@ -21,6 +22,7 @@ export default function Remoto({ data }: any) {
         data={data?.header}
         darkHeader={false}
       />
+      <ScrollVolumeTracker />
       {
         data?.pageData.map((section: any, index: any) => {
           return (

@@ -1,14 +1,17 @@
+import React from 'react';
+import AnimatedWrapper from '@/components/AnimatedWrapper';
 import ImageLoader from "@/utils/ImageLoader";
 import { StaticPath } from "@/utils/baseUtils";
 import Link from "next/link";
 
 export default function NextCaseStudy(props: any) {
-    const { next_case_study, design_system } = props;
+    const { next_case_study, design_system, result } = props;
+
     return (
         <section className={`${props?.layoutStyle}`}>
             {
                 (design_system) && (
-                    <div className="flex flex-col md:flex-row items-center border border-[#E7EDF5] bg-[#FAFAFA] rounded-[25px] p-[30px] mb-[50px]">
+                    <div className="flex flex-col md:flex-row items-center border border-[#E7EDF5] bg-[#FAFAFA] rounded-[25px] p-[30px] mb-[60px]">
                         <div className="max-w-[360px] relative">
                             <ImageLoader
                                 className=""
@@ -25,6 +28,28 @@ export default function NextCaseStudy(props: any) {
                                 dangerouslySetInnerHTML={{ __html: design_system?.svg_icon }}
                             />
                         </div>
+                    </div>
+                )
+            }
+            {
+                (result) && (
+                    <div className="flex flex-col justify-center items-center md:items-start w-full mb-[60px]">
+                        <p className={`text-[40px] font-normal leading-[1.25] text-black pb-[5px] border-b border-[#E7EDF5] w-full`}>{result?.title}</p>
+                        <p className="text-[20px] leading-[30px] font-normal text-[#595959] py-[30px] text-center md:text-left">{result?.description}</p>
+                        {/* <div className=""> */}
+                            {result?.lists?.map((list: any, index: any) => {
+                                return (
+                                    <React.Fragment key={index}>
+                                        <AnimatedWrapper customStyle={`flex items-center border border-[#E7EDF5] bg-[#FAFAFA] rounded-[8px] mb-[20px] p-[8px] w-full`}>
+                                            <div
+                                                dangerouslySetInnerHTML={{ __html: result?.svg_icon }}
+                                            />
+                                            <p className="text-[20px] leading-[30px] font-[300] text-[#595959] text-center md:text-left pl-[5px]">{list}</p>
+                                        </AnimatedWrapper>
+                                    </React.Fragment>
+                                )
+                            })}
+                        {/* </div> */}
                     </div>
                 )
             }

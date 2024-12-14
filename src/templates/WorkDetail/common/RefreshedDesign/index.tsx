@@ -4,9 +4,20 @@ import ImageLoader from "@/utils/ImageLoader";
 import { StaticPath, dynamicBlurUrl } from "@/utils/baseUtils";
 import styles from "./refreshedDesign.module.scss";
 import Link from 'next/link';
+import Slider from '@/components/Slider';
 
 export default function RefreshedDesign(props: any) {
     const { data } = props;
+
+    const settings = {
+        dots: true, // Enable dots
+        infinite: true, // Infinite looping
+        speed: 500, // Transition speed
+        slidesToShow: 1, // Show 1 slide at a time
+        slidesToScroll: 1, // Scroll 1 slide at a time
+        autoplay: true, // Enable autoplay
+        autoplaySpeed: 3000, // Autoplay speed in ms
+    };
 
     const renderDesignContent = (design: any) => {
         switch (design?.type) {
@@ -19,7 +30,7 @@ export default function RefreshedDesign(props: any) {
                                 alt={design?.behance_data?.img_alt}
                                 width={design?.behance_data?.width ?? 815}
                                 height={design?.behance_data?.height ?? 580}
-                                quality={75}
+                                quality={95}
                                 placeholder="blur"
                                 blurDataURL={dynamicBlurUrl(design?.behance_data?.img)}
                             />
@@ -52,7 +63,7 @@ export default function RefreshedDesign(props: any) {
                                                     alt={improve?.img_alt}
                                                     width={improve?.width ?? 235}
                                                     height={improve?.height ?? 160}
-                                                    quality={75}
+                                                    quality={95}
                                                     placeholder="blur"
                                                     blurDataURL={dynamicBlurUrl(improve?.img)}
                                                 />
@@ -69,6 +80,26 @@ export default function RefreshedDesign(props: any) {
                             })}
                     </div>
                 );
+            case "img_slider":
+                return (
+                    <div className={`w-full max-w-[815px] mx-auto ${styles['refresh-slider'] ?? ''}`}>
+                        <Slider {...settings}>
+                            {design?.images.map((image: any, index: any) => (
+                                <div key={index}>
+                                    <ImageLoader
+                                        src={image?.img}
+                                        alt={image?.img_alt}
+                                        width={design?.width ?? 815}
+                                        height={design?.height ?? 580}
+                                        quality={95}
+                                        placeholder="blur"
+                                        blurDataURL={dynamicBlurUrl(image?.img)}
+                                    />
+                                </div>
+                            ))}
+                        </Slider>
+                    </div>
+                );
             default:
                 return (
                     <div className='max-w-[815px] mx-auto flex justify-center items-center relative'>
@@ -78,7 +109,7 @@ export default function RefreshedDesign(props: any) {
                             alt={design?.img_alt}
                             width={design?.width ?? 815}
                             height={design?.height ?? 580}
-                            quality={75}
+                            quality={95}
                             placeholder="blur"
                             blurDataURL={dynamicBlurUrl(design?.img)}
                         />
@@ -89,6 +120,14 @@ export default function RefreshedDesign(props: any) {
 
     return (
         <section className={`${props?.layoutStyle}`}>
+            {
+                (data?.final_outcome) && (
+                    <AnimatedWrapper customStyle={`mb-[80px]`}>
+                        <p className="text-[40px] leading-[1.5] font-[400] text-black  border-b border-[#E7EDF5] pb-[5px] mb-[40px]">Outcome</p>
+                        <p className="text-[20px] leading-[30px] font-[300] text-[#595959]">{data?.final_outcome}</p>
+                    </AnimatedWrapper>
+                )
+            }
             <p className={`text-[40px] font-[400] leading-[1.25] text-black pb-[5px] border-b border-[#E7EDF5]`}>{data?.title}</p>
             <div className="pt-[80px]">
                 {data?.designs?.map((design: any, index: any) => {
@@ -100,24 +139,18 @@ export default function RefreshedDesign(props: any) {
                                     <p className={`text-[36px] leading-[42px] font-[400] text-black text-center pt-[20px] pb-[10px]`}>{design?.title}</p>
                                     <p className={`text-[20px] leading-[30px] font-[300] text-[#595959] text-center`}>{design?.description}</p>
                                 </div>
-                                <div className={`mt-[60px] border border-[#E7EDF5] rounded-[25px] p-[35px] md:p-[55px] lg:p-[70px] ${styles[`${design?.bg_color}`]}`}>
-                                    {
-                                        renderDesignContent(design)
-                                    }
-                                </div>
+                                {(design?.img || design?.images) && (
+                                    <div className={`mt-[60px] border border-[#E7EDF5] rounded-[25px] p-[35px] md:p-[55px] lg:p-[70px] ${styles[`${design?.bg_color}`] ?? ''}`}>
+                                        {
+                                            renderDesignContent(design)
+                                        }
+                                    </div>
+                                )}
                             </AnimatedWrapper>
                         </React.Fragment>
                     )
                 })}
             </div>
-            {
-                (data?.final_outcome) && (
-                    <AnimatedWrapper customStyle={`mt-[80px]`}>
-                        <p className="text-[40px] leading-[1.5] font-[400] text-black pb-[40px]">Outcome</p>
-                        <p className="text-[20px] leading-[30px] font-[300] text-[#595959]">{data?.final_outcome}</p>
-                    </AnimatedWrapper>
-                )
-            }
         </section>
     );
 }

@@ -4,3 +4,13 @@
 .bg_pink {
   background-color: #FAE8FF;
 }
+
+.refresh-slider {
+  :global(.slick-slider .slick-dots li) {
+    width: 10px;
+    height: 10px;
+  }
+  :global(.slick-dots li.slick-active button:before) {
+    color: #e83131;
+  }
+}

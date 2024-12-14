@@ -65,6 +65,15 @@
                     "img_alt": "Enduroom"
                 },
                 {
+                    "title":"Enduroom UEM Security App",
+                    "description": "An efficient Remote Assist app enabling real-time troubleshooting and support, allowing technicians to resolve issues quickly and remotely.",
+                    "tags": ["Product Design"],
+                    "url": "work/enduroom-uem-security-app",
+                    "img": "/assets/img/work/enduroom-uem/enduroom.jpg",
+                    "img_mobile": "/assets/img/work/enduroom-uem/enduroom.jpg",
+                    "img_alt": "Enduroom UEM Security App"
+                },
+                {
                     "title":"Remoto",
                     "description": "An efficient Remote Assist app enabling real-time troubleshooting and support, allowing technicians to resolve issues quickly and remotely.",
                     "tags": ["Product Design"],
