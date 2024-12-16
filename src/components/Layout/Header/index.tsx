@@ -206,7 +206,6 @@ const Header = (props: any) => {
                                     {item?.label}
                                 </Link>
                                 <span className={`w-[35px] h-[1px] bg-black transition-all duration-300 ease-in-out group-hover:scale-x-[1] ${(item?.status === 'active') ? ' scale-x-[0.2]' : ' scale-x-0'}`}></span>
-                                {/* {(item?.status === 'active') && (<span className='w-[5px] h-[1px] bg-black'></span>)} */}
                             </li>
                         );
                     }
