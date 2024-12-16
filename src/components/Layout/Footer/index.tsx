@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
 
   const data = {
@@ -26,13 +28,26 @@ export default function Footer() {
       <p className={`text-[16px] font-[300] text-black order-2 md:order-1 pt-[30px] md:pt-0`}>
         {data?.copy_rights}
       </p>
-      <div className="flex flex-col md:flex-row order-1 md:order-2">
+      <ul className="flex flex-col md:flex-row order-1 md:order-2">
         {data?.links?.map((link: any, index: any) => {
           return (
-            <a className="text-[16px] font-[300] text-black text-center mx-[25px] md:last:mr-0 py-[5px] md:py-0 transition-all duration-300 ease-in-out hover:text-[#000]" key={index} href={link.url}>{link.name}</a>
+            <li
+              key={index}
+              className={`relative flex flex-col items-center group`}
+            >
+              <Link
+                target={`_blank`}
+                href={link.url}
+                className={`text-[16px] font-[300] text-black text-center mx-[25px] md:last:mr-0 py-[5px] md:py-0 transition-all duration-300 ease-in-out hover:text-[#000]`}
+                aria-label={link?.label}
+              >
+                {link.name}
+              </Link>
+              <span className={`w-[35px] h-[1px] bg-black transition-all duration-300 ease-in-out group-hover:scale-x-[1] scale-x-0`}></span>
+            </li>
           )
         })}
-      </div>
+      </ul>
     </footer>
   );
 }
