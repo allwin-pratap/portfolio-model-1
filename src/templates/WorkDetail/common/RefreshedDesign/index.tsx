@@ -105,7 +105,7 @@ export default function RefreshedDesign(props: any) {
                 return (
                     <div className='max-w-[815px] mx-auto flex justify-center items-center relative'>
                         <ImageLoader
-                            className={`rounded-[16px] ${design?.box_shadow == "false" ? '' : 'shadow-[0px_8px_8px_rgba(24,24,24,0.02)]'}`}
+                            className={`${design?.box_shadow == "false" ? '' : 'shadow-[0px_8px_8px_rgba(24,24,24,0.02)]'} ${design?.rounded == "false" ? '': 'rounded-[16px]'}`}
                             src={StaticPath(design?.img)}
                             alt={design?.img_alt}
                             width={design?.width ?? 815}

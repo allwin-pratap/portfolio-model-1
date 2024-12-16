@@ -10,8 +10,8 @@ export default function NextCaseStudy(props: any) {
     return (
         <section className={`${props?.layoutStyle}`}>
             {
-                (design_system) && (
-                    <div className="flex flex-col md:flex-row items-center border border-[#E7EDF5] bg-[#FAFAFA] rounded-[25px] p-[30px] mb-[60px]">
+                (design_system && design_system?.show == 'true') && (
+                    <Link className="flex flex-col md:flex-row items-center border border-[#E7EDF5] bg-[#FAFAFA] rounded-[25px] p-[30px] mb-[60px]" target="_blank" href={design_system?.url}>
                         <div className="max-w-[360px] relative">
                             <ImageLoader
                                 className=""
@@ -28,7 +28,7 @@ export default function NextCaseStudy(props: any) {
                                 dangerouslySetInnerHTML={{ __html: design_system?.svg_icon }}
                             />
                         </div>
-                    </div>
+                    </Link>
                 )
             }
             {

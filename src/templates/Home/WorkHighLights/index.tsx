@@ -64,6 +64,7 @@ export default function WorkHighLights(props: any) {
                                             <p className={`text-[18px] font-[300] leading-[24px] text-black${index < 2 ? '' : ' md:min-h-[72px]'}`}>{works.description}</p>
                                         </div>
                                         <div
+                                            className='transition-all duration-300 ease-in-out group-hover:translate-x-[3px]'
                                             dangerouslySetInnerHTML={{ __html: props?.svg_icon }}
                                         />
                                     </div>

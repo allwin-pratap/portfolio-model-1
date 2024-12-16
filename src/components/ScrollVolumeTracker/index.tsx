@@ -33,9 +33,9 @@ const ScrollVolumeTracker = () => {
     };
 
     return (
-        <div className="fixed top-[200px] right-[10%] h-[100px] z-50 hidden md:block">
+        <div className="fixed top-1/2 right-[10%] h-[100px] -translate-y-1/2 z-50 hidden md:block">
             {/* Scroll Volume Bar */}
-            <div className="w-[15px] h-[100px] relative bg-[#F1F1F1] relative">
+            <div className="w-[15px] h-[98px] relative bg-[#F1F1F1] relative">
                 <div className="w-[15px] h-[100px] relative z-[10]" style={stripeStyle}>
                 </div>
                 <div

@@ -233,7 +233,8 @@
                         "title": "Enhancements added",
                         "description": "Added features such as custom reports, automations, enhanced filters, dropdowns, search functions, and accessibility options to provide a better user experience.",
                         "bg_color": "",
-                        "img": "/assets/img/work/enduroom-uem/features.png",
+                        "box_shadow": "false",
+                        "img": "/assets/img/work/enduroom-uem/features.jpg",
                         "img_alt": "FEATURES INTRODUCED"
                     },
                     {
@@ -249,6 +250,7 @@
                         "title": "Enhanced consistency across platforms",
                         "description": "Enhanced consistency across platforms ensures a seamless and uniform user experience, maintaining the same design, functionality, and performance across all devices and operating systems, reducing confusion and improving usability for the whole product ecosystem.",
                         "bg_color": "bg_grey",
+                        "rounded": "false",
                         "img": "/assets/img/work/enduroom-uem/cross-platform.png",
                         "img_alt": "Deployments"
                     },
@@ -266,8 +268,10 @@
         {
             "layout": "next_case_study",
             "design_system": {
+                "show": "false",
                 "title": "Enduroom",
                 "description": "Carefully curated design system to maintain the consistency across all platforms and devices.",
+                "url": "https://www.figma.com/design/lascURCsLeBmJlgq9Jkprz/Hexnode-MDM-Server-Design-System?node-id=212-281&t=iDfocWf3AxjqelxY-1",
                 "img": "/assets/img/work/enduroom-uem/enduroom-design-system.jpg",
                 "img_alt": "Enduroom",
                 "svg_icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M4 12H20M20 12L14 6M20 12L14 18' stroke='#181818' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>"

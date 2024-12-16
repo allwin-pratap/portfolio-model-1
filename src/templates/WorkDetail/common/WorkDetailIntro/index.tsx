@@ -20,13 +20,13 @@ export default function WorkDetailIntro(props: any) {
                     )
                 })}
             </div>
-            <div className="relative">
+            <div className="relative max-w-[990px] mx-auto max-h-[550px]">
                 <ImageLoader
-                    className="border border-[#E7EDF5] bg-[#FAFAFA] rounded-[25px]"
+                    className="border border-[#E7EDF5] bg-[#FAFAFA] rounded-[25px] object-cover max-w-[990px] mx-auto max-h-[550px]"
                     src={StaticPath(data?.img)}
                     alt={data?.img_alt}
                     width={1280}
-                    height={660}
+                    height={550}
                     quality={75}
                 />
             </div>

@@ -55,6 +55,7 @@ export default function AllWorks(props: any) {
                                             </p>
                                         )}
                                         <div
+                                            className='transition-all duration-300 ease-in-out group-hover:translate-x-[3px]'
                                             dangerouslySetInnerHTML={{ __html: props?.svg_icon }}
                                         />
                                     </div>

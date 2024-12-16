@@ -186,20 +186,20 @@
             "svg_icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path d='M4 12H20M20 12L14 6M20 12L14 18' stroke='#181818' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>",
             "all_works": [
                 {
-                    "title":"Enduroom",
-                    "description": "A design system for the UEM app, providing a cohesive and scalable framework for consistent and efficient UI/UX development.",
-                    "tags": ["UX/UI", "Web Designs"],
-                    "url": "work/enduroom",
-                    "img": "/assets/img/works/all-works/enduroom-works.png",
-                    "img_alt": "Enduroom"
-                },
-                {
                     "title":"Enduroom UEM Security App",
                     "description": "An efficient Remote Assist app enabling real-time troubleshooting and support, allowing technicians to resolve issues quickly and remotely.",
                     "tags": ["Product Design"],
                     "url": "work/enduroom-uem-security-app",
                     "img": "/assets/img/work/enduroom-uem/enduroom.jpg",
                     "img_alt": "Enduroom UEM Security App"
+                },
+                {
+                    "title":"Enduroom",
+                    "description": "A design system for the UEM app, providing a cohesive and scalable framework for consistent and efficient UI/UX development.",
+                    "tags": ["UX/UI", "Web Designs"],
+                    "url": "work/enduroom",
+                    "img": "/assets/img/works/all-works/enduroom-works.png",
+                    "img_alt": "Enduroom"
                 },
                 {
                     "title":"Remoto",

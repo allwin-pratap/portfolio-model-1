@@ -37,9 +37,9 @@ export default function ContactMe(props: any) {
             <div className="flex flex-col sm:flex-row gap-[20px] mt-[15px]">
                 {data?.contact_list?.map((link: any, index: any) => {
                     return (
-                        <Link key={index} target="_blank" className={`text-[16px] font-[300] flex justify-center items-center py-[10px] px-[20px] rounded-[80px]${link?.bg_color == 'black' ? ' text-white bg-black' : ''}${link?.bg_color == 'white' ? ' text-black bg-white' : ''}`} href={link.url}>
+                        <Link key={index} target="_blank" className={`group text-[16px] font-[300] flex justify-center items-center py-[10px] px-[20px] rounded-[80px]${link?.bg_color == 'black' ? ' text-white bg-black' : ''}${link?.bg_color == 'white' ? ' text-black bg-white' : ''}`} href={link.url}>
                             <p>{link.name}</p>
-                            <div className="pl-[10px]"
+                            <div className={`pl-[10px] transition-all duration-300 ease-in-out ${index == 0 ? 'group-hover:translate-x-[3px] group-hover:-translate-y-[3px]': ''} ${index == 1 ? 'group-hover:animate-bounce': ''}`}
                                 dangerouslySetInnerHTML={{ __html: link?.icon }}
                             />
                         </Link>

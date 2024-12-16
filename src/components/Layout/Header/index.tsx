@@ -191,12 +191,12 @@ const Header = (props: any) => {
                         return (
                             <li
                                 key={key}
-                                className={`relative flex flex-col items-center transition-[all_.3s_ease-in-out] max-sm:transition-[opacity_0s_ease-in-out] pr-[40px] last:pr-0 max-xl:w-full max-xl:!p-[12px_40px]`}
+                                className={`relative flex flex-col items-center transition-[all_.3s_ease-in-out] max-sm:transition-[opacity_0s_ease-in-out] pr-[40px] last:pr-0 max-xl:w-full max-xl:!p-[12px_40px] group`}
                             >
                                 <Link
                                     target={item?.target ?? "_self"}
                                     href={basePath ? `${hostUrl}/${item?.link ? item?.link : ''}` : item?.link }
-                                    className={`${props?.menuCustomStyles ? props?.menuCustomStyles : ''} ${(item?.status === 'active' && props?.isActiveStyles) ? props?.isActiveStyles : ''} ${item?.status === 'active' ? 'text-black' : 'text-grey'} cursor-pointer text-[28px] font-[400] xl:text-[16px] xl:font-[300] uppercase xl:capitalize no-underline transition-[all_.2s_ease-in-out] p-[0px] max-xl:whitespace-nowrap relative`}
+                                    className={`${props?.menuCustomStyles ? props?.menuCustomStyles : ''} ${(item?.status === 'active' && props?.isActiveStyles) ? props?.isActiveStyles : ''} ${item?.status === 'active' ? 'text-black' : 'text-grey'} cursor-pointer text-[28px] font-[400] xl:text-[16px] xl:font-[300] uppercase xl:capitalize no-underline transition-all duration-300 ease-in-out p-[0px] max-xl:whitespace-nowrap relative group-hover:text-black`}
                                     onClick={(e) => {
                                         e.stopPropagation()
                                         setNavActive(false)
@@ -205,7 +205,8 @@ const Header = (props: any) => {
                                 >
                                     {item?.label}
                                 </Link>
-                                {(item?.status === 'active') && (<span className='w-[5px] h-[1px] bg-black'></span>)}
+                                <span className={`w-[35px] h-[1px] bg-black transition-all duration-300 ease-in-out group-hover:scale-x-[1] ${(item?.status === 'active') ? ' scale-x-[0.2]' : ' scale-x-0'}`}></span>
+                                {/* {(item?.status === 'active') && (<span className='w-[5px] h-[1px] bg-black'></span>)} */}
                             </li>
                         );
                     }
