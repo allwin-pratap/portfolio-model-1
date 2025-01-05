@@ -190,10 +190,10 @@
         {
             "layout": "meet_reiki",
             "meet_reiki": {
-                "title": "Meet Reiki",
+                "title": "Meet Senshi",
                 "description": "The Word senshi means warrior or fighter in japnese logographic writing system Kanji.The assistant to reflect the patients as every cancer patients can be considered as fighters.",
                 "img": "/assets/img/work/reiki/meet-reiki.png",
-                "img_alt": "Meet Reiki",
+                "img_alt": "Meet Senshi",
                 "details": {
                     "title": "Emotions based Expressions",
                     "description": "The AI Assistant reactions and behaviour is based upon users mood & how are they feeling right now using the mood tracking feature.The patients current mood are reflected on the assistant’s Face!",
