@@ -2,37 +2,37 @@ import { useEffect, useRef, useState, useCallback } from 'react';
 import useMediaQuery from '@/utils/hooks/useMediaQuery';
 import useOnResize from '@/utils/hooks/useOnResize';
 import Link from 'next/link';
-import Styles from './header.module.scss'
-import { usePathname, useRouter } from 'next/navigation'
+import Styles from './header.module.scss';
+import { usePathname, useRouter } from 'next/navigation';
 
 const data = {
     logo: "",
     logo_alt: "Karthik",
     menu: [
-      {
-        label: "Home",
-        link: null,
-        target: "_self",
-        status: ""
-      },
-      {
-        label: "Works",
-        link: "works",
-        target: "_self",
-        status: ""
-      },
-      {
-        label: "About",
-        link: "about-me",
-        target: "_self",
-        status: ""
-      },
-      {
-        label: "Resume",
-        link: "assets/pdf/resume/Karthik-MR.pdf",
-        target: "_blank",
-        status: ""
-      }
+        {
+            label: "Home",
+            link: null,
+            target: "_self",
+            status: ""
+        },
+        {
+            label: "Works",
+            link: "works",
+            target: "_self",
+            status: ""
+        },
+        {
+            label: "About",
+            link: "about-me",
+            target: "_self",
+            status: ""
+        },
+        {
+            label: "Resume",
+            link: "assets/pdf/resume/Karthik-MR.pdf",
+            target: "_blank",
+            status: ""
+        }
     ]
 }
 
@@ -195,7 +195,7 @@ const Header = (props: any) => {
                             >
                                 <Link
                                     target={item?.target ?? "_self"}
-                                    href={basePath ? `${hostUrl}/${item?.link ? item?.link : ''}` : item?.link }
+                                    href={basePath ? `${hostUrl}/${item?.link ? item?.link : ''}` : item?.link}
                                     className={`${props?.menuCustomStyles ? props?.menuCustomStyles : ''} ${(item?.status === 'active' && props?.isActiveStyles) ? props?.isActiveStyles : ''} ${item?.status === 'active' ? 'text-black' : 'text-grey'} cursor-pointer text-[28px] font-[400] xl:text-[16px] xl:font-[300] uppercase xl:capitalize no-underline transition-all duration-300 ease-in-out p-[0px] max-xl:whitespace-nowrap relative group-hover:text-black`}
                                     onClick={(e) => {
                                         e.stopPropagation()
@@ -226,9 +226,22 @@ const Header = (props: any) => {
                         className="inline-block max-w-[150px] relative z-[100] xl:z-[102] xl:mb-[auto] shrink-0 max-h-[42px]"
                         aria-labelledby="logo"
                     >
-                        <p className={`text-[28px] font-[500] leading-[35px] text-black`}>
-                            K .
-                        </p>
+                        <svg xmlns="http://www.w3.org/2000/svg" className='max-w-[32px]' width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <g clip-path="url(#clip0_3001_1946)">
+                                <rect width="32" height="32" rx="8.8189" fill="black" />
+                                <path d="M0 -5L-7.32166e-07 34.5" stroke="#0F0F0F" stroke-width="3.125" stroke-linecap="round" />
+                                <path d="M12.49 17.9902L7.00991 12.5102" stroke="white" stroke-width="3.125" stroke-linecap="round" />
+                                <path d="M7.01001 17.9902L12.4901 12.5102" stroke="white" stroke-width="3.125" stroke-linecap="round" />
+                                <path d="M31.875 -5L31.875 34.5" stroke="#0F0F0F" stroke-width="3.125" stroke-linecap="round" />
+                                <path d="M23.2614 14.6567L23.2617 14.6562L23.2614 14.6567ZM23.4782 13.2188L22.2674 13.9178L23.4782 13.2187C22.8768 12.1771 21.3732 12.1771 20.7718 13.2187C20.7718 13.2188 20.7718 13.2188 20.7718 13.2188L19.148 16.0312C18.5466 17.0729 19.2984 18.375 20.5012 18.375H23.7488C24.9516 18.375 25.7034 17.0729 25.102 16.0313L23.4782 13.2188Z" stroke="white" stroke-width="2.875" />
+                            </g>
+                            <rect x="1.25" y="1.25" width="29.5" height="29.5" rx="7.5689" stroke="black" stroke-width="2.5" />
+                            <defs>
+                                <clipPath id="clip0_3001_1946">
+                                    <rect width="32" height="32" rx="8.8189" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
                     </Link>
                     {(isMobile) ? (
                         <nav

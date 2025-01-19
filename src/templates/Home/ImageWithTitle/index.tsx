@@ -11,7 +11,7 @@ export default function ImageWithTitle(props: any) {
                 <ImageLoader
                     src={StaticPath(props?.img)}
                     alt={props?.img_alt}
-                    width={1280}
+                    width={1160}
                     height={448}
                     quality={75}
                     placeholder="blur"
