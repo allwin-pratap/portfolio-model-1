@@ -13,7 +13,6 @@ export default function ImageWithTitle(props: any) {
                     alt={props?.img_alt}
                     width={1160}
                     height={448}
-                    quality={75}
                     placeholder="blur"
                     blurDataURL={dynamicBlurUrl(props?.img)}
                 />

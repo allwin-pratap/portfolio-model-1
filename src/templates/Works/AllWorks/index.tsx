@@ -24,7 +24,6 @@ export default function AllWorks(props: any) {
                                                 alt={works.img_alt}
                                                 width={1280}
                                                 height={400}
-                                                quality={75}
                                                 placeholder="blur"
                                                 blurDataURL={dynamicBlurUrl(works?.img)}
                                             />
