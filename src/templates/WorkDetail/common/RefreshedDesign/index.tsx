@@ -140,7 +140,7 @@ export default function RefreshedDesign(props: any) {
                                     <p className={`text-[36px] leading-[42px] font-[400] text-black text-center pt-[20px] pb-[10px]`}>{design?.title}</p>
                                     <p className={`text-[20px] leading-[30px] font-[300] text-[#595959] text-center`}>{design?.description}</p>
                                 </div>
-                                {(design?.img || design?.images) && (
+                                {(design?.img || design?.images || design?.type == "behance") && (
                                     <div className={`mt-[60px] border border-[#E7EDF5] rounded-[25px] p-[35px] md:p-[55px] lg:p-[70px] ${styles[`${design?.bg_color}`] ?? ''}`}>
                                         {
                                             renderDesignContent(design)
