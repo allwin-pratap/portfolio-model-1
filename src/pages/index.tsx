@@ -16,8 +16,7 @@ export default function Home({ data }: any) {
 
   return (
     <main className="bg-white bg-[radial-gradient(#D9D9D9_1px,transparent_0)] bg-[length:30px_30px] bg-[-19px_-19px]">
-      <h1 className='text-[64px] text-center'>Under Maintance</h1>
-      {/* <Header
+      <Header
         // headerStyles={`!bg-[#030C22]`}
         data={data?.header}
         // menuCustomStyles={`text-black hover:text-black xl:text-white xl:hover:text-white xl:hover:text-blue`}
@@ -93,7 +92,7 @@ export default function Home({ data }: any) {
           );
         })
       }
-      <Footer /> */}
+      <Footer />
     </main>
   );
 }
